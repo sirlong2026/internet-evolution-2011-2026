@@ -1,0 +1,96 @@
+{
+ "meta": {
+  "date": "2026-11-08",
+  "purpose": "calibrate the 2011 snapshot against the same-day public DFZ view (derived statistics only; snapshot rows are not redistributable)",
+  "rib": {
+   "source_file": "rib.20110702.0600.bz2",
+   "view_name": "",
+   "peer_count": 45,
+   "prefixes": 377201,
+   "entries": 11925050,
+   "truncated": false
+  },
+  "snapshot_prefixes": 713853,
+  "snapshot_source": "ireg.duckdb routes (2011-07 snapshot; same as c0_compare)"
+ },
+ "snapshot_visible_in_rib_2011": {
+  "by_bucket": {
+   "<=16": {
+    "n": 18097,
+    "exact": 15022,
+    "covered": 15977,
+    "exact_rate": 0.830082,
+    "covered_rate": 0.882854
+   },
+   "17-20": {
+    "n": 89697,
+    "exact": 61096,
+    "covered": 79943,
+    "exact_rate": 0.681138,
+    "covered_rate": 0.891256
+   },
+   "21-23": {
+    "n": 208983,
+    "exact": 94132,
+    "covered": 186131,
+    "exact_rate": 0.450429,
+    "covered_rate": 0.890651
+   },
+   "24": {
+    "n": 369292,
+    "exact": 187498,
+    "covered": 341891,
+    "exact_rate": 0.507723,
+    "covered_rate": 0.925801
+   },
+   ">24": {
+    "n": 27784,
+    "exact": 638,
+    "covered": 27576,
+    "exact_rate": 0.022963,
+    "covered_rate": 0.992514
+   }
+  },
+  "total": {
+   "n": 713853,
+   "exact": 358386,
+   "covered": 651518,
+   "exact_rate": 0.502045,
+   "covered_rate": 0.912678
+  }
+ },
+ "rib_2011_covered_by_snapshot": {
+  "n": 377200,
+  "exact": 358386,
+  "covered": 376484,
+  "exact_rate": 0.950122,
+  "covered_rate": 0.998102
+ },
+ "covering_plen_hist": {
+  "8": 737,
+  "9": 1342,
+  "10": 557,
+  "11": 1226,
+  "12": 3247,
+  "13": 3795,
+  "14": 7636,
+  "15": 8944,
+  "16": 77115,
+  "17": 25913,
+  "18": 45121,
+  "19": 88170,
+  "20": 59716,
+  "21": 47194,
+  "22": 51342,
+  "23": 40665,
+  "24": 188149,
+  "25": 223,
+  "26": 191,
+  "27": 148,
+  "28": 49,
+  "29": 31,
+  "30": 6,
+  "32": 1
+ },
+ "slash8_covered_2011_rib": 205
+}

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite it as below."
+title: "Same-target longitudinal measurement of Internet infrastructure evolution, 2011-2026 (artifact)"
+authors:
+  - family-names: Huang
+    given-names: Wensheng
+version: 1.0.0
+date-released: "2026-11-10"
+license: MIT
+repository-code: "https://github.com/sirlong2026/internet-evolution-2011-2026"
+keywords:
+  - Internet measurement
+  - longitudinal study
+  - routing table
+  - IPv4
+  - RIPE Atlas
+  - TLS

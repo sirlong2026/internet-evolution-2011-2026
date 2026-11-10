@@ -1,0 +1,78 @@
+{
+ "labels": [
+  {
+   "label": "A",
+   "domain": "asp.bg",
+   "primary_msm": 234182558,
+   "msms": [
+    234182558,
+    234657473
+   ]
+  },
+  {
+   "label": "B",
+   "domain": "ctm.net",
+   "primary_msm": 234183249,
+   "msms": [
+    234183249
+   ]
+  },
+  {
+   "label": "C",
+   "domain": "iprimus.com.au",
+   "primary_msm": 234183263,
+   "msms": [
+    234183263
+   ]
+  },
+  {
+   "label": "D",
+   "domain": "jump.ro",
+   "primary_msm": 234183279,
+   "msms": [
+    234183279
+   ]
+  },
+  {
+   "label": "E",
+   "domain": "plusline.de",
+   "primary_msm": 234183286,
+   "msms": [
+    234183286
+   ]
+  },
+  {
+   "label": "F",
+   "domain": "tikona.in",
+   "primary_msm": 234183296,
+   "msms": [
+    234183296
+   ]
+  },
+  {
+   "label": "G",
+   "domain": "tpgi.com.au",
+   "primary_msm": 234183304,
+   "msms": [
+    234183304
+   ]
+  },
+  {
+   "label": "H",
+   "domain": "vnet.sk",
+   "primary_msm": 234183313,
+   "msms": [
+    234183313
+   ]
+  },
+  {
+   "label": "I",
+   "domain": "zorgring.nl",
+   "primary_msm": 234183322,
+   "msms": [
+    234183322
+   ]
+  }
+ ],
+ "note": "Manuscript Table 3 refers to targets by anonymized label A-I, ordered by ascending primary measurement ID. The label-to-target mapping is released here so that every published number can be traced to its measurement record; the manuscript itself names no organization."
+}

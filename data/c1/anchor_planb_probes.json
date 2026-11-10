@@ -1,0 +1,47 @@
+{
+ "picked": {
+  "US": {
+   "id": 28,
+   "asn_v4": 22773,
+   "country": "US",
+   "first_connected": 1288723027
+  },
+  "DE": {
+   "id": 81,
+   "asn_v4": 3209,
+   "country": "DE",
+   "first_connected": 1292021532
+  },
+  "BR": {
+   "id": 6349,
+   "asn_v4": 2716,
+   "country": "BR",
+   "first_connected": 1521188470
+  },
+  "JP": {
+   "id": 234,
+   "asn_v4": 2497,
+   "country": "JP",
+   "first_connected": 1290754824
+  },
+  "NL": {
+   "id": 1,
+   "asn_v4": 206238,
+   "country": "NL",
+   "first_connected": 1288367583
+  },
+  "ZA": {
+   "id": 3454,
+   "asn_v4": 2018,
+   "country": "ZA",
+   "first_connected": 1380709353
+  }
+ },
+ "selected_ids": [
+  28,
+  81,
+  6349,
+  234
+ ],
+ "note": "Plan B explicit-probe selection for anchor measurement (veteran, public, IPv4-capable, excludes probe 1018797); used only if custom-tag exclusion stays rejected by selection index"
+}

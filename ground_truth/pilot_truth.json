@@ -1,0 +1,29 @@
+{
+ "pilot": "cloud-rr-202611",
+ "target": "<cloud VM public IP>:443 (value passed only via chat/environment, never stored)",
+ "topology": "single cloud VM: root-netns round-robin proxy on 0.0.0.0:443 alternating per connection -> be_a(10.90.1.2, cert A pilot-a.local, ttl 64) / be_b(10.90.2.2, cert B pilot-b.local, ttl 255)",
+ "pre_registered_expect": {
+  "o1": "positive (if a ping measurement is added for the same target: the two TTLs 64/255 are separable; unobservable with sslcert only)",
+  "o2": "unobservable (Atlas offers no ICMP Timestamp option)",
+  "o3": "positive (certificate rotation hit after >=3 handshakes per vantage)",
+  "o4": "unobservable (single SNI name)",
+  "o5": "unobservable (no traceroute)",
+  "o6": "positive (cross-vantage certificate union = 2)",
+  "kappa": "2/6=0.333 (sslcert only, exactly at the floor); 0.5 (with a ping measurement)",
+  "verdict": "likely_pool",
+  "four_state": "decidable",
+  "winner": "c2（round-robin）",
+  "cert_union": 2,
+  "aux": {
+   "hidden_router": false,
+   "chain": false
+  }
+ },
+ "cert_fp16": {
+  "A": "9b03a055ff2b3613",
+  "B": "e4c5b5f977df46ce"
+ },
+ "amended": "2026-11-08: the two public fingerprints of the dual certificate were added (first 16 hex of sha256(DER); openssl and the engine's _leaf_hash agree); the pre-registered expectation itself is unchanged.",
+ "note": "expectation = the four-state verdict of the first public data of M2. If the realized verdict differs from the expectation, record the deviation honestly (judging discipline: a refusal to decide is still a reported result; never force a verdict).",
+ "created": "2026-11-03"
+}

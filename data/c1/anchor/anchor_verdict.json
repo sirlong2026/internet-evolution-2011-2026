@@ -1,0 +1,107 @@
+{
+ "at": "2026-11-10T09:54:11Z",
+ "measurements": [
+  234216930,
+  234630888,
+  234630957
+ ],
+ "rows_total": 150,
+ "rounds_distinct_timestamps": 150,
+ "hour_buckets": 53,
+ "per_vantage": {
+  "81": {
+   "hands": 0,
+   "fps": [],
+   "rounds": 0,
+   "err": 48
+  },
+  "6349": {
+   "hands": 44,
+   "fps": [
+    "9b03a055ff2b3613",
+    "e4c5b5f977df46ce"
+   ],
+   "rounds": 44,
+   "err": 4
+  },
+  "6352": {
+   "hands": 28,
+   "fps": [
+    "9b03a055ff2b3613",
+    "e4c5b5f977df46ce"
+   ],
+   "rounds": 28,
+   "err": 0
+  },
+  "6441": {
+   "hands": 26,
+   "fps": [
+    "9b03a055ff2b3613",
+    "e4c5b5f977df46ce"
+   ],
+   "rounds": 26,
+   "err": 0
+  }
+ },
+ "union_fp16": [
+  "9b03a055ff2b3613",
+  "e4c5b5f977df46ce"
+ ],
+ "stray_fp16": [],
+ "missing_expected_fp16": [],
+ "o3_ready": [
+  6349,
+  6352,
+  6441
+ ],
+ "pair_used": [
+  6349,
+  6352
+ ],
+ "verdict": {
+  "kappa": 0.333,
+  "obs": {
+   "o1": "unobservable",
+   "o2": "unobservable",
+   "o3": "positive",
+   "o4": "unobservable",
+   "o5": "unobservable",
+   "o6": "positive"
+  },
+  "aux": {
+   "hidden_router": false,
+   "chain": false,
+   "o2_confounded_suppressed": []
+  },
+  "support": {
+   "c1": 0,
+   "c2": 2,
+   "c3": 1,
+   "c4": 0,
+   "c5": 0,
+   "c8": 0
+  },
+  "eliminated": {
+   "c1": "o6=positive ⇌ predicted - (falsified, eliminated)",
+   "c3": "o3=positive ⇌ predicted - (falsified, eliminated)",
+   "c4": "o3=positive ⇌ predicted - (falsified, eliminated)",
+   "c5": "o6=positive ⇌ predicted - (falsified, eliminated)",
+   "c8": "o6=positive ⇌ predicted - (falsified, eliminated)"
+  },
+  "V": "decidable",
+  "equivalent": [
+   "c2"
+  ],
+  "winner": "c2",
+  "basis": [
+   "c2 support 2; the remaining surviving hypotheses tie below the threshold"
+  ],
+  "family": "multi"
+ },
+ "pre_registered_expect": {
+  "verdict": "decidable",
+  "winner": "c2（round-robin）",
+  "cert_union": 2,
+  "kappa": "2/6=0.333 (sslcert only, exactly at the floor); 0.5 (with a ping measurement)"
+ }
+}

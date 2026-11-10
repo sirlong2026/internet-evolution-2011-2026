@@ -1,0 +1,827 @@
+{
+ "meta": {
+  "date": "2026-11-08",
+  "doh_base": "https://dns.alidns.com/resolve",
+  "caliber": "dnsmap = 2011 archive names on candidate prefixes; resolve survival via Chinese public DoH (pollution risk small, noted); resolve-alive != TLS-alive",
+  "dnsmap_rows": 659830,
+  "identity_withheld": "2011 hostname identities are withheld: this file ships per-target counts and resolution counts only, never the snapshot's hostname-to-address or domain-to-address mapping"
+ },
+ "coverage": {
+  "candidates": 100,
+  "with_dns": 51,
+  "unique_names": 49,
+  "unique_domains": 48,
+  "www_names": 0
+ },
+ "resolve": {
+  "cap": 600,
+  "tested": 48,
+  "resolved": 34,
+  "nxdomain": 0,
+  "other": 14,
+  "skipped": 0,
+  "errors": {}
+ },
+ "per_candidate": [
+  {
+   "prefix": "208.213.160.0/22",
+   "registry": "apnic",
+   "stratum": "apnic|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "206.63.64.0/23",
+   "registry": "apnic",
+   "stratum": "apnic|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "206.63.116.0/22",
+   "registry": "apnic",
+   "stratum": "apnic|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "72.50.128.0/18",
+   "registry": "arin",
+   "stratum": "arin|17-20",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "74.107.160.0/20",
+   "registry": "arin",
+   "stratum": "arin|17-20",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "188.51.128.0/18",
+   "registry": "arin",
+   "stratum": "arin|17-20",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "65.79.176.0/20",
+   "registry": "arin",
+   "stratum": "arin|17-20",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "202.239.16.0/20",
+   "registry": "arin",
+   "stratum": "arin|17-20",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "46.229.224.0/20",
+   "registry": "arin",
+   "stratum": "arin|17-20",
+   "n_dns_records": 16,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "17.83.0.0/17",
+   "registry": "arin",
+   "stratum": "arin|17-20",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "113.52.64.0/18",
+   "registry": "arin",
+   "stratum": "arin|17-20",
+   "n_dns_records": 64,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "111.95.0.0/19",
+   "registry": "arin",
+   "stratum": "arin|17-20",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "62.220.192.0/19",
+   "registry": "arin",
+   "stratum": "arin|17-20",
+   "n_dns_records": 4,
+   "n_unique_names": 2,
+   "n_www": 0
+  },
+  {
+   "prefix": "219.86.0.0/17",
+   "registry": "arin",
+   "stratum": "arin|17-20",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "66.188.208.0/20",
+   "registry": "arin",
+   "stratum": "arin|17-20",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "211.97.64.0/19",
+   "registry": "arin",
+   "stratum": "arin|17-20",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "213.155.96.0/19",
+   "registry": "arin",
+   "stratum": "arin|17-20",
+   "n_dns_records": 32,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "161.150.64.0/18",
+   "registry": "arin",
+   "stratum": "arin|17-20",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "81.93.240.0/20",
+   "registry": "arin",
+   "stratum": "arin|17-20",
+   "n_dns_records": 15,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "212.58.96.0/19",
+   "registry": "arin",
+   "stratum": "arin|17-20",
+   "n_dns_records": 32,
+   "n_unique_names": 4,
+   "n_www": 0
+  },
+  {
+   "prefix": "75.116.64.0/20",
+   "registry": "arin",
+   "stratum": "arin|17-20",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "121.1.128.0/17",
+   "registry": "arin",
+   "stratum": "arin|17-20",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "119.17.0.0/19",
+   "registry": "arin",
+   "stratum": "arin|17-20",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "216.255.176.0/20",
+   "registry": "arin",
+   "stratum": "arin|17-20",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "68.115.192.0/19",
+   "registry": "arin",
+   "stratum": "arin|17-20",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "220.229.224.0/19",
+   "registry": "arin",
+   "stratum": "arin|17-20",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "69.77.192.0/18",
+   "registry": "arin",
+   "stratum": "arin|17-20",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "76.164.192.0/19",
+   "registry": "arin",
+   "stratum": "arin|17-20",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "203.210.192.0/20",
+   "registry": "arin",
+   "stratum": "arin|17-20",
+   "n_dns_records": 16,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "91.217.20.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "78.142.62.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "83.69.124.0/23",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 2,
+   "n_unique_names": 2,
+   "n_www": 0
+  },
+  {
+   "prefix": "216.89.223.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "93.113.200.0/23",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "202.155.251.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "64.251.20.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "208.48.0.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "125.17.137.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "64.255.112.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "122.50.127.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "195.95.172.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "208.110.176.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "81.52.232.0/22",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "169.130.72.0/22",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "218.209.8.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "203.124.209.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "144.194.0.0/21",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "111.71.240.0/23",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "202.73.108.0/22",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 4,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "72.28.248.0/22",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "180.194.68.0/22",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "122.153.53.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "202.149.215.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "85.121.206.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "203.15.122.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "85.95.241.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "207.59.146.0/23",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "216.8.64.0/23",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "65.18.214.0/23",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "195.245.226.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "91.193.212.0/22",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 2,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "204.227.208.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "124.124.20.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "162.97.162.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "195.42.103.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "91.208.216.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "115.64.224.0/21",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "82.147.80.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "220.120.228.0/23",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "193.192.48.0/23",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 2,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "61.107.170.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "195.5.164.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "194.145.176.0/22",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 4,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "210.104.148.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "204.124.172.0/22",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "113.193.104.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "213.131.90.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "205.146.40.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "69.160.27.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "87.120.41.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "195.88.136.0/23",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 2,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "211.26.168.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "195.66.99.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "67.232.212.0/22",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "203.202.6.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "115.128.144.0/21",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "63.243.7.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "74.198.156.0/22",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "72.55.0.0/21",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "118.95.192.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "110.54.140.0/22",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 4,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "216.146.110.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "89.251.248.0/22",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "124.139.78.0/23",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "122.176.164.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "159.245.18.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "72.24.34.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "14.35.107.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  },
+  {
+   "prefix": "194.156.209.0/24",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 1,
+   "n_unique_names": 1,
+   "n_www": 0
+  },
+  {
+   "prefix": "208.213.202.0/23",
+   "registry": "arin",
+   "stratum": "arin|21-24",
+   "n_dns_records": 0,
+   "n_unique_names": 0,
+   "n_www": 0
+  }
+ ]
+}

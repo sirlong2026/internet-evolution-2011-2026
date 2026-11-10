@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-11-09T05:39:05Z",
+  "anchor_msm": 234216930,
+  "measurements": [
+    {
+      "msm_id": 234630888,
+      "probe_id": 6352,
+      "start_time": 0,
+      "stop_time": 0
+    },
+    {
+      "msm_id": 234630957,
+      "probe_id": 6441,
+      "start_time": 0,
+      "stop_time": 0
+    }
+  ],
+  "note": "target value never persisted; description anonymized"
+}

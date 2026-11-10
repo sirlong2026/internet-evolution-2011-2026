@@ -1,0 +1,2329 @@
+{
+ "meta": {
+  "source": "candidates_2011.json",
+  "probed": 199,
+  "tls_ok": 1,
+  "elapsed_sec": 54.3,
+  "caliber": "single TCP443+TLS handshake per candidate from China-egress cloud VM; CERT_NONE; positive=confirmed TLS-live (selection only), negative=inconclusive (NOT a death statistic; survival rates require Atlas worldwide vantages)"
+ },
+ "results": [
+  {
+   "rep_ip": "216.221.32.1",
+   "prefix": "216.221.32.0/19",
+   "registry": "apnic",
+   "as_names": [
+    "SYNAPSE",
+    "AEI"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6004.9
+  },
+  {
+   "rep_ip": "206.63.184.1",
+   "prefix": "206.63.184.0/22",
+   "registry": "apnic",
+   "as_names": [
+    "CEC"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.6
+  },
+  {
+   "rep_ip": "208.213.160.1",
+   "prefix": "208.213.160.0/22",
+   "registry": "apnic",
+   "as_names": [
+    "CEC"
+   ],
+   "ok": false,
+   "error": "refused",
+   "rtt_ms": 170.9
+  },
+  {
+   "rep_ip": "199.102.156.1",
+   "prefix": "199.102.156.0/22",
+   "registry": "apnic",
+   "as_names": [
+    "SYNAPSE",
+    "AEI"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6003.2
+  },
+  {
+   "rep_ip": "206.63.64.1",
+   "prefix": "206.63.64.0/23",
+   "registry": "apnic",
+   "as_names": [
+    "CEC"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6002.5
+  },
+  {
+   "rep_ip": "216.221.52.1",
+   "prefix": "216.221.52.0/22",
+   "registry": "apnic",
+   "as_names": [
+    "AEI",
+    "SYNAPSE"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.7
+  },
+  {
+   "rep_ip": "206.63.176.1",
+   "prefix": "206.63.176.0/23",
+   "registry": "apnic",
+   "as_names": [
+    "CEC"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.6
+  },
+  {
+   "rep_ip": "66.36.156.1",
+   "prefix": "66.36.156.0/22",
+   "registry": "apnic",
+   "as_names": [
+    "AEI",
+    "SYNAPSE"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6002.1
+  },
+  {
+   "rep_ip": "66.36.132.1",
+   "prefix": "66.36.132.0/22",
+   "registry": "apnic",
+   "as_names": [
+    "SYNAPSE",
+    "AEI"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "206.63.116.1",
+   "prefix": "206.63.116.0/22",
+   "registry": "apnic",
+   "as_names": [
+    "CEC"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6001.4
+  },
+  {
+   "rep_ip": "72.50.128.1",
+   "prefix": "72.50.128.0/18",
+   "registry": "arin",
+   "as_names": [
+    "ASN-WVNET",
+    "WVNET"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.6
+  },
+  {
+   "rep_ip": "74.107.160.1",
+   "prefix": "74.107.160.0/20",
+   "registry": "arin",
+   "as_names": [
+    "VZGNI-TRANSIT",
+    "VZGNI-NYTRANSIT"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.5
+  },
+  {
+   "rep_ip": "188.51.128.1",
+   "prefix": "188.51.128.0/18",
+   "registry": "arin",
+   "as_names": [
+    "RIPE-ASNBLOCK11",
+    "SAUDINETSTC-AS"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.3
+  },
+  {
+   "rep_ip": "65.79.176.1",
+   "prefix": "65.79.176.0/20",
+   "registry": "arin",
+   "as_names": [
+    "SASUSA",
+    "SUNGARDRS"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6008.0
+  },
+  {
+   "rep_ip": "202.239.16.1",
+   "prefix": "202.239.16.0/20",
+   "registry": "arin",
+   "as_names": [
+    "APNIC-AS-BLOCK",
+    "IDC"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.7
+  },
+  {
+   "rep_ip": "46.229.224.1",
+   "prefix": "46.229.224.0/20",
+   "registry": "arin",
+   "as_names": [
+    "RIPE-ASNBLOCK-28672",
+    "VNET-AS"
+   ],
+   "ok": false,
+   "error": "refused",
+   "rtt_ms": 217.7
+  },
+  {
+   "rep_ip": "17.83.0.1",
+   "prefix": "17.83.0.0/17",
+   "registry": "arin",
+   "as_names": [
+    "APPLE",
+    "APPLE-ENGINEERING"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.6
+  },
+  {
+   "rep_ip": "113.52.64.1",
+   "prefix": "113.52.64.0/18",
+   "registry": "arin",
+   "as_names": [
+    "APNIC-AS-BLOCK",
+    "CTM-MO"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.1
+  },
+  {
+   "rep_ip": "111.95.0.1",
+   "prefix": "111.95.0.0/19",
+   "registry": "arin",
+   "as_names": [
+    "APNIC-23552",
+    "BM-AS-ID"
+   ],
+   "ok": false,
+   "error": "refused",
+   "rtt_ms": 330.0
+  },
+  {
+   "rep_ip": "62.220.192.1",
+   "prefix": "62.220.192.0/19",
+   "registry": "arin",
+   "as_names": [
+    "MT-AS-OWN",
+    "PTT-MACEDONIA-AS",
+    "RIPE-ASNBLOCK6"
+   ],
+   "ok": false,
+   "error": "refused",
+   "rtt_ms": 201.1
+  },
+  {
+   "rep_ip": "219.86.0.1",
+   "prefix": "219.86.0.0/17",
+   "registry": "arin",
+   "as_names": [
+    "APNIC-AS-3-BLOCK",
+    "TFN-TW"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6003.6
+  },
+  {
+   "rep_ip": "66.188.208.1",
+   "prefix": "66.188.208.0/20",
+   "registry": "arin",
+   "as_names": [
+    "CHARTER-NET-HKY-NC",
+    "MAINT-CHTR-WD"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "211.97.64.1",
+   "prefix": "211.97.64.0/19",
+   "registry": "arin",
+   "as_names": [
+    "CHINA169-BACKBONE",
+    "APNIC-AS-BLOCK"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6004.2
+  },
+  {
+   "rep_ip": "213.155.96.1",
+   "prefix": "213.155.96.0/19",
+   "registry": "arin",
+   "as_names": [
+    "ASN-DORUKNET",
+    "DORUKNET",
+    "RIPE-ASNBLOCK7"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6002.2
+  },
+  {
+   "rep_ip": "161.150.64.1",
+   "prefix": "161.150.64.0/18",
+   "registry": "arin",
+   "as_names": [
+    "NATIONAL-CITY-CORP"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.6
+  },
+  {
+   "rep_ip": "81.93.240.1",
+   "prefix": "81.93.240.0/20",
+   "registry": "arin",
+   "as_names": [
+    "RIPE-ASNBLOCK-34816",
+    "EURO-WEB-AS"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.4
+  },
+  {
+   "rep_ip": "212.58.96.1",
+   "prefix": "212.58.96.0/19",
+   "registry": "arin",
+   "as_names": [
+    "CAUCASUS-NET-AS",
+    "RIPE-ASNBLOCK-28672"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.6
+  },
+  {
+   "rep_ip": "75.116.64.1",
+   "prefix": "75.116.64.0/20",
+   "registry": "arin",
+   "as_names": [
+    "ALLTEL"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6001.4
+  },
+  {
+   "rep_ip": "121.1.128.1",
+   "prefix": "121.1.128.0/17",
+   "registry": "arin",
+   "as_names": [
+    "ASAHI-NET",
+    "APNIC-AS-BLOCK"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6001.0
+  },
+  {
+   "rep_ip": "119.17.0.1",
+   "prefix": "119.17.0.0/19",
+   "registry": "arin",
+   "as_names": [
+    "APNIC-AS-3-BLOCK",
+    "GCS-AS-KR"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.0
+  },
+  {
+   "rep_ip": "216.255.176.1",
+   "prefix": "216.255.176.0/20",
+   "registry": "arin",
+   "as_names": [
+    "INFOLINK-MIA-US"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.0
+  },
+  {
+   "rep_ip": "68.115.192.1",
+   "prefix": "68.115.192.0/19",
+   "registry": "arin",
+   "as_names": [
+    "CHARTER-NET-HKY-NC",
+    "MAINT-CHTR-WD"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.0
+  },
+  {
+   "rep_ip": "220.229.224.1",
+   "prefix": "220.229.224.0/19",
+   "registry": "arin",
+   "as_names": [
+    "NCIC-TW",
+    "APNIC-AS-3-BLOCK"
+   ],
+   "ok": false,
+   "error": "refused",
+   "rtt_ms": 59.5
+  },
+  {
+   "rep_ip": "69.77.192.1",
+   "prefix": "69.77.192.0/18",
+   "registry": "arin",
+   "as_names": [
+    "GWTC",
+    "GWTC-ASN"
+   ],
+   "ok": false,
+   "error": "tls_error:[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.",
+   "rtt_ms": 510.0
+  },
+  {
+   "rep_ip": "76.164.192.1",
+   "prefix": "76.164.192.0/19",
+   "registry": "arin",
+   "as_names": [
+    "RDTL",
+    "VERSAWEB-ASN"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.8
+  },
+  {
+   "rep_ip": "203.210.192.1",
+   "prefix": "203.210.192.0/20",
+   "registry": "arin",
+   "as_names": [
+    "APNIC-AS-4-BLOCK",
+    "VNPT-AS-VN"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.0
+  },
+  {
+   "rep_ip": "91.217.20.1",
+   "prefix": "91.217.20.0/24",
+   "registry": "arin",
+   "as_names": [
+    "RIPE-ASNBLOCK-48128",
+    "RU-SERVICE-AS"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.0
+  },
+  {
+   "rep_ip": "78.142.62.1",
+   "prefix": "78.142.62.0/24",
+   "registry": "arin",
+   "as_names": [
+    "POWERNET-AS",
+    "RIPE-ASNBLOCK7"
+   ],
+   "ok": false,
+   "error": "refused",
+   "rtt_ms": 220.8
+  },
+  {
+   "rep_ip": "83.69.124.1",
+   "prefix": "83.69.124.0/23",
+   "registry": "arin",
+   "as_names": [
+    "RIPE-ASNBLOCK-28672",
+    "TATINT-AS"
+   ],
+   "ok": false,
+   "error": "refused",
+   "rtt_ms": 276.8
+  },
+  {
+   "rep_ip": "216.89.223.1",
+   "prefix": "216.89.223.0/24",
+   "registry": "arin",
+   "as_names": [
+    "ASN-LOGIC",
+    "LOGICLINK"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.0
+  },
+  {
+   "rep_ip": "93.113.200.1",
+   "prefix": "93.113.200.0/23",
+   "registry": "arin",
+   "as_names": [
+    "RIPE-ASNBLOCK-38912",
+    "RODYNAMIC-AS"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6003.2
+  },
+  {
+   "rep_ip": "202.155.251.1",
+   "prefix": "202.155.251.0/24",
+   "registry": "arin",
+   "as_names": [
+    "NEWTT-IP-AP",
+    "APNIC-AS-3-BLOCK"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.3
+  },
+  {
+   "rep_ip": "64.251.20.1",
+   "prefix": "64.251.20.0/24",
+   "registry": "arin",
+   "as_names": [
+    "INFOLINK-MIA-US"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6003.6
+  },
+  {
+   "rep_ip": "208.48.0.1",
+   "prefix": "208.48.0.0/24",
+   "registry": "arin",
+   "as_names": [
+    "AKAMAI-AS",
+    "AKAMAI-LAX2"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.0
+  },
+  {
+   "rep_ip": "125.17.137.1",
+   "prefix": "125.17.137.0/24",
+   "registry": "arin",
+   "as_names": [
+    "APNIC-AS-3-BLOCK",
+    "BBIL-AP"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.9
+  },
+  {
+   "rep_ip": "64.255.112.1",
+   "prefix": "64.255.112.0/24",
+   "registry": "arin",
+   "as_names": [
+    "MAPLETRONICSCOMP"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "122.50.127.1",
+   "prefix": "122.50.127.0/24",
+   "registry": "arin",
+   "as_names": [
+    "ASN-EQUINIX-AP",
+    "APNIC-17652"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "195.95.172.1",
+   "prefix": "195.95.172.0/24",
+   "registry": "arin",
+   "as_names": [
+    "KTI-AS",
+    "RIPE-ASNBLOCK-40960"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6003.7
+  },
+  {
+   "rep_ip": "208.110.176.1",
+   "prefix": "208.110.176.0/24",
+   "registry": "arin",
+   "as_names": [
+    "FULLNETINC"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6000.5
+  },
+  {
+   "rep_ip": "81.52.232.1",
+   "prefix": "81.52.232.0/22",
+   "registry": "arin",
+   "as_names": [
+    "AS3215",
+    "RIPE-ASNBLOCK4"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6002.8
+  },
+  {
+   "rep_ip": "169.130.72.1",
+   "prefix": "169.130.72.0/22",
+   "registry": "arin",
+   "as_names": [
+    "AS-PAETEC-NET"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.1
+  },
+  {
+   "rep_ip": "218.209.8.1",
+   "prefix": "218.209.8.0/24",
+   "registry": "arin",
+   "as_names": [
+    "VITSSEN-SUWON-AS-KR",
+    "APNIC-23552"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.9
+  },
+  {
+   "rep_ip": "203.124.209.1",
+   "prefix": "203.124.209.0/24",
+   "registry": "arin",
+   "as_names": [
+    "TATA-AS",
+    "APNIC-AS-3-BLOCK"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6003.9
+  },
+  {
+   "rep_ip": "202.125.98.1",
+   "prefix": "202.125.98.0/24",
+   "registry": "arin",
+   "as_names": [
+    "APNIC-55296",
+    "APNGTSNET-AS-AP"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6002.0
+  },
+  {
+   "rep_ip": "144.194.0.1",
+   "prefix": "144.194.0.0/21",
+   "registry": "arin",
+   "as_names": [
+    "IATA"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6001.1
+  },
+  {
+   "rep_ip": "111.71.240.1",
+   "prefix": "111.71.240.0/23",
+   "registry": "arin",
+   "as_names": [
+    "APNIC-17408",
+    "EMOME-TW"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.9
+  },
+  {
+   "rep_ip": "202.73.108.1",
+   "prefix": "202.73.108.0/22",
+   "registry": "arin",
+   "as_names": [
+    "ASN-CBN",
+    "APNIC-AS-BLOCK"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.0
+  },
+  {
+   "rep_ip": "72.28.248.1",
+   "prefix": "72.28.248.0/22",
+   "registry": "arin",
+   "as_names": [
+    "ATLANTICBB-MIDDLETOWN"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.0
+  },
+  {
+   "rep_ip": "180.194.68.1",
+   "prefix": "180.194.68.0/22",
+   "registry": "arin",
+   "as_names": [
+    "APNIC-AS-3-BLOCK",
+    "DIGITELONE"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.0
+  },
+  {
+   "rep_ip": "122.153.53.1",
+   "prefix": "122.153.53.0/24",
+   "registry": "arin",
+   "as_names": [
+    "APNIC-37888",
+    "GOEAS-AS-KR"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.0
+  },
+  {
+   "rep_ip": "202.149.215.1",
+   "prefix": "202.149.215.0/24",
+   "registry": "arin",
+   "as_names": [
+    "HTIL-TTML-IN-AP",
+    "APNIC-17652"
+   ],
+   "ok": false,
+   "error": "refused",
+   "rtt_ms": 374.6
+  },
+  {
+   "rep_ip": "85.121.206.1",
+   "prefix": "85.121.206.0/24",
+   "registry": "arin",
+   "as_names": [
+    "RIPE-ASNBLOCK-40960",
+    "COBRANET-AS"
+   ],
+   "ok": false,
+   "error": "refused",
+   "rtt_ms": 255.6
+  },
+  {
+   "rep_ip": "203.15.122.1",
+   "prefix": "203.15.122.0/24",
+   "registry": "arin",
+   "as_names": [
+    "AARNET-AS-AP",
+    "APNIC-AS-2-BLOCK"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6004.6
+  },
+  {
+   "rep_ip": "85.95.241.1",
+   "prefix": "85.95.241.0/24",
+   "registry": "arin",
+   "as_names": [
+    "RIPE-ASNBLOCK11",
+    "KRIWEB"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "207.59.146.1",
+   "prefix": "207.59.146.0/23",
+   "registry": "arin",
+   "as_names": [
+    "AS-PAETEC-NET"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.0
+  },
+  {
+   "rep_ip": "81.21.100.1",
+   "prefix": "81.21.100.0/24",
+   "registry": "arin",
+   "as_names": [
+    "AFRINIC(EG)",
+    "LINKDOTNET-AS",
+    "RIPE-ASNBLOCK11"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6003.6
+  },
+  {
+   "rep_ip": "216.8.64.1",
+   "prefix": "216.8.64.0/23",
+   "registry": "arin",
+   "as_names": [
+    "HISNET"
+   ],
+   "ok": false,
+   "error": "refused",
+   "rtt_ms": 198.7
+  },
+  {
+   "rep_ip": "65.18.214.1",
+   "prefix": "65.18.214.0/23",
+   "registry": "arin",
+   "as_names": [
+    "ASTRUM-0001"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6001.4
+  },
+  {
+   "rep_ip": "195.245.226.1",
+   "prefix": "195.245.226.0/24",
+   "registry": "arin",
+   "as_names": [
+    "SPRINTNET",
+    "RIPE-ASNBLOCK10"
+   ],
+   "ok": true,
+   "cert_sha256": "59f0cd7222685db92727793a6cdd4f921e978f0a3952b1b0b47d5eadb83485a5",
+   "subject": "",
+   "tls_version": "TLSv1.3",
+   "rtt_ms": 678.2
+  },
+  {
+   "rep_ip": "91.193.212.1",
+   "prefix": "91.193.212.0/22",
+   "registry": "arin",
+   "as_names": [
+    "RIPE-ASNBLOCK-41984",
+    "CHERMETRESURS-AS"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.2
+  },
+  {
+   "rep_ip": "199.164.129.1",
+   "prefix": "199.164.129.0/24",
+   "registry": "arin",
+   "as_names": [
+    "TERAGO-AS",
+    "TRGO"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6001.3
+  },
+  {
+   "rep_ip": "204.227.208.1",
+   "prefix": "204.227.208.0/24",
+   "registry": "arin",
+   "as_names": [
+    "WYOMING"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.3
+  },
+  {
+   "rep_ip": "124.124.20.1",
+   "prefix": "124.124.20.0/24",
+   "registry": "arin",
+   "as_names": [
+    "RELIANCE-COMMUNICATIONS-IN",
+    "APNIC-17652"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6003.7
+  },
+  {
+   "rep_ip": "162.97.162.1",
+   "prefix": "162.97.162.0/24",
+   "registry": "arin",
+   "as_names": [
+    "AS-PROVI-25"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.0
+  },
+  {
+   "rep_ip": "195.42.103.1",
+   "prefix": "195.42.103.0/24",
+   "registry": "arin",
+   "as_names": [
+    "RIPE-ASNBLOCK-47104",
+    "TDHN"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.0
+  },
+  {
+   "rep_ip": "91.208.216.1",
+   "prefix": "91.208.216.0/24",
+   "registry": "arin",
+   "as_names": [
+    "MARITIME-BANK",
+    "RIPE-ASNBLOCK-47104"
+   ],
+   "ok": false,
+   "error": "refused",
+   "rtt_ms": 1259.1
+  },
+  {
+   "rep_ip": "115.64.224.1",
+   "prefix": "115.64.224.0/21",
+   "registry": "arin",
+   "as_names": [
+    "APNIC-AS-2-BLOCK",
+    "TPG-INTERNET-AP"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.3
+  },
+  {
+   "rep_ip": "82.147.80.1",
+   "prefix": "82.147.80.0/24",
+   "registry": "arin",
+   "as_names": [
+    "RIPE-ASNBLOCK-31000",
+    "SIBTEL-AS"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6003.4
+  },
+  {
+   "rep_ip": "220.120.228.1",
+   "prefix": "220.120.228.0/23",
+   "registry": "arin",
+   "as_names": [
+    "APNIC-AS-BLOCK",
+    "KIXS-AS-KR"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.9
+  },
+  {
+   "rep_ip": "193.192.48.1",
+   "prefix": "193.192.48.0/23",
+   "registry": "arin",
+   "as_names": [
+    "ASP-AS",
+    "RIPE-ASNBLOCK-34816"
+   ],
+   "ok": false,
+   "error": "refused",
+   "rtt_ms": 183.1
+  },
+  {
+   "rep_ip": "199.53.188.1",
+   "prefix": "199.53.188.0/24",
+   "registry": "arin",
+   "as_names": [
+    "RIPE-ASBLOCK-3083",
+    "CREDITSUISSEGROUP-AS"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.0
+  },
+  {
+   "rep_ip": "61.107.170.1",
+   "prefix": "61.107.170.0/24",
+   "registry": "arin",
+   "as_names": [
+    "APNIC-AS-3-BLOCK",
+    "JOIL-AS-KR"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.0
+  },
+  {
+   "rep_ip": "195.5.164.1",
+   "prefix": "195.5.164.0/24",
+   "registry": "arin",
+   "as_names": [
+    "RIPE-ASNBLOCK5",
+    "AS5603",
+    "SIOL-NET"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.0
+  },
+  {
+   "rep_ip": "194.145.176.1",
+   "prefix": "194.145.176.0/22",
+   "registry": "arin",
+   "as_names": [
+    "RIPE-ASNBLOCK-33792",
+    "SPOE-AS"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.0
+  },
+  {
+   "rep_ip": "210.104.148.1",
+   "prefix": "210.104.148.0/24",
+   "registry": "arin",
+   "as_names": [
+    "NCIA-AS-KR",
+    "APNIC-17652"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.9
+  },
+  {
+   "rep_ip": "204.124.172.1",
+   "prefix": "204.124.172.0/22",
+   "registry": "arin",
+   "as_names": [
+    "DATACHAMBERS"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "113.193.104.1",
+   "prefix": "113.193.104.0/24",
+   "registry": "arin",
+   "as_names": [
+    "APNIC-AS-4-BLOCK",
+    "TDN"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6003.4
+  },
+  {
+   "rep_ip": "213.131.90.1",
+   "prefix": "213.131.90.0/24",
+   "registry": "arin",
+   "as_names": [
+    "RIPE-ASNBLOCK11",
+    "AFRINIC(EG)",
+    "LINKDOTNET-AS"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "205.146.40.1",
+   "prefix": "205.146.40.0/24",
+   "registry": "arin",
+   "as_names": [
+    "COGENT",
+    "COGENT-174"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.3
+  },
+  {
+   "rep_ip": "69.160.27.1",
+   "prefix": "69.160.27.0/24",
+   "registry": "arin",
+   "as_names": [
+    "BARDL-AS"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.5
+  },
+  {
+   "rep_ip": "87.120.41.1",
+   "prefix": "87.120.41.0/24",
+   "registry": "arin",
+   "as_names": [
+    "NETINFO",
+    "RIPE-ASNBLOCK8"
+   ],
+   "ok": false,
+   "error": "refused",
+   "rtt_ms": 231.2
+  },
+  {
+   "rep_ip": "195.88.136.1",
+   "prefix": "195.88.136.0/23",
+   "registry": "arin",
+   "as_names": [
+    "RIPE-ASNBLOCK-48128",
+    "ZORGRING-AS"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6001.5
+  },
+  {
+   "rep_ip": "211.26.168.1",
+   "prefix": "211.26.168.0/24",
+   "registry": "arin",
+   "as_names": [
+    "INTERNETPRIMUS-AS-AP",
+    "APNIC-AS-3-BLOCK"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "195.66.99.1",
+   "prefix": "195.66.99.0/24",
+   "registry": "arin",
+   "as_names": [
+    "MESSERKNECHT-AS",
+    "RIPE-ASNBLOCK-44032"
+   ],
+   "ok": false,
+   "error": "oserror:[Errno 113] No route to host",
+   "rtt_ms": 2322.9
+  },
+  {
+   "rep_ip": "67.232.212.1",
+   "prefix": "67.232.212.0/22",
+   "registry": "arin",
+   "as_names": [
+    "EMBARQ-NEBRASKA"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.3
+  },
+  {
+   "rep_ip": "203.202.6.1",
+   "prefix": "203.202.6.0/24",
+   "registry": "arin",
+   "as_names": [
+    "APNIC-2764",
+    "AAPT"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "115.128.144.1",
+   "prefix": "115.128.144.0/21",
+   "registry": "arin",
+   "as_names": [
+    "H3GA-AP",
+    "APNIC-17652"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "63.243.7.1",
+   "prefix": "63.243.7.0/24",
+   "registry": "arin",
+   "as_names": [
+    "AS-PAETEC-NET"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "74.198.156.1",
+   "prefix": "74.198.156.0/22",
+   "registry": "arin",
+   "as_names": [
+    "ROGERS-WIRELESS"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.6
+  },
+  {
+   "rep_ip": "72.55.0.1",
+   "prefix": "72.55.0.0/21",
+   "registry": "arin",
+   "as_names": [
+    "COMCAST-TELECOMM",
+    "CTI-TEL",
+    "ROADRUNNER"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6000.9
+  },
+  {
+   "rep_ip": "118.95.192.1",
+   "prefix": "118.95.192.0/24",
+   "registry": "arin",
+   "as_names": [
+    "APNIC-23890",
+    "SIFY-IN"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.0
+  },
+  {
+   "rep_ip": "110.54.140.1",
+   "prefix": "110.54.140.0/22",
+   "registry": "arin",
+   "as_names": [
+    "LBNI",
+    "APNIC-AS-4-BLOCK"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.0
+  },
+  {
+   "rep_ip": "216.146.110.1",
+   "prefix": "216.146.110.0/24",
+   "registry": "arin",
+   "as_names": [
+    "3RC"
+   ],
+   "ok": false,
+   "error": "refused",
+   "rtt_ms": 180.2
+  },
+  {
+   "rep_ip": "89.251.248.1",
+   "prefix": "89.251.248.0/22",
+   "registry": "arin",
+   "as_names": [
+    "CABLECOM",
+    "RIPE-ASNBLOCK7"
+   ],
+   "ok": false,
+   "error": "oserror:[Errno 113] No route to host",
+   "rtt_ms": 270.1
+  },
+  {
+   "rep_ip": "124.139.78.1",
+   "prefix": "124.139.78.0/23",
+   "registry": "arin",
+   "as_names": [
+    "APNIC-37888",
+    "GOEPJ-AS-KR"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.9
+  },
+  {
+   "rep_ip": "122.176.164.1",
+   "prefix": "122.176.164.0/24",
+   "registry": "arin",
+   "as_names": [
+    "APNIC-23890",
+    "AIRTELBROADBAND-AS-AP"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.0
+  },
+  {
+   "rep_ip": "159.245.18.1",
+   "prefix": "159.245.18.0/24",
+   "registry": "arin",
+   "as_names": [
+    "ATT-EMEAIDC-AMS1-AS",
+    "RIPE-ASNBLOCK6"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.8
+  },
+  {
+   "rep_ip": "72.24.34.1",
+   "prefix": "72.24.34.0/24",
+   "registry": "arin",
+   "as_names": [
+    "ASN-11492",
+    "CABLEONE"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6002.6
+  },
+  {
+   "rep_ip": "14.35.107.1",
+   "prefix": "14.35.107.0/24",
+   "registry": "arin",
+   "as_names": [
+    "GOEYJ-AS-KR",
+    "APNIC-37888"
+   ],
+   "ok": false,
+   "error": "refused",
+   "rtt_ms": 61.2
+  },
+  {
+   "rep_ip": "194.156.209.1",
+   "prefix": "194.156.209.0/24",
+   "registry": "arin",
+   "as_names": [
+    "RIPE-ASNBLOCK8",
+    "PLUSLINE"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "208.213.202.1",
+   "prefix": "208.213.202.0/23",
+   "registry": "arin",
+   "as_names": [
+    "ANS-CORP-NY"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6003.5
+  },
+  {
+   "rep_ip": "110.175.10.1",
+   "prefix": "110.175.10.0/23",
+   "registry": "arin",
+   "as_names": [
+    "APNIC-AS-2-BLOCK",
+    "TPG-INTERNET-AP"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "195.90.226.1",
+   "prefix": "195.90.226.0/24",
+   "registry": "arin",
+   "as_names": [
+    "BUSINESSONLINEAG",
+    "RIPE-ASNBLOCK7"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.1
+  },
+  {
+   "rep_ip": "168.244.190.1",
+   "prefix": "168.244.190.0/23",
+   "registry": "arin",
+   "as_names": [
+    "168-244"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6001.4
+  },
+  {
+   "rep_ip": "121.242.240.1",
+   "prefix": "121.242.240.0/23",
+   "registry": "arin",
+   "as_names": [
+    "TATACOMM-AS",
+    "APNIC-AS-BLOCK"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.0
+  },
+  {
+   "rep_ip": "93.81.116.1",
+   "prefix": "93.81.116.0/22",
+   "registry": "arin",
+   "as_names": [
+    "RIPE-ASNBLOCK7",
+    "CORBINA-AS"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.1
+  },
+  {
+   "rep_ip": "87.126.230.1",
+   "prefix": "87.126.230.0/24",
+   "registry": "arin",
+   "as_names": [
+    "BTC-AS",
+    "RIPE-ASNBLOCK7"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "212.62.40.1",
+   "prefix": "212.62.40.0/23",
+   "registry": "arin",
+   "as_names": [
+    "PTT-SRBIJA-NET",
+    "RIPE-ASNBLOCK8"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.5
+  },
+  {
+   "rep_ip": "87.255.8.1",
+   "prefix": "87.255.8.0/24",
+   "registry": "arin",
+   "as_names": [
+    "RIPE-ASNBLOCK-34816",
+    "BIGTELECOM-AS"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.3
+  },
+  {
+   "rep_ip": "195.190.9.1",
+   "prefix": "195.190.9.0/24",
+   "registry": "arin",
+   "as_names": [
+    "RIPE-ASNBLOCK-31000",
+    "ACCELERATED-IT"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "61.109.162.1",
+   "prefix": "61.109.162.0/24",
+   "registry": "arin",
+   "as_names": [
+    "APNIC-23552",
+    "HYROADPUSAN-AS-KR"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6001.8
+  },
+  {
+   "rep_ip": "210.9.136.1",
+   "prefix": "210.9.136.0/21",
+   "registry": "arin",
+   "as_names": [
+    "APNIC-17652",
+    "NETSPEED-AS-AP"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.6
+  },
+  {
+   "rep_ip": "65.202.142.1",
+   "prefix": "65.202.142.0/23",
+   "registry": "arin",
+   "as_names": [
+    "ADVANCE-GW"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.0
+  },
+  {
+   "rep_ip": "203.27.52.1",
+   "prefix": "203.27.52.0/24",
+   "registry": "arin",
+   "as_names": [
+    "AMNET-AU-AP",
+    "APNIC-AS-3-BLOCK"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.0
+  },
+  {
+   "rep_ip": "74.118.216.1",
+   "prefix": "74.118.216.0/24",
+   "registry": "arin",
+   "as_names": [
+    "RABOBANK-AMERICAS-NYW",
+    "RABOS-AS"
+   ],
+   "ok": false,
+   "error": "oserror:[Errno 113] No route to host",
+   "rtt_ms": 242.9
+  },
+  {
+   "rep_ip": "69.27.211.1",
+   "prefix": "69.27.211.0/24",
+   "registry": "arin",
+   "as_names": [
+    "MISSOURI-NETWORK-ALLIANCE"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.0
+  },
+  {
+   "rep_ip": "211.220.224.1",
+   "prefix": "211.220.224.0/22",
+   "registry": "arin",
+   "as_names": [
+    "APNIC-AS-BLOCK",
+    "KIXS-AS-KR"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.0
+  },
+  {
+   "rep_ip": "208.60.95.1",
+   "prefix": "208.60.95.0/24",
+   "registry": "arin",
+   "as_names": [
+    "BELLSOUTH-NET-BLK"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6004.3
+  },
+  {
+   "rep_ip": "66.47.112.1",
+   "prefix": "66.47.112.0/22",
+   "registry": "arin",
+   "as_names": [
+    "NEWEDGENETS",
+    "NEWEDGENETWORKS"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6002.8
+  },
+  {
+   "rep_ip": "213.146.245.1",
+   "prefix": "213.146.245.0/24",
+   "registry": "arin",
+   "as_names": [
+    "RIPE-ASNBLOCK11",
+    "SKYTRON"
+   ],
+   "ok": false,
+   "error": "oserror:[Errno 113] No route to host",
+   "rtt_ms": 221.4
+  },
+  {
+   "rep_ip": "199.43.43.1",
+   "prefix": "199.43.43.0/24",
+   "registry": "arin",
+   "as_names": [
+    "BAC-MLAMRS"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "203.32.32.1",
+   "prefix": "203.32.32.0/24",
+   "registry": "arin",
+   "as_names": [
+    "APNIC-AS-3-BLOCK",
+    "INTERNETPRIMUS-AS-AP"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6004.5
+  },
+  {
+   "rep_ip": "92.60.96.1",
+   "prefix": "92.60.96.0/24",
+   "registry": "arin",
+   "as_names": [
+    "RIPE-ASNBLOCK-33792",
+    "HOSTIT-AS-NN"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6004.7
+  },
+  {
+   "rep_ip": "66.85.38.1",
+   "prefix": "66.85.38.0/24",
+   "registry": "arin",
+   "as_names": [
+    "WHC-NET"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.7
+  },
+  {
+   "rep_ip": "204.101.201.1",
+   "prefix": "204.101.201.0/24",
+   "registry": "arin",
+   "as_names": [
+    "BELLMOBILITY-1"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6001.3
+  },
+  {
+   "rep_ip": "63.219.9.1",
+   "prefix": "63.219.9.0/24",
+   "registry": "arin",
+   "as_names": [
+    "APNIC-AS-3-BLOCK",
+    "HUTCHCA-AS"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6001.7
+  },
+  {
+   "rep_ip": "58.97.56.1",
+   "prefix": "58.97.56.0/24",
+   "registry": "arin",
+   "as_names": [
+    "APNIC-AS-2-BLOCK",
+    "ASIAINFO-AS-AP"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "213.149.145.1",
+   "prefix": "213.149.145.0/24",
+   "registry": "arin",
+   "as_names": [
+    "RIPE-ASNBLOCK-47104",
+    "CITYNET-BLG"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6003.5
+  },
+  {
+   "rep_ip": "208.88.65.1",
+   "prefix": "208.88.65.0/24",
+   "registry": "arin",
+   "as_names": [
+    "BLUEBIRD-WIRELESS"
+   ],
+   "ok": false,
+   "error": "refused",
+   "rtt_ms": 245.5
+  },
+  {
+   "rep_ip": "75.102.176.1",
+   "prefix": "75.102.176.0/24",
+   "registry": "arin",
+   "as_names": [
+    "SDNET"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.5
+  },
+  {
+   "rep_ip": "205.176.229.1",
+   "prefix": "205.176.229.0/24",
+   "registry": "arin",
+   "as_names": [
+    "STATE-OF-FLA"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "80.93.252.1",
+   "prefix": "80.93.252.0/24",
+   "registry": "arin",
+   "as_names": [
+    "RIPE-ASNBLOCK10",
+    "ABSOLUTOK"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "67.213.128.1",
+   "prefix": "67.213.128.0/24",
+   "registry": "arin",
+   "as_names": [
+    "AWL-29-AS"
+   ],
+   "ok": false,
+   "error": "refused",
+   "rtt_ms": 254.8
+  },
+  {
+   "rep_ip": "68.170.196.1",
+   "prefix": "68.170.196.0/24",
+   "registry": "arin",
+   "as_names": [
+    "ZAYOB-NE"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "91.206.248.1",
+   "prefix": "91.206.248.0/23",
+   "registry": "arin",
+   "as_names": [
+    "RIPE-ASNBLOCK-47104",
+    "CITYCOM-AS"
+   ],
+   "ok": false,
+   "error": "oserror:[Errno 113] No route to host",
+   "rtt_ms": 3210.6
+  },
+  {
+   "rep_ip": "38.108.196.1",
+   "prefix": "38.108.196.0/24",
+   "registry": "arin",
+   "as_names": [
+    "JHR"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "64.114.80.1",
+   "prefix": "64.114.80.0/22",
+   "registry": "arin",
+   "as_names": [
+    "ASN-CIPHERKEY",
+    "CIPHERKEY"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.2
+  },
+  {
+   "rep_ip": "195.228.253.1",
+   "prefix": "195.228.253.0/24",
+   "registry": "arin",
+   "as_names": [
+    "MT-DC-AS",
+    "RIPE-ASNBLOCK9"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "123.108.172.1",
+   "prefix": "123.108.172.0/22",
+   "registry": "arin",
+   "as_names": [
+    "APNIC-AS-3-BLOCK",
+    "HCN-AS"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6004.3
+  },
+  {
+   "rep_ip": "193.164.138.1",
+   "prefix": "193.164.138.0/24",
+   "registry": "arin",
+   "as_names": [
+    "MARC-NET_AS",
+    "RIPE-ASNBLOCK-40960"
+   ],
+   "ok": false,
+   "error": "refused",
+   "rtt_ms": 244.1
+  },
+  {
+   "rep_ip": "74.127.74.1",
+   "prefix": "74.127.74.0/24",
+   "registry": "arin",
+   "as_names": [
+    "NRTC-ORG"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "192.54.43.1",
+   "prefix": "192.54.43.0/24",
+   "registry": "arin",
+   "as_names": [
+    "RIPE-ASNBLOCK9",
+    "IPH"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6004.5
+  },
+  {
+   "rep_ip": "67.209.39.1",
+   "prefix": "67.209.39.0/24",
+   "registry": "arin",
+   "as_names": [
+    "IC2NET"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6001.2
+  },
+  {
+   "rep_ip": "146.83.73.1",
+   "prefix": "146.83.73.0/24",
+   "registry": "arin",
+   "as_names": [
+    "LACNIC-11340",
+    "REUNA"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.1
+  },
+  {
+   "rep_ip": "62.7.40.1",
+   "prefix": "62.7.40.0/21",
+   "registry": "arin",
+   "as_names": [
+    "AS8903",
+    "RIPE-ASNBLOCK7"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6000.6
+  },
+  {
+   "rep_ip": "138.123.0.1",
+   "prefix": "138.123.0.0/16",
+   "registry": "arin",
+   "as_names": [
+    "COGENT",
+    "COGENT-174"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6004.5
+  },
+  {
+   "rep_ip": "211.169.0.1",
+   "prefix": "211.169.0.0/16",
+   "registry": "arin",
+   "as_names": [
+    "LGDACOM",
+    "APNIC-3786"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6000.4
+  },
+  {
+   "rep_ip": "182.232.0.1",
+   "prefix": "182.232.0.0/16",
+   "registry": "arin",
+   "as_names": [
+    "APNIC-37888",
+    "AIS-TH-AP"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "138.27.0.1",
+   "prefix": "138.27.0.0/16",
+   "registry": "arin",
+   "as_names": [
+    "CTNOSC-ASNBLK-1464-1465"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.1
+  },
+  {
+   "rep_ip": "42.113.0.1",
+   "prefix": "42.113.0.0/16",
+   "registry": "arin",
+   "as_names": [
+    "FPT-AS-AP",
+    "APNIC-17652"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6004.5
+  },
+  {
+   "rep_ip": "195.143.0.1",
+   "prefix": "195.143.0.0/16",
+   "registry": "arin",
+   "as_names": [
+    "CYBERNET-AG",
+    "RIPE-ASNBLOCK7"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6001.6
+  },
+  {
+   "rep_ip": "64.132.240.1",
+   "prefix": "64.132.240.0/20",
+   "registry": "other",
+   "as_names": [
+    "TWTC"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.3
+  },
+  {
+   "rep_ip": "67.228.64.1",
+   "prefix": "67.228.64.0/20",
+   "registry": "other",
+   "as_names": [
+    "SOFTLAYER"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6003.1
+  },
+  {
+   "rep_ip": "71.29.238.1",
+   "prefix": "71.29.238.0/24",
+   "registry": "other",
+   "as_names": [
+    "WINDSTREAM"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6002.8
+  },
+  {
+   "rep_ip": "208.117.237.1",
+   "prefix": "208.117.237.0/24",
+   "registry": "other",
+   "as_names": [
+    "GOOGLE"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "216.174.28.1",
+   "prefix": "216.174.28.0/24",
+   "registry": "other",
+   "as_names": [
+    "SHGREENPOINTS"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "67.121.166.1",
+   "prefix": "67.121.166.0/24",
+   "registry": "other",
+   "as_names": [
+    "ANDERSON-MERCH"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6004.4
+  },
+  {
+   "rep_ip": "208.88.80.1",
+   "prefix": "208.88.80.0/24",
+   "registry": "other",
+   "as_names": [
+    "CBSITE-CHI-WEB"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.7
+  },
+  {
+   "rep_ip": "204.209.150.1",
+   "prefix": "204.209.150.0/24",
+   "registry": "other",
+   "as_names": [
+    "UNISERVE",
+    "UNISERVE-ONLINE"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.3
+  },
+  {
+   "rep_ip": "65.17.32.1",
+   "prefix": "65.17.32.0/24",
+   "registry": "other",
+   "as_names": [
+    "BIRCH-TELECOM"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.3
+  },
+  {
+   "rep_ip": "206.12.50.1",
+   "prefix": "206.12.50.0/24",
+   "registry": "other",
+   "as_names": [
+    "UVIC-AS"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.1
+  },
+  {
+   "rep_ip": "204.26.60.1",
+   "prefix": "204.26.60.0/22",
+   "registry": "other",
+   "as_names": [
+    "IPTRANSIT"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.2
+  },
+  {
+   "rep_ip": "199.184.112.1",
+   "prefix": "199.184.112.0/22",
+   "registry": "other",
+   "as_names": [
+    "WA-K20"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "71.29.201.1",
+   "prefix": "71.29.201.0/24",
+   "registry": "other",
+   "as_names": [
+    "WINDSTREAM"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6001.1
+  },
+  {
+   "rep_ip": "142.51.0.1",
+   "prefix": "142.51.0.0/16",
+   "registry": "other",
+   "as_names": [
+    "LU-CA",
+    "LAURENTIANU"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "74.174.0.1",
+   "prefix": "74.174.0.0/19",
+   "registry": "ripe",
+   "as_names": [
+    "INS-AS"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.7
+  },
+  {
+   "rep_ip": "199.246.215.1",
+   "prefix": "199.246.215.0/24",
+   "registry": "ripe",
+   "as_names": [
+    "CYBERNET"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.0
+  },
+  {
+   "rep_ip": "74.127.64.1",
+   "prefix": "74.127.64.0/23",
+   "registry": "ripe",
+   "as_names": [
+    "INS-AS"
+   ],
+   "ok": false,
+   "error": "refused",
+   "rtt_ms": 1248.0
+  },
+  {
+   "rep_ip": "208.64.43.1",
+   "prefix": "208.64.43.0/24",
+   "registry": "ripe",
+   "as_names": [
+    "GBLX"
+   ],
+   "ok": false,
+   "error": "oserror:[Errno 113] No route to host",
+   "rtt_ms": 3269.7
+  },
+  {
+   "rep_ip": "64.76.230.1",
+   "prefix": "64.76.230.0/23",
+   "registry": "ripe",
+   "as_names": [
+    "GBLX"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6001.2
+  },
+  {
+   "rep_ip": "64.13.32.1",
+   "prefix": "64.13.32.0/22",
+   "registry": "ripe",
+   "as_names": [
+    "UUNET"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "209.108.192.1",
+   "prefix": "209.108.192.0/21",
+   "registry": "ripe",
+   "as_names": [
+    "LEVEL3"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6000.8
+  },
+  {
+   "rep_ip": "206.106.183.1",
+   "prefix": "206.106.183.0/24",
+   "registry": "ripe",
+   "as_names": [
+    "ETI"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.5
+  },
+  {
+   "rep_ip": "65.91.244.1",
+   "prefix": "65.91.244.0/24",
+   "registry": "ripe",
+   "as_names": [
+    "LEVEL3"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "199.127.220.1",
+   "prefix": "199.127.220.0/22",
+   "registry": "ripe",
+   "as_names": [
+    "ETC"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6000.7
+  },
+  {
+   "rep_ip": "206.83.24.1",
+   "prefix": "206.83.24.0/24",
+   "registry": "ripe",
+   "as_names": [
+    "WIN"
+   ],
+   "ok": false,
+   "error": "refused",
+   "rtt_ms": 228.0
+  },
+  {
+   "rep_ip": "2.16.148.1",
+   "prefix": "2.16.148.0/23",
+   "registry": "ripe",
+   "as_names": [
+    "GBLX"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6000.4
+  },
+  {
+   "rep_ip": "206.64.0.1",
+   "prefix": "206.64.0.0/14",
+   "registry": "ripe",
+   "as_names": [
+    "UUNET"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6002.8
+  },
+  {
+   "rep_ip": "130.52.128.1",
+   "prefix": "130.52.128.0/20",
+   "registry": "unknown",
+   "as_names": [
+    "19533"
+   ],
+   "ok": false,
+   "error": "refused",
+   "rtt_ms": 158.9
+  },
+  {
+   "rep_ip": "204.80.161.1",
+   "prefix": "204.80.161.0/24",
+   "registry": "unknown",
+   "as_names": [
+    "23496"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6005.6
+  },
+  {
+   "rep_ip": "63.144.153.1",
+   "prefix": "63.144.153.0/24",
+   "registry": "unknown",
+   "as_names": [
+    "30150"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6004.1
+  },
+  {
+   "rep_ip": "69.6.80.1",
+   "prefix": "69.6.80.0/24",
+   "registry": "unknown",
+   "as_names": [
+    "13442"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.3
+  },
+  {
+   "rep_ip": "64.207.200.1",
+   "prefix": "64.207.200.0/24",
+   "registry": "unknown",
+   "as_names": [
+    "30304"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6002.7
+  },
+  {
+   "rep_ip": "38.112.186.1",
+   "prefix": "38.112.186.0/24",
+   "registry": "unknown",
+   "as_names": [
+    "13486"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6002.1
+  },
+  {
+   "rep_ip": "66.9.244.1",
+   "prefix": "66.9.244.0/24",
+   "registry": "unknown",
+   "as_names": [
+    "16455"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "160.79.135.1",
+   "prefix": "160.79.135.0/24",
+   "registry": "unknown",
+   "as_names": [
+    "16455"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.2
+  },
+  {
+   "rep_ip": "65.113.88.1",
+   "prefix": "65.113.88.0/21",
+   "registry": "unknown",
+   "as_names": [
+    "14434"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6006.3
+  },
+  {
+   "rep_ip": "208.97.214.1",
+   "prefix": "208.97.214.0/24",
+   "registry": "unknown",
+   "as_names": [
+    "39991"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6003.2
+  },
+  {
+   "rep_ip": "134.216.0.1",
+   "prefix": "134.216.0.0/16",
+   "registry": "unknown",
+   "as_names": [
+    "22586"
+   ],
+   "ok": false,
+   "error": "timeout",
+   "rtt_ms": 6000.4
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.env
+data/c1/raw/_live_cache/
+.DS_Store

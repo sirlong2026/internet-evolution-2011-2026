@@ -1,0 +1,18 @@
+{
+  "campaign": "c1-evolution-202611",
+  "note": "Plan B for C2 cloud anchor: explicit-probe selection replaces area-WW + custom-tag exclusion, because the selection index rejected the freshly created user tag c2-host (400 Invalid tag, 2026-11-08). Same science: 4 external veteran vantages on four continents, same-machine probe 1018797 trivially excluded. Roster: data/c1/anchor_planb_probes.json. Anchor target value is NEVER stored on disk - injected from env C1_ANCHOR_TARGET at create time only. All measurements public; never Delete (Stop only). Cost: 1 target x 4 vantages x 48h x 10 cr = 1,920 cr.",
+  "groups": [
+    {
+      "name": "sslcert-anchor",
+      "type": "sslcert",
+      "port": 443,
+      "is_oneoff": false,
+      "interval": 3600,
+      "duration_hours": 48,
+      "unit_cost": 10,
+      "probes": {"type": "probes", "value": "28,81,6349,234", "requested": 4},
+      "anchor_from_env": "C1_ANCHOR_TARGET",
+      "targets": []
+    }
+  ]
+}

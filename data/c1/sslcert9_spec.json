@@ -1,0 +1,68 @@
+{
+ "campaign": "c1-sslcert9-orgdomain-20261108",
+ "note": "org-domain frame (user-approved 2026-11-08): 9 TLS-live 2011 org domains, recurring sslcert 4 probes x 1h x 48h; domain targets preferred (SNI), fallback to resolved IP on API pre-resolution reject (map in domain_ip_fallback); anchor NOT in this batch (standalone later after probe tagging + C1_ANCHOR_TARGET); all measurements public; never Delete",
+ "domain_ip_fallback": {
+  "asp.bg": "193.192.48.3",
+  "ctm.net": "202.175.27.77",
+  "iprimus.com.au": "202.138.0.21",
+  "jump.ro": "194.8.80.80",
+  "plusline.de": "82.98.127.7",
+  "tikona.in": "113.193.1.103",
+  "tpgi.com.au": "52.64.173.233",
+  "vnet.sk": "217.73.28.12",
+  "zorgring.nl": "195.88.137.126"
+ },
+ "selection": {
+  "selected": [
+   "asp.bg",
+   "ctm.net",
+   "iprimus.com.au",
+   "jump.ro",
+   "plusline.de",
+   "tikona.in",
+   "tpgi.com.au",
+   "vnet.sk",
+   "zorgring.nl"
+  ],
+  "alternates": [
+   "ixirhost.com",
+   "farm.de",
+   "greennet.ge",
+   "tatanova.com"
+  ],
+  "excluded": {
+   "tele.dk": "Kubernetes Ingress Fake Certificate (placeholder identity)",
+   "wi-tribe.ph": "CN=example.com (placeholder identity)"
+  },
+  "already_created": {
+   "asp.bg": 234182558
+  },
+  "note": "asp.bg removed after successful creation (msm 234182558, domain target accepted)"
+ },
+ "groups": [
+  {
+   "name": "sslcert9",
+   "type": "sslcert",
+   "port": 443,
+   "is_oneoff": false,
+   "interval": 3600,
+   "duration_hours": 48,
+   "unit_cost": 10,
+   "probes": {
+    "type": "area",
+    "value": "WW",
+    "requested": 4
+   },
+   "targets": [
+    "ctm.net",
+    "iprimus.com.au",
+    "jump.ro",
+    "plusline.de",
+    "tikona.in",
+    "tpgi.com.au",
+    "vnet.sk",
+    "zorgring.nl"
+   ]
+  }
+ ]
+}

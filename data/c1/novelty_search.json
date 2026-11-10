@@ -1,0 +1,476 @@
+{
+ "schema": "cline_novelty_search/1",
+ "claim": "no prior study replays a full-Internet snapshot of one epoch against the live network layer by layer (routing, address, path, service)",
+ "database": "Crossref REST API (https://api.crossref.org/works)",
+ "queried_utc": "2026-11-09T11:45:45Z",
+ "protocol": {
+  "rows_per_query": 20,
+  "sort": "relevance",
+  "selection": "bibliographic query; each returned item screened by title, venue and year",
+  "keep_rule": "an item is retained only if it re-measures an earlier epoch or replays a historical archive against the live network, or it characterises the measurement-platform machinery the claim depends on",
+  "reproduce": "tools/_c1_novelty_search.py (workspace) regenerates the raw hits; this file is the curated, human-screened version"
+ },
+ "queries": [
+  {
+   "id": "NQ1",
+   "query": "replay historical Internet snapshot against live network measurement",
+   "returned": 20,
+   "candidates": [
+    {
+     "title": "Snapshot for Power Grids IoT: Adaptive Measurement for Resilience Intelligent Internet of Things",
+     "doi": "10.1109/jiot.2023.3256358",
+     "year": 2023,
+     "venue": "IEEE Internet of Things Journal",
+     "decision": "out",
+     "reason": "adaptive measurement inside an IoT power-grid snapshot; not a replay of an Internet routing snapshot"
+    },
+    {
+     "title": "Resilient State Estimation for Complex Networks With Partial Node Measurements and State Saturations: Defense Against Replay Attacks",
+     "doi": "10.1109/jiot.2025.3574266",
+     "year": 2025,
+     "venue": "IEEE Internet of Things Journal",
+     "decision": "out",
+     "reason": "state estimation in complex networks; unrelated to measurement platforms"
+    }
+   ]
+  },
+  {
+   "id": "NQ2",
+   "query": "Internet-wide measurement survey active measurement platforms",
+   "returned": 20,
+   "candidates": [
+    {
+     "title": "A Survey on Internet Performance Measurement Platforms and Related Standardization Efforts",
+     "doi": "10.1109/comst.2015.2418435",
+     "year": 2015,
+     "venue": "IEEE Communications Surveys &amp; Tutorials",
+     "decision": "kept",
+     "reason": "survey of measurement-platform capability and standardization; characterises the platform ecosystem the claim depends on"
+    },
+    {
+     "title": "Enabling High-Performance Internet-Wide Measurements on Windows",
+     "doi": "10.1007/978-3-642-12334-4_13",
+     "year": 2010,
+     "venue": "Lecture Notes in Computer Science Passive and Active Measurement",
+     "decision": "out",
+     "reason": "high-speed scanning implementation on Windows; not a cross-year same-target replay"
+    }
+   ]
+  },
+  {
+   "id": "NQ3",
+   "query": "longitudinal routing measurement BGP table archive over years",
+   "returned": 20,
+   "candidates": [
+    {
+     "title": "Optimization Techniques of Traceroute Measurement Based on BGP Routing Table",
+     "doi": "10.4028/www.scientific.net/amm.303-306.2062",
+     "year": 2013,
+     "venue": "Applied Mechanics and Materials",
+     "decision": "out",
+     "reason": "traceroute sampling optimisation over BGP tables; no cross-year same-target comparison"
+    }
+   ]
+  },
+  {
+   "id": "NQ4",
+   "query": "RIPE Atlas measurement campaign methodology probe selection",
+   "returned": 20,
+   "candidates": [
+    {
+     "title": "RIPEn at Home - Surveying Internal Domain Names Using RIPE Atlas",
+     "doi": "10.23919/tma62044.2024.10559012",
+     "year": 2024,
+     "venue": "2024 8th Network Traffic Measurement and Analysis Conference (TMA)",
+     "decision": "out",
+     "reason": "uses Atlas to survey internal domains; not a historical-snapshot replay"
+    },
+    {
+     "title": "Quantifying Interference between Measurements on the RIPE Atlas Platform",
+     "doi": "10.1145/2815675.2815710",
+     "year": 2015,
+     "venue": "Proceedings of the 2015 Internet Measurement Conference",
+     "decision": "kept",
+     "reason": "interference between concurrent measurements on one platform; a platform-side constraint on this paper's methodology"
+    },
+    {
+     "title": "Analysis of Network State by RIPE Atlas Distributed Measurement System",
+     "doi": "10.1109/dspa60853.2024.10510129",
+     "year": 2024,
+     "venue": "2024 26th International Conference on Digital Signal Processing and its Applications (DSPA)",
+     "decision": "out",
+     "reason": "distributed measurement system analysing the current network state; a single point in time"
+    },
+    {
+     "title": "Lessons Learned From Using the RIPE Atlas Platform for Measurement Research",
+     "doi": "10.1145/2805789.2805796",
+     "year": 2015,
+     "venue": "ACM SIGCOMM Computer Communication Review",
+     "decision": "kept",
+     "reason": "lessons and pitfalls from Atlas-based measurement research; the methodological basis for how this paper uses the platform"
+    },
+    {
+     "title": "Vantage point selection for IPv6 measurements: Benefits and limitations of RIPE Atlas tags",
+     "doi": "10.23919/inm.2017.7987262",
+     "year": 2017,
+     "venue": "2017 IFIP/IEEE Symposium on Integrated Network and Service Management (IM)",
+     "decision": "kept",
+     "reason": "benefits and costs of vantage-point selection and tags; the basis for this paper's target and vantage selection"
+    },
+    {
+     "title": "Measurement-Based Modeling and Analysis of Terrestrial and Non-Terrestrial Networks Using RIPE Atlas Platform",
+     "doi": "10.1201/9781003674801-15",
+     "year": 2026,
+     "venue": "Towards Integration 6G NTN Non-Terrestrial Networks with 5G NTN Satellite Connectivity",
+     "decision": "out",
+     "reason": "6G non-terrestrial-network measurement modelling; unrelated to the claim"
+    }
+   ]
+  },
+  {
+   "id": "NQ5",
+   "query": "cohort replay same-target longitudinal measurement Internet",
+   "returned": 20,
+   "candidates": [
+    {
+     "title": "Longitudinal Cohort Designs",
+     "doi": "10.1016/b0-12-369398-5/00008-6",
+     "year": 2005,
+     "venue": "Encyclopedia of Social Measurement",
+     "decision": "out",
+     "reason": "clinical / social-science terminology ('longitudinal cohort designs')"
+    },
+    {
+     "title": "Longitudinal cohort designs",
+     "doi": "10.1016/b978-0-443-26629-4.00178-7",
+     "year": 2027,
+     "venue": "Encyclopedia of Measurement in Social Sciences",
+     "decision": "out",
+     "reason": "same terminology, textbook entry"
+    },
+    {
+     "title": "Ollama in the Wild: A Longitudinal Measurement of Exposed Ollama LLM Endpoints at Internet Scale",
+     "doi": "10.1145/3777912.3839823",
+     "year": 2026,
+     "venue": "Proceedings of the 2026 ACM Internet Measurement Conference",
+     "decision": "out",
+     "reason": "longitudinal measurement of LLM endpoints; a single service in a single period"
+    },
+    {
+     "title": "PixelConfig: Longitudinal Measurement and Reverse-Engineering of Meta Pixel Configurations",
+     "doi": "10.1145/3777912.3809147",
+     "year": 2026,
+     "venue": "Proceedings of the 2026 ACM Internet Measurement Conference",
+     "decision": "out",
+     "reason": "longitudinal measurement of one target configuration; not Internet infrastructure layers"
+    },
+    {
+     "title": "Digital Isolation and Dementia Risk in Older Adults: Longitudinal Cohort Study",
+     "doi": "10.2196/65379",
+     "year": 2025,
+     "venue": "Journal of Medical Internet Research",
+     "decision": "out",
+     "reason": "clinical digital isolation study"
+    },
+    {
+     "title": "Longitudinal Network Relationships Between Symptoms of Deviant Peer Affiliation and Internet Gaming Disorder in Adolescents: Prospective Cohort Study",
+     "doi": "10.2196/72543",
+     "year": 2025,
+     "venue": "Journal of Medical Internet Research",
+     "decision": "out",
+     "reason": "clinical social-network study"
+    },
+    {
+     "title": "Internet accessibility and incident depressive symptoms in middle aged and older adults in China: a national longitudinal cohort study (Preprint)",
+     "doi": "10.2196/preprints.43884",
+     "year": 2022,
+     "venue": "",
+     "decision": "out",
+     "reason": "clinical internet access and depression"
+    },
+    {
+     "title": "Longitudinal Glycemic Control and Time-to-Target in a Real-World Indian Type 2 Diabetes Cohort",
+     "doi": "10.1016/j.eprac.2026.01.212",
+     "year": 2026,
+     "venue": "Endocrine Practice",
+     "decision": "out",
+     "reason": "clinical blood-glucose longitudinal study"
+    },
+    {
+     "title": "Sports Replay Ad Sponsorship--Measurement Model",
+     "doi": "10.1037/t9999-99659-000",
+     "year": 2026,
+     "venue": "PsycTESTS Dataset",
+     "decision": "out",
+     "reason": "sports-advertising 'replay' measurement model"
+    },
+    {
+     "title": "Digital Isolation and Dementia Risk in Older Adults: Longitudinal Cohort Study (Preprint)",
+     "doi": "10.2196/preprints.65379",
+     "year": 2024,
+     "venue": "",
+     "decision": "out",
+     "reason": "clinical digital isolation study (preprint)"
+    },
+    {
+     "title": "Internet accessibility and incident depressive symptoms in middle aged and older adults in China: a national longitudinal cohort study (Preprint)",
+     "doi": "10.2196/43884",
+     "year": 2022,
+     "venue": "Journal of Medical Internet Research",
+     "decision": "out",
+     "reason": "clinical internet-access study"
+    },
+    {
+     "title": "Replay Attacks in RPL-Based Internet of Things: Survey and Empirical Comparative Study",
+     "doi": "10.21203/rs.3.rs-3697695/v1",
+     "year": 2023,
+     "venue": "",
+     "decision": "out",
+     "reason": "IoT RPL 'replay attack'; unrelated to measurement replay"
+    },
+    {
+     "title": "On the Cover: Gendered Trajectories of Digital Literacy Development: Insights from a Longitudinal Cohort Study",
+     "doi": "10.1111/emip.12625",
+     "year": 2024,
+     "venue": "Educational Measurement: Issues and Practice",
+     "decision": "out",
+     "reason": "digital-literacy education measurement"
+    },
+    {
+     "title": "Predictability of COVID-19 Hospitalizations, Intensive Care Unit Admissions, and Respiratory Assistance in Portugal: Longitudinal Cohort Study",
+     "doi": "10.2196/26075",
+     "year": 2021,
+     "venue": "Journal of Medical Internet Research",
+     "decision": "out",
+     "reason": "clinical inpatient prediction"
+    },
+    {
+     "title": "Social Media Recruitment Strategies to Recruit Pregnant Women into a Longitudinal Observational Cohort Study: An Evaluation (Preprint)",
+     "doi": "10.2196/preprints.40298",
+     "year": 2022,
+     "venue": "",
+     "decision": "out",
+     "reason": "longitudinal observation of social-media recruitment"
+    }
+   ]
+  }
+ ],
+ "closest_prior_work": [
+  {
+   "entry_id": "C001",
+   "title": "Census and survey of the visible internet",
+   "doi": "10.1145/1452520.1452542",
+   "year": 2008,
+   "venue": "Proceedings of the 8th ACM SIGCOMM conference on Internet measurement",
+   "why_close": "large-scale census of the visible Internet around 2011 (ICMP layer)",
+   "why_different": "single layer and single epoch; a scan of the past cannot be re-run"
+  },
+  {
+   "entry_id": "C002",
+   "title": "Understanding block-level address usage in the visible internet",
+   "doi": "10.1145/1851182.1851196",
+   "year": 2010,
+   "venue": "Proceedings of the ACM SIGCOMM 2010 conference",
+   "why_close": "historical comparison of block-level address usage",
+   "why_different": "compares address-space structure, not a cross-year replay of the same machines"
+  },
+  {
+   "entry_id": "C007",
+   "title": "On characterizing BGP routing table growth",
+   "doi": "10.1109/glocom.2002.1189019",
+   "year": 2002,
+   "venue": "Global Telecommunications Conference, 2002. GLOBECOM '02. IEEE",
+   "why_close": "cross-year evolution of routing-table size",
+   "why_different": "compares routing tables only; does not descend to the address, path and service layers"
+  },
+  {
+   "entry_id": "C008",
+   "title": "Beyond Counting",
+   "doi": "10.1145/2987443.2987473",
+   "year": 2016,
+   "venue": "Proceedings of the 2016 Internet Measurement Conference",
+   "why_close": "longitudinal routing work based on RIS/RouteViews",
+   "why_different": "routing-archive caliber; no host or organizational identity mapping"
+  },
+  {
+   "entry_id": "C011",
+   "title": "A First Look into Long-lived BGP Zombies",
+   "doi": "10.1145/3730567.3764469",
+   "year": 2025,
+   "venue": "Proceedings of the 2025 ACM Internet Measurement Conference",
+   "why_close": "lifetime of zombie / stale announcements",
+   "why_different": "a single-layer routing phenomenon; no same-target multi-layer replay"
+  },
+  {
+   "entry_id": "C020",
+   "title": "Day in the Life of RIPE Atlas: Operational Insights and Applications in Network Measurements",
+   "doi": "10.48550/arxiv.2511.22474",
+   "year": 2025,
+   "venue": "arXiv (2511.22474)",
+   "why_close": "RIPE Atlas as a measurement platform: current state and operational experience",
+   "why_different": "a study of the platform itself, not a replay of a historical snapshot using the platform"
+  },
+  {
+   "entry_id": "C021",
+   "title": "Encouraging Reproducibility in Scientific Research of the Internet (Dagstuhl Seminar 18412)",
+   "doi": "10.4230/dagrep.8.10.41",
+   "year": 2019,
+   "venue": "Schloss Dagstuhl – Leibniz-Zentrum für Informatik",
+   "why_close": "reproducibility practice in Internet measurement research",
+   "why_different": "a methodological agenda; provides no cross-year replay design"
+  },
+  {
+   "entry_id": "C022",
+   "title": "Bias in Internet Measurement Platforms",
+   "doi": "10.23919/tma58422.2023.10198985",
+   "year": 2023,
+   "venue": "2023 7th Network Traffic Measurement and Analysis Conference (TMA)",
+   "why_close": "systematic study of the biases of measurement platforms themselves",
+   "why_different": "quantifies platform bias; involves no historical-snapshot replay"
+  },
+  {
+   "entry_id": "C031",
+   "title": "A Survey on Internet Performance Measurement Platforms and Related Standardization Efforts",
+   "doi": "10.1109/comst.2015.2418435",
+   "year": 2015,
+   "venue": "IEEE Communications Surveys & Tutorials",
+   "why_close": "survey of the measurement-platform landscape and standardization work",
+   "why_different": "a platform survey: it describes the platform ecosystem, not a replay precedent"
+  }
+ ],
+ "verdict": "across the five query strings no screened item performs a same-target replay of a full-Internet snapshot against the live network across the four layers; the nearest works are single-layer, single-epoch comparisons or platform-machinery studies. The manuscript therefore keeps a 'to our knowledge' hedge and points at this record.",
+ "limitations": "single bibliographic database (Crossref); title/venue/year screening only, no full-text review; the claim is scoped to what this search could establish, not to an exhaustive proof of absence.",
+ "retained_candidates": [
+  {
+   "title": "A Survey on Internet Performance Measurement Platforms and Related Standardization Efforts",
+   "doi": "10.1109/comst.2015.2418435",
+   "year": 2015,
+   "venue": "IEEE Communications Surveys &amp; Tutorials",
+   "decision": "kept",
+   "reason": "survey of measurement-platform capability and standardization; characterises the platform ecosystem the claim depends on"
+  },
+  {
+   "title": "Quantifying Interference between Measurements on the RIPE Atlas Platform",
+   "doi": "10.1145/2815675.2815710",
+   "year": 2015,
+   "venue": "Proceedings of the 2015 Internet Measurement Conference",
+   "decision": "kept",
+   "reason": "interference between concurrent measurements on one platform; a platform-side constraint on this paper's methodology"
+  },
+  {
+   "title": "Lessons Learned From Using the RIPE Atlas Platform for Measurement Research",
+   "doi": "10.1145/2805789.2805796",
+   "year": 2015,
+   "venue": "ACM SIGCOMM Computer Communication Review",
+   "decision": "kept",
+   "reason": "lessons and pitfalls from Atlas-based measurement research; the methodological basis for how this paper uses the platform"
+  },
+  {
+   "title": "Vantage point selection for IPv6 measurements: Benefits and limitations of RIPE Atlas tags",
+   "doi": "10.23919/inm.2017.7987262",
+   "year": 2017,
+   "venue": "2017 IFIP/IEEE Symposium on Integrated Network and Service Management (IM)",
+   "decision": "kept",
+   "reason": "benefits and costs of vantage-point selection and tags; the basis for this paper's target and vantage selection"
+  }
+ ],
+ "screened_out_count": 22,
+ "screened_out_examples": [
+  {
+   "title": "Snapshot for Power Grids IoT: Adaptive Measurement for Resilience Intelligent Internet of Things",
+   "doi": "10.1109/jiot.2023.3256358",
+   "year": 2023,
+   "venue": "IEEE Internet of Things Journal",
+   "decision": "out",
+   "reason": "adaptive measurement inside an IoT power-grid snapshot; not a replay of an Internet routing snapshot"
+  },
+  {
+   "title": "Resilient State Estimation for Complex Networks With Partial Node Measurements and State Saturations: Defense Against Replay Attacks",
+   "doi": "10.1109/jiot.2025.3574266",
+   "year": 2025,
+   "venue": "IEEE Internet of Things Journal",
+   "decision": "out",
+   "reason": "state estimation in complex networks; unrelated to measurement platforms"
+  },
+  {
+   "title": "Enabling High-Performance Internet-Wide Measurements on Windows",
+   "doi": "10.1007/978-3-642-12334-4_13",
+   "year": 2010,
+   "venue": "Lecture Notes in Computer Science Passive and Active Measurement",
+   "decision": "out",
+   "reason": "high-speed scanning implementation on Windows; not a cross-year same-target replay"
+  },
+  {
+   "title": "Optimization Techniques of Traceroute Measurement Based on BGP Routing Table",
+   "doi": "10.4028/www.scientific.net/amm.303-306.2062",
+   "year": 2013,
+   "venue": "Applied Mechanics and Materials",
+   "decision": "out",
+   "reason": "traceroute sampling optimisation over BGP tables; no cross-year same-target comparison"
+  },
+  {
+   "title": "RIPEn at Home - Surveying Internal Domain Names Using RIPE Atlas",
+   "doi": "10.23919/tma62044.2024.10559012",
+   "year": 2024,
+   "venue": "2024 8th Network Traffic Measurement and Analysis Conference (TMA)",
+   "decision": "out",
+   "reason": "uses Atlas to survey internal domains; not a historical-snapshot replay"
+  },
+  {
+   "title": "Analysis of Network State by RIPE Atlas Distributed Measurement System",
+   "doi": "10.1109/dspa60853.2024.10510129",
+   "year": 2024,
+   "venue": "2024 26th International Conference on Digital Signal Processing and its Applications (DSPA)",
+   "decision": "out",
+   "reason": "distributed measurement system analysing the current network state; a single point in time"
+  },
+  {
+   "title": "Measurement-Based Modeling and Analysis of Terrestrial and Non-Terrestrial Networks Using RIPE Atlas Platform",
+   "doi": "10.1201/9781003674801-15",
+   "year": 2026,
+   "venue": "Towards Integration 6G NTN Non-Terrestrial Networks with 5G NTN Satellite Connectivity",
+   "decision": "out",
+   "reason": "6G non-terrestrial-network measurement modelling; unrelated to the claim"
+  },
+  {
+   "title": "Longitudinal Cohort Designs",
+   "doi": "10.1016/b0-12-369398-5/00008-6",
+   "year": 2005,
+   "venue": "Encyclopedia of Social Measurement",
+   "decision": "out",
+   "reason": "clinical / social-science terminology ('longitudinal cohort designs')"
+  },
+  {
+   "title": "Longitudinal cohort designs",
+   "doi": "10.1016/b978-0-443-26629-4.00178-7",
+   "year": 2027,
+   "venue": "Encyclopedia of Measurement in Social Sciences",
+   "decision": "out",
+   "reason": "same terminology, textbook entry"
+  },
+  {
+   "title": "Ollama in the Wild: A Longitudinal Measurement of Exposed Ollama LLM Endpoints at Internet Scale",
+   "doi": "10.1145/3777912.3839823",
+   "year": 2026,
+   "venue": "Proceedings of the 2026 ACM Internet Measurement Conference",
+   "decision": "out",
+   "reason": "longitudinal measurement of LLM endpoints; a single service in a single period"
+  },
+  {
+   "title": "PixelConfig: Longitudinal Measurement and Reverse-Engineering of Meta Pixel Configurations",
+   "doi": "10.1145/3777912.3809147",
+   "year": 2026,
+   "venue": "Proceedings of the 2026 ACM Internet Measurement Conference",
+   "decision": "out",
+   "reason": "longitudinal measurement of one target configuration; not Internet infrastructure layers"
+  },
+  {
+   "title": "Digital Isolation and Dementia Risk in Older Adults: Longitudinal Cohort Study",
+   "doi": "10.2196/65379",
+   "year": 2025,
+   "venue": "Journal of Medical Internet Research",
+   "decision": "out",
+   "reason": "clinical digital isolation study"
+  }
+ ]
+}

@@ -1,0 +1,1 @@
+[{"fw": 5130, "mver": "2.6.4", "lts": 12, "dst_name": "45.95.203.19", "dst_port": "443", "dst_addr": "45.95.203.19", "af": 4, "err": "connect: Connection refused", "msm_id": 234179085, "prb_id": 1002729, "timestamp": 1794101059, "msm_name": "SSLCert", "from": "91.93.118.21", "type": "sslcert", "group_id": 234179067, "stored_timestamp": 1794101067}]

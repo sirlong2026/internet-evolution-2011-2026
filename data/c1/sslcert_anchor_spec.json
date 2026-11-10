@@ -1,0 +1,19 @@
+{
+  "campaign": "c1-evolution-202611",
+  "note": "C2 cloud anchor standalone: known-answer calibration target (our cloud VM running the cloud_pilot TLS anchor, SNI-less handshake verified 2026-11-08). Anchor target value is NEVER stored on disk - injected from env C1_ANCHOR_TARGET at create time only. All measurements public; never Delete (Stop only); same-machine bias excluded via probe tag c2-host (probe 1018797). Cost: 1 target x 4 WW vantages x 48h x 10 cr = 1,920 cr.",
+  "groups": [
+    {
+      "name": "sslcert-anchor",
+      "type": "sslcert",
+      "port": 443,
+      "is_oneoff": false,
+      "interval": 3600,
+      "duration_hours": 48,
+      "unit_cost": 10,
+      "probes": {"type": "area", "value": "WW", "requested": 4},
+      "probe_tags_exclude": ["c2-host"],
+      "anchor_from_env": "C1_ANCHOR_TARGET",
+      "targets": []
+    }
+  ]
+}

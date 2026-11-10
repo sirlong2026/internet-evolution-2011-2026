@@ -1,0 +1,51 @@
+{
+ "source_file": "rib.20261107.1600.bz2 (RouteViews route-views2, https://archive.routeviews.org/)",
+ "record_types": {
+  "13/1": 1,
+  "13/2": 214226
+ },
+ "peer_count": 28,
+ "collector_bgp_id": "128.223.51.102",
+ "view_name": "VRF default",
+ "rib_ipv4": {
+  "prefixes": 214225,
+  "entries": 3436351,
+  "plen_hist": {
+   "8": 14,
+   "9": 9,
+   "10": 13,
+   "11": 23,
+   "12": 109,
+   "13": 160,
+   "14": 326,
+   "15": 600,
+   "16": 2809,
+   "17": 1807,
+   "18": 2836,
+   "19": 4107,
+   "20": 10667,
+   "21": 10062,
+   "22": 24045,
+   "23": 21508,
+   "24": 134833,
+   "25": 41,
+   "26": 47,
+   "27": 136,
+   "28": 10,
+   "29": 55,
+   "31": 2,
+   "32": 6
+  }
+ },
+ "rib_ipv6": {
+  "prefixes": 0,
+  "entries": 0,
+  "plen_hist": {}
+ },
+ "skipped_other": {},
+ "truncated": true,
+ "bytes_consumed": 241816942,
+ "ipv4_union_addresses": 886172672,
+ "ipv6_union_addresses": 0,
+ "ipv4_slash8_covered": 63
+}

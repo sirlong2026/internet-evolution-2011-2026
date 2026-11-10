@@ -1,0 +1,2782 @@
+{
+ "meta": {
+  "seed": 20261108,
+  "targets_total": 354530,
+  "announced_2011": 354530,
+  "multihomed_orgs": 46806,
+  "candidates": 199,
+  "stratum_quota": {
+   "apnic|17-20": 1,
+   "apnic|21-24": 9,
+   "arin|17-20": 26,
+   "arin|21-24": 119,
+   "arin|<=16": 6,
+   "other|17-20": 2,
+   "other|21-24": 11,
+   "other|<=16": 1,
+   "ripe|17-20": 1,
+   "ripe|21-24": 11,
+   "ripe|<=16": 1,
+   "unknown|17-20": 1,
+   "unknown|21-24": 9,
+   "unknown|<=16": 1
+  },
+  "stratum_pool": {
+   "apnic|17-20": 4,
+   "apnic|21-24": 48,
+   "arin|17-20": 56998,
+   "arin|21-24": 262085,
+   "arin|<=16": 14062,
+   "other|17-20": 2461,
+   "other|21-24": 10737,
+   "other|<=16": 463,
+   "ripe|17-20": 650,
+   "ripe|21-24": 6215,
+   "ripe|<=16": 334,
+   "unknown|17-20": 28,
+   "unknown|21-24": 435,
+   "unknown|<=16": 10
+  },
+  "rir_quota": {
+   "arin": 152,
+   "other": 15,
+   "ripe": 13,
+   "unknown": 10,
+   "apnic": 10
+  },
+  "stratum_sampled": {
+   "apnic|17-20": 1,
+   "apnic|21-24": 9,
+   "arin|17-20": 26,
+   "arin|21-24": 119,
+   "arin|<=16": 6,
+   "other|17-20": 2,
+   "other|21-24": 11,
+   "other|<=16": 1,
+   "ripe|17-20": 1,
+   "ripe|21-24": 11,
+   "ripe|<=16": 1,
+   "unknown|17-20": 1,
+   "unknown|21-24": 9,
+   "unknown|<=16": 1
+  },
+  "rep_ip_caliber": "first usable address of 2011 target prefix (start+1; /31,/32=start)",
+  "registry_caliber": "assrc source normalized to RIR; NIR jpnic/krnic/apnici->apnic; radb/ISP registries->other; multi-source AS takes first RIR by fixed priority"
+ },
+ "candidates": [
+  {
+   "prefix": "216.221.32.0/19",
+   "start": 3638370304,
+   "plen": 19,
+   "rep_ip": "216.221.32.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "SYNAPSE",
+    "AEI"
+   ],
+   "registry": "apnic",
+   "multihomed_org": true,
+   "stratum": "apnic|17-20"
+  },
+  {
+   "prefix": "206.63.184.0/22",
+   "start": 3460282368,
+   "plen": 22,
+   "rep_ip": "206.63.184.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "CEC"
+   ],
+   "registry": "apnic",
+   "multihomed_org": true,
+   "stratum": "apnic|21-24"
+  },
+  {
+   "prefix": "208.213.160.0/22",
+   "start": 3503661056,
+   "plen": 22,
+   "rep_ip": "208.213.160.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "CEC"
+   ],
+   "registry": "apnic",
+   "multihomed_org": true,
+   "stratum": "apnic|21-24"
+  },
+  {
+   "prefix": "199.102.156.0/22",
+   "start": 3345390592,
+   "plen": 22,
+   "rep_ip": "199.102.156.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "SYNAPSE",
+    "AEI"
+   ],
+   "registry": "apnic",
+   "multihomed_org": true,
+   "stratum": "apnic|21-24"
+  },
+  {
+   "prefix": "206.63.64.0/23",
+   "start": 3460251648,
+   "plen": 23,
+   "rep_ip": "206.63.64.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "CEC"
+   ],
+   "registry": "apnic",
+   "multihomed_org": true,
+   "stratum": "apnic|21-24"
+  },
+  {
+   "prefix": "216.221.52.0/22",
+   "start": 3638375424,
+   "plen": 22,
+   "rep_ip": "216.221.52.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "AEI",
+    "SYNAPSE"
+   ],
+   "registry": "apnic",
+   "multihomed_org": true,
+   "stratum": "apnic|21-24"
+  },
+  {
+   "prefix": "206.63.176.0/23",
+   "start": 3460280320,
+   "plen": 23,
+   "rep_ip": "206.63.176.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "CEC"
+   ],
+   "registry": "apnic",
+   "multihomed_org": true,
+   "stratum": "apnic|21-24"
+  },
+  {
+   "prefix": "66.36.156.0/22",
+   "start": 1109695488,
+   "plen": 22,
+   "rep_ip": "66.36.156.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "AEI",
+    "SYNAPSE"
+   ],
+   "registry": "apnic",
+   "multihomed_org": true,
+   "stratum": "apnic|21-24"
+  },
+  {
+   "prefix": "66.36.132.0/22",
+   "start": 1109689344,
+   "plen": 22,
+   "rep_ip": "66.36.132.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "SYNAPSE",
+    "AEI"
+   ],
+   "registry": "apnic",
+   "multihomed_org": true,
+   "stratum": "apnic|21-24"
+  },
+  {
+   "prefix": "206.63.116.0/22",
+   "start": 3460264960,
+   "plen": 22,
+   "rep_ip": "206.63.116.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "CEC"
+   ],
+   "registry": "apnic",
+   "multihomed_org": true,
+   "stratum": "apnic|21-24"
+  },
+  {
+   "prefix": "72.50.128.0/18",
+   "start": 1211269120,
+   "plen": 18,
+   "rep_ip": "72.50.128.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "ASN-WVNET",
+    "WVNET"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|17-20"
+  },
+  {
+   "prefix": "74.107.160.0/20",
+   "start": 1248567296,
+   "plen": 20,
+   "rep_ip": "74.107.160.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "VZGNI-TRANSIT",
+    "VZGNI-NYTRANSIT"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|17-20"
+  },
+  {
+   "prefix": "188.51.128.0/18",
+   "start": 3157491712,
+   "plen": 18,
+   "rep_ip": "188.51.128.1",
+   "org": "SAUDINET_DSL_POOL",
+   "as_names": [
+    "RIPE-ASNBLOCK11",
+    "SAUDINETSTC-AS"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|17-20"
+  },
+  {
+   "prefix": "65.79.176.0/20",
+   "start": 1095741440,
+   "plen": 20,
+   "rep_ip": "65.79.176.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "SASUSA",
+    "SUNGARDRS"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|17-20"
+  },
+  {
+   "prefix": "202.239.16.0/20",
+   "start": 3404664832,
+   "plen": 20,
+   "rep_ip": "202.239.16.1",
+   "org": "TokyoNet-CIDR-BLK-JP",
+   "as_names": [
+    "APNIC-AS-BLOCK",
+    "IDC"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|17-20"
+  },
+  {
+   "prefix": "46.229.224.0/20",
+   "start": 786817024,
+   "plen": 20,
+   "rep_ip": "46.229.224.1",
+   "org": "SK-VNET",
+   "as_names": [
+    "RIPE-ASNBLOCK-28672",
+    "VNET-AS"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|17-20"
+  },
+  {
+   "prefix": "17.83.0.0/17",
+   "start": 290652160,
+   "plen": 17,
+   "rep_ip": "17.83.0.1",
+   "org": "IANA-NETBLOCK-17",
+   "as_names": [
+    "APPLE",
+    "APPLE-ENGINEERING"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|17-20"
+  },
+  {
+   "prefix": "113.52.64.0/18",
+   "start": 1899249664,
+   "plen": 18,
+   "rep_ip": "113.52.64.1",
+   "org": "CTM-MO",
+   "as_names": [
+    "APNIC-AS-BLOCK",
+    "CTM-MO"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|17-20"
+  },
+  {
+   "prefix": "111.95.0.0/19",
+   "start": 1868496896,
+   "plen": 19,
+   "rep_ip": "111.95.0.1",
+   "org": "FastNet",
+   "as_names": [
+    "APNIC-23552",
+    "BM-AS-ID"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|17-20"
+  },
+  {
+   "prefix": "62.220.192.0/19",
+   "start": 1054654464,
+   "plen": 19,
+   "rep_ip": "62.220.192.1",
+   "org": "MK-MPT-20000703",
+   "as_names": [
+    "MT-AS-OWN",
+    "PTT-MACEDONIA-AS",
+    "RIPE-ASNBLOCK6"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|17-20"
+  },
+  {
+   "prefix": "219.86.0.0/17",
+   "start": 3679846400,
+   "plen": 17,
+   "rep_ip": "219.86.0.1",
+   "org": "TFN-NET",
+   "as_names": [
+    "APNIC-AS-3-BLOCK",
+    "TFN-TW"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|17-20"
+  },
+  {
+   "prefix": "66.188.208.0/20",
+   "start": 1119670272,
+   "plen": 20,
+   "rep_ip": "66.188.208.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "CHARTER-NET-HKY-NC",
+    "MAINT-CHTR-WD"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|17-20"
+  },
+  {
+   "prefix": "211.97.64.0/19",
+   "start": 3546365952,
+   "plen": 19,
+   "rep_ip": "211.97.64.1",
+   "org": "UNICOM",
+   "as_names": [
+    "CHINA169-BACKBONE",
+    "APNIC-AS-BLOCK"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|17-20"
+  },
+  {
+   "prefix": "213.155.96.0/19",
+   "start": 3583729664,
+   "plen": 19,
+   "rep_ip": "213.155.96.1",
+   "org": "TR-DORUK-NET-20020927",
+   "as_names": [
+    "ASN-DORUKNET",
+    "DORUKNET",
+    "RIPE-ASNBLOCK7"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|17-20"
+  },
+  {
+   "prefix": "161.150.64.0/18",
+   "start": 2710978560,
+   "plen": 18,
+   "rep_ip": "161.150.64.1",
+   "org": "ERX-NETBLOCK",
+   "as_names": [
+    "NATIONAL-CITY-CORP"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|17-20"
+  },
+  {
+   "prefix": "81.93.240.0/20",
+   "start": 1365110784,
+   "plen": 20,
+   "rep_ip": "81.93.240.1",
+   "org": "EURO-WEB",
+   "as_names": [
+    "RIPE-ASNBLOCK-34816",
+    "EURO-WEB-AS"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|17-20"
+  },
+  {
+   "prefix": "212.58.96.0/19",
+   "start": 3560595456,
+   "plen": 19,
+   "rep_ip": "212.58.96.1",
+   "org": "GE-CN-19990831",
+   "as_names": [
+    "CAUCASUS-NET-AS",
+    "RIPE-ASNBLOCK-28672"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|17-20"
+  },
+  {
+   "prefix": "75.116.64.0/20",
+   "start": 1265909760,
+   "plen": 20,
+   "rep_ip": "75.116.64.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "ALLTEL"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|17-20"
+  },
+  {
+   "prefix": "121.1.128.0/17",
+   "start": 2030141440,
+   "plen": 17,
+   "rep_ip": "121.1.128.1",
+   "org": "ASAHI-NET-CIDR-BLK-JP",
+   "as_names": [
+    "ASAHI-NET",
+    "APNIC-AS-BLOCK"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|17-20"
+  },
+  {
+   "prefix": "119.17.0.0/19",
+   "start": 1997602816,
+   "plen": 19,
+   "rep_ip": "119.17.0.1",
+   "org": "GCS",
+   "as_names": [
+    "APNIC-AS-3-BLOCK",
+    "GCS-AS-KR"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|17-20"
+  },
+  {
+   "prefix": "216.255.176.0/20",
+   "start": 3640635392,
+   "plen": 20,
+   "rep_ip": "216.255.176.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "INFOLINK-MIA-US"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|17-20"
+  },
+  {
+   "prefix": "68.115.192.0/19",
+   "start": 1148436480,
+   "plen": 19,
+   "rep_ip": "68.115.192.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "CHARTER-NET-HKY-NC",
+    "MAINT-CHTR-WD"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|17-20"
+  },
+  {
+   "prefix": "220.229.224.0/19",
+   "start": 3706052608,
+   "plen": 19,
+   "rep_ip": "220.229.224.1",
+   "org": "NCICNET-NET",
+   "as_names": [
+    "NCIC-TW",
+    "APNIC-AS-3-BLOCK"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|17-20"
+  },
+  {
+   "prefix": "69.77.192.0/18",
+   "start": 1162723328,
+   "plen": 18,
+   "rep_ip": "69.77.192.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "GWTC",
+    "GWTC-ASN"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|17-20"
+  },
+  {
+   "prefix": "76.164.192.0/19",
+   "start": 1285865472,
+   "plen": 19,
+   "rep_ip": "76.164.192.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "RDTL",
+    "VERSAWEB-ASN"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|17-20"
+  },
+  {
+   "prefix": "203.210.192.0/20",
+   "start": 3419586560,
+   "plen": 20,
+   "rep_ip": "203.210.192.1",
+   "org": "vtn-net",
+   "as_names": [
+    "APNIC-AS-4-BLOCK",
+    "VNPT-AS-VN"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|17-20"
+  },
+  {
+   "prefix": "91.217.20.0/24",
+   "start": 1540953088,
+   "plen": 24,
+   "rep_ip": "91.217.20.1",
+   "org": "RU-SERVICE",
+   "as_names": [
+    "RIPE-ASNBLOCK-48128",
+    "RU-SERVICE-AS"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "78.142.62.0/24",
+   "start": 1317944832,
+   "plen": 24,
+   "rep_ip": "78.142.62.1",
+   "org": "BG-POWERNET-20070730",
+   "as_names": [
+    "POWERNET-AS",
+    "RIPE-ASNBLOCK7"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "83.69.124.0/23",
+   "start": 1397062656,
+   "plen": 23,
+   "rep_ip": "83.69.124.1",
+   "org": "TIC-FOR-ADSL",
+   "as_names": [
+    "RIPE-ASNBLOCK-28672",
+    "TATINT-AS"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "216.89.223.0/24",
+   "start": 3629768448,
+   "plen": 24,
+   "rep_ip": "216.89.223.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "ASN-LOGIC",
+    "LOGICLINK"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "93.113.200.0/23",
+   "start": 1567737856,
+   "plen": 23,
+   "rep_ip": "93.113.200.1",
+   "org": "SC-DYNAMIC-DISTRIBUTION-SRL",
+   "as_names": [
+    "RIPE-ASNBLOCK-38912",
+    "RODYNAMIC-AS"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "202.155.251.0/24",
+   "start": 3399219968,
+   "plen": 24,
+   "rep_ip": "202.155.251.1",
+   "org": "BB-WTT",
+   "as_names": [
+    "NEWTT-IP-AP",
+    "APNIC-AS-3-BLOCK"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "64.251.20.0/24",
+   "start": 1090196480,
+   "plen": 24,
+   "rep_ip": "64.251.20.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "INFOLINK-MIA-US"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "208.48.0.0/24",
+   "start": 3492806656,
+   "plen": 24,
+   "rep_ip": "208.48.0.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "AKAMAI-AS",
+    "AKAMAI-LAX2"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "125.17.137.0/24",
+   "start": 2098301184,
+   "plen": 24,
+   "rep_ip": "125.17.137.1",
+   "org": "BHARTI-IN",
+   "as_names": [
+    "APNIC-AS-3-BLOCK",
+    "BBIL-AP"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "64.255.112.0/24",
+   "start": 1090482176,
+   "plen": 24,
+   "rep_ip": "64.255.112.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "MAPLETRONICSCOMP"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "122.50.127.0/24",
+   "start": 2050129664,
+   "plen": 24,
+   "rep_ip": "122.50.127.1",
+   "org": "SCANSAFE-TY2",
+   "as_names": [
+    "ASN-EQUINIX-AP",
+    "APNIC-17652"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "195.95.172.0/24",
+   "start": 3277827072,
+   "plen": 24,
+   "rep_ip": "195.95.172.1",
+   "org": "kilroytravels",
+   "as_names": [
+    "KTI-AS",
+    "RIPE-ASNBLOCK-40960"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "208.110.176.0/24",
+   "start": 3496914944,
+   "plen": 24,
+   "rep_ip": "208.110.176.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "FULLNETINC"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "81.52.232.0/22",
+   "start": 1362421760,
+   "plen": 22,
+   "rep_ip": "81.52.232.1",
+   "org": "FR-RR-CENTRE",
+   "as_names": [
+    "AS3215",
+    "RIPE-ASNBLOCK4"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "169.130.72.0/22",
+   "start": 2843887616,
+   "plen": 22,
+   "rep_ip": "169.130.72.1",
+   "org": "ERX-NETBLOCK",
+   "as_names": [
+    "AS-PAETEC-NET"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "218.209.8.0/24",
+   "start": 3671132160,
+   "plen": 24,
+   "rep_ip": "218.209.8.1",
+   "org": "TBROAD-KR",
+   "as_names": [
+    "VITSSEN-SUWON-AS-KR",
+    "APNIC-23552"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "203.124.209.0/24",
+   "start": 3413954816,
+   "plen": 24,
+   "rep_ip": "203.124.209.1",
+   "org": "TATACOMM-IN",
+   "as_names": [
+    "TATA-AS",
+    "APNIC-AS-3-BLOCK"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "202.125.98.0/24",
+   "start": 3397214720,
+   "plen": 24,
+   "rep_ip": "202.125.98.1",
+   "org": "APNGTSNET-AU",
+   "as_names": [
+    "APNIC-55296",
+    "APNGTSNET-AS-AP"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "144.194.0.0/21",
+   "start": 2428633088,
+   "plen": 21,
+   "rep_ip": "144.194.0.1",
+   "org": "ERX-NETBLOCK",
+   "as_names": [
+    "IATA"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "111.71.240.0/23",
+   "start": 1866985472,
+   "plen": 23,
+   "rep_ip": "111.71.240.1",
+   "org": "EMOME-NET",
+   "as_names": [
+    "APNIC-17408",
+    "EMOME-TW"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "202.73.108.0/22",
+   "start": 3393809408,
+   "plen": 22,
+   "rep_ip": "202.73.108.1",
+   "org": "CBN",
+   "as_names": [
+    "ASN-CBN",
+    "APNIC-AS-BLOCK"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "72.28.248.0/22",
+   "start": 1209858048,
+   "plen": 22,
+   "rep_ip": "72.28.248.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "ATLANTICBB-MIDDLETOWN"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "180.194.68.0/22",
+   "start": 3032630272,
+   "plen": 22,
+   "rep_ip": "180.194.68.1",
+   "org": "DIGITAL",
+   "as_names": [
+    "APNIC-AS-3-BLOCK",
+    "DIGITELONE"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "122.153.53.0/24",
+   "start": 2056860928,
+   "plen": 24,
+   "rep_ip": "122.153.53.1",
+   "org": "PUBNETPLUS",
+   "as_names": [
+    "APNIC-37888",
+    "GOEAS-AS-KR"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "202.149.215.0/24",
+   "start": 3398817536,
+   "plen": 24,
+   "rep_ip": "202.149.215.1",
+   "org": "HTIL-TTML-IN",
+   "as_names": [
+    "HTIL-TTML-IN-AP",
+    "APNIC-17652"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "85.121.206.0/24",
+   "start": 1434045952,
+   "plen": 24,
+   "rep_ip": "85.121.206.1",
+   "org": "SC-COBRANET-SRL",
+   "as_names": [
+    "RIPE-ASNBLOCK-40960",
+    "COBRANET-AS"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "203.15.122.0/24",
+   "start": 3406789120,
+   "plen": 24,
+   "rep_ip": "203.15.122.1",
+   "org": "CQU-AU",
+   "as_names": [
+    "AARNET-AS-AP",
+    "APNIC-AS-2-BLOCK"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "85.95.241.0/24",
+   "start": 1432350976,
+   "plen": 24,
+   "rep_ip": "85.95.241.1",
+   "org": "IXIRTELEKOM-DATACENTER-SERVICES-IP-POOL",
+   "as_names": [
+    "RIPE-ASNBLOCK11",
+    "KRIWEB"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "207.59.146.0/23",
+   "start": 3476787712,
+   "plen": 23,
+   "rep_ip": "207.59.146.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "AS-PAETEC-NET"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "81.21.100.0/24",
+   "start": 1360356352,
+   "plen": 24,
+   "rep_ip": "81.21.100.1",
+   "org": "AFRINIC-NET-TRANSFERRED-20050223",
+   "as_names": [
+    "AFRINIC(EG)",
+    "LINKDOTNET-AS",
+    "RIPE-ASNBLOCK11"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "216.8.64.0/23",
+   "start": 3624419328,
+   "plen": 23,
+   "rep_ip": "216.8.64.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "HISNET"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "65.18.214.0/23",
+   "start": 1091753472,
+   "plen": 23,
+   "rep_ip": "65.18.214.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "ASTRUM-0001"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "195.245.226.0/24",
+   "start": 3287671296,
+   "plen": 24,
+   "rep_ip": "195.245.226.1",
+   "org": "SprintNet",
+   "as_names": [
+    "SPRINTNET",
+    "RIPE-ASNBLOCK10"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "91.193.212.0/22",
+   "start": 1539429376,
+   "plen": 22,
+   "rep_ip": "91.193.212.1",
+   "org": "CHERMETRESURS-NET",
+   "as_names": [
+    "RIPE-ASNBLOCK-41984",
+    "CHERMETRESURS-AS"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "199.164.129.0/24",
+   "start": 3349446912,
+   "plen": 24,
+   "rep_ip": "199.164.129.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "TERAGO-AS",
+    "TRGO"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "204.227.208.0/24",
+   "start": 3437481984,
+   "plen": 24,
+   "rep_ip": "204.227.208.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "WYOMING"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "124.124.20.0/24",
+   "start": 2088506368,
+   "plen": 24,
+   "rep_ip": "124.124.20.1",
+   "org": "RCOM-STATIC",
+   "as_names": [
+    "RELIANCE-COMMUNICATIONS-IN",
+    "APNIC-17652"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "162.97.162.0/24",
+   "start": 2724307456,
+   "plen": 24,
+   "rep_ip": "162.97.162.1",
+   "org": "ERX-NETBLOCK",
+   "as_names": [
+    "AS-PROVI-25"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "195.42.103.0/24",
+   "start": 3274336000,
+   "plen": 24,
+   "rep_ip": "195.42.103.1",
+   "org": "TODAYHOST-NL",
+   "as_names": [
+    "RIPE-ASNBLOCK-47104",
+    "TDHN"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "91.208.216.0/24",
+   "start": 1540413440,
+   "plen": 24,
+   "rep_ip": "91.208.216.1",
+   "org": "mrbnk-net",
+   "as_names": [
+    "MARITIME-BANK",
+    "RIPE-ASNBLOCK-47104"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "115.64.224.0/21",
+   "start": 1933631488,
+   "plen": 21,
+   "rep_ip": "115.64.224.1",
+   "org": "TPG-AU",
+   "as_names": [
+    "APNIC-AS-2-BLOCK",
+    "TPG-INTERNET-AP"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "82.147.80.0/24",
+   "start": 1385385984,
+   "plen": 24,
+   "rep_ip": "82.147.80.1",
+   "org": "TECHNO-NET",
+   "as_names": [
+    "RIPE-ASNBLOCK-31000",
+    "SIBTEL-AS"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "220.120.228.0/23",
+   "start": 3698910208,
+   "plen": 23,
+   "rep_ip": "220.120.228.1",
+   "org": "KORNET",
+   "as_names": [
+    "APNIC-AS-BLOCK",
+    "KIXS-AS-KR"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "193.192.48.0/23",
+   "start": 3250597888,
+   "plen": 23,
+   "rep_ip": "193.192.48.1",
+   "org": "ASP-PI",
+   "as_names": [
+    "ASP-AS",
+    "RIPE-ASNBLOCK-34816"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "199.53.188.0/24",
+   "start": 3342187520,
+   "plen": 24,
+   "rep_ip": "199.53.188.1",
+   "org": "CSG",
+   "as_names": [
+    "RIPE-ASBLOCK-3083",
+    "CREDITSUISSEGROUP-AS"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "61.107.170.0/24",
+   "start": 1030466048,
+   "plen": 24,
+   "rep_ip": "61.107.170.1",
+   "org": "DREAMX-KR",
+   "as_names": [
+    "APNIC-AS-3-BLOCK",
+    "JOIL-AS-KR"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "195.5.164.0/24",
+   "start": 3271926784,
+   "plen": 24,
+   "rep_ip": "195.5.164.1",
+   "org": "LINEAL-SI",
+   "as_names": [
+    "RIPE-ASNBLOCK5",
+    "AS5603",
+    "SIOL-NET"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "194.145.176.0/22",
+   "start": 3264327680,
+   "plen": 22,
+   "rep_ip": "194.145.176.1",
+   "org": "SPOE-AT-NET",
+   "as_names": [
+    "RIPE-ASNBLOCK-33792",
+    "SPOE-AS"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "210.104.148.0/24",
+   "start": 3530068992,
+   "plen": 24,
+   "rep_ip": "210.104.148.1",
+   "org": "PUBNET-KR",
+   "as_names": [
+    "NCIA-AS-KR",
+    "APNIC-17652"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "204.124.172.0/22",
+   "start": 3430722560,
+   "plen": 22,
+   "rep_ip": "204.124.172.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "DATACHAMBERS"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "113.193.104.0/24",
+   "start": 1908500480,
+   "plen": 24,
+   "rep_ip": "113.193.104.1",
+   "org": "TIKONANET",
+   "as_names": [
+    "APNIC-AS-4-BLOCK",
+    "TDN"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "213.131.90.0/24",
+   "start": 3582155264,
+   "plen": 24,
+   "rep_ip": "213.131.90.1",
+   "org": "AFRINIC-NET-TRANSFERRED-20050223",
+   "as_names": [
+    "RIPE-ASNBLOCK11",
+    "AFRINIC(EG)",
+    "LINKDOTNET-AS"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "205.146.40.0/24",
+   "start": 3448907776,
+   "plen": 24,
+   "rep_ip": "205.146.40.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "COGENT",
+    "COGENT-174"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "69.160.27.0/24",
+   "start": 1168120576,
+   "plen": 24,
+   "rep_ip": "69.160.27.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "BARDL-AS"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "87.120.41.0/24",
+   "start": 1467492608,
+   "plen": 24,
+   "rep_ip": "87.120.41.1",
+   "org": "HOSTBG-NET",
+   "as_names": [
+    "NETINFO",
+    "RIPE-ASNBLOCK8"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "195.88.136.0/23",
+   "start": 3277359104,
+   "plen": 23,
+   "rep_ip": "195.88.136.1",
+   "org": "Zorgring",
+   "as_names": [
+    "RIPE-ASNBLOCK-48128",
+    "ZORGRING-AS"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "211.26.168.0/24",
+   "start": 3541739520,
+   "plen": 24,
+   "rep_ip": "211.26.168.1",
+   "org": "INTERNETPRIMUS",
+   "as_names": [
+    "INTERNETPRIMUS-AS-AP",
+    "APNIC-AS-3-BLOCK"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "195.66.99.0/24",
+   "start": 3275907840,
+   "plen": 24,
+   "rep_ip": "195.66.99.1",
+   "org": "MESSERKNECHT-NET",
+   "as_names": [
+    "MESSERKNECHT-AS",
+    "RIPE-ASNBLOCK-44032"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "67.232.212.0/22",
+   "start": 1139332096,
+   "plen": 22,
+   "rep_ip": "67.232.212.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "EMBARQ-NEBRASKA"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "203.202.6.0/24",
+   "start": 3419014656,
+   "plen": 24,
+   "rep_ip": "203.202.6.1",
+   "org": "OPTUSCOM-AU",
+   "as_names": [
+    "APNIC-2764",
+    "AAPT"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "115.128.144.0/21",
+   "start": 1937805312,
+   "plen": 21,
+   "rep_ip": "115.128.144.1",
+   "org": "H3GAIPNET",
+   "as_names": [
+    "H3GA-AP",
+    "APNIC-17652"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "63.243.7.0/24",
+   "start": 1072891648,
+   "plen": 24,
+   "rep_ip": "63.243.7.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "AS-PAETEC-NET"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "74.198.156.0/22",
+   "start": 1254530048,
+   "plen": 22,
+   "rep_ip": "74.198.156.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "ROGERS-WIRELESS"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "72.55.0.0/21",
+   "start": 1211564032,
+   "plen": 21,
+   "rep_ip": "72.55.0.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "COMCAST-TELECOMM",
+    "CTI-TEL",
+    "ROADRUNNER"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "118.95.192.0/24",
+   "start": 1985986560,
+   "plen": 24,
+   "rep_ip": "118.95.192.1",
+   "org": "SIFYNET",
+   "as_names": [
+    "APNIC-23890",
+    "SIFY-IN"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "110.54.140.0/22",
+   "start": 1849068544,
+   "plen": 22,
+   "rep_ip": "110.54.140.1",
+   "org": "LBNI",
+   "as_names": [
+    "LBNI",
+    "APNIC-AS-4-BLOCK"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "216.146.110.0/24",
+   "start": 3633475072,
+   "plen": 24,
+   "rep_ip": "216.146.110.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "3RC"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "89.251.248.0/22",
+   "start": 1509685248,
+   "plen": 22,
+   "rep_ip": "89.251.248.1",
+   "org": "AMB-EXT-2008",
+   "as_names": [
+    "CABLECOM",
+    "RIPE-ASNBLOCK7"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "124.139.78.0/23",
+   "start": 2089504256,
+   "plen": 23,
+   "rep_ip": "124.139.78.1",
+   "org": "SK-TELECOM-NET-KR",
+   "as_names": [
+    "APNIC-37888",
+    "GOEPJ-AS-KR"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "122.176.164.0/24",
+   "start": 2058396672,
+   "plen": 24,
+   "rep_ip": "122.176.164.1",
+   "org": "BNLD-209392-NewDelhi",
+   "as_names": [
+    "APNIC-23890",
+    "AIRTELBROADBAND-AS-AP"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "159.245.18.0/24",
+   "start": 2683638272,
+   "plen": 24,
+   "rep_ip": "159.245.18.1",
+   "org": "ALSTOMLTD-NET",
+   "as_names": [
+    "ATT-EMEAIDC-AMS1-AS",
+    "RIPE-ASNBLOCK6"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "72.24.34.0/24",
+   "start": 1209541120,
+   "plen": 24,
+   "rep_ip": "72.24.34.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "ASN-11492",
+    "CABLEONE"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "14.35.107.0/24",
+   "start": 237202176,
+   "plen": 24,
+   "rep_ip": "14.35.107.1",
+   "org": "KORNET",
+   "as_names": [
+    "GOEYJ-AS-KR",
+    "APNIC-37888"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "194.156.209.0/24",
+   "start": 3265057024,
+   "plen": 24,
+   "rep_ip": "194.156.209.1",
+   "org": "MILUPA",
+   "as_names": [
+    "RIPE-ASNBLOCK8",
+    "PLUSLINE"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "208.213.202.0/23",
+   "start": 3503671808,
+   "plen": 23,
+   "rep_ip": "208.213.202.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "ANS-CORP-NY"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "110.175.10.0/23",
+   "start": 1856965120,
+   "plen": 23,
+   "rep_ip": "110.175.10.1",
+   "org": "TPG-AU",
+   "as_names": [
+    "APNIC-AS-2-BLOCK",
+    "TPG-INTERNET-AP"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "195.90.226.0/24",
+   "start": 3277513216,
+   "plen": 24,
+   "rep_ip": "195.90.226.1",
+   "org": "BO-IPNET",
+   "as_names": [
+    "BUSINESSONLINEAG",
+    "RIPE-ASNBLOCK7"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "168.244.190.0/23",
+   "start": 2834611712,
+   "plen": 23,
+   "rep_ip": "168.244.190.1",
+   "org": "ERX-NETBLOCK",
+   "as_names": [
+    "168-244"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "121.242.240.0/23",
+   "start": 2045964288,
+   "plen": 23,
+   "rep_ip": "121.242.240.1",
+   "org": "TATACOMM-IN",
+   "as_names": [
+    "TATACOMM-AS",
+    "APNIC-AS-BLOCK"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "93.81.116.0/22",
+   "start": 1565619200,
+   "plen": 22,
+   "rep_ip": "93.81.116.1",
+   "org": "CORBINA-BROADBAND",
+   "as_names": [
+    "RIPE-ASNBLOCK7",
+    "CORBINA-AS"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "87.126.230.0/24",
+   "start": 1467934208,
+   "plen": 24,
+   "rep_ip": "87.126.230.1",
+   "org": "BTC-BROADBAND-NET-4",
+   "as_names": [
+    "BTC-AS",
+    "RIPE-ASNBLOCK7"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "212.62.40.0/23",
+   "start": 3560843264,
+   "plen": 23,
+   "rep_ip": "212.62.40.1",
+   "org": "POGLEDNET",
+   "as_names": [
+    "PTT-SRBIJA-NET",
+    "RIPE-ASNBLOCK8"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "87.255.8.0/24",
+   "start": 1476331520,
+   "plen": 24,
+   "rep_ip": "87.255.8.1",
+   "org": "BIGTELECOM",
+   "as_names": [
+    "RIPE-ASNBLOCK-34816",
+    "BIGTELECOM-AS"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "195.190.9.0/24",
+   "start": 3284011264,
+   "plen": 24,
+   "rep_ip": "195.190.9.1",
+   "org": "DE-TIPRONET-01",
+   "as_names": [
+    "RIPE-ASNBLOCK-31000",
+    "ACCELERATED-IT"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "61.109.162.0/24",
+   "start": 1030595072,
+   "plen": 24,
+   "rep_ip": "61.109.162.1",
+   "org": "SEJONGNET-KR",
+   "as_names": [
+    "APNIC-23552",
+    "HYROADPUSAN-AS-KR"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "210.9.136.0/21",
+   "start": 3523840000,
+   "plen": 21,
+   "rep_ip": "210.9.136.1",
+   "org": "BYTECARD-CC-AU",
+   "as_names": [
+    "APNIC-17652",
+    "NETSPEED-AS-AP"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "65.202.142.0/23",
+   "start": 1103793664,
+   "plen": 23,
+   "rep_ip": "65.202.142.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "ADVANCE-GW"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "203.27.52.0/24",
+   "start": 3407557632,
+   "plen": 24,
+   "rep_ip": "203.27.52.1",
+   "org": "CTYOFSALISBURY-AU",
+   "as_names": [
+    "AMNET-AU-AP",
+    "APNIC-AS-3-BLOCK"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "74.118.216.0/24",
+   "start": 1249302528,
+   "plen": 24,
+   "rep_ip": "74.118.216.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "RABOBANK-AMERICAS-NYW",
+    "RABOS-AS"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "69.27.211.0/24",
+   "start": 1159451392,
+   "plen": 24,
+   "rep_ip": "69.27.211.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "MISSOURI-NETWORK-ALLIANCE"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "211.220.224.0/22",
+   "start": 3554467840,
+   "plen": 22,
+   "rep_ip": "211.220.224.1",
+   "org": "KORNET",
+   "as_names": [
+    "APNIC-AS-BLOCK",
+    "KIXS-AS-KR"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "208.60.95.0/24",
+   "start": 3493617408,
+   "plen": 24,
+   "rep_ip": "208.60.95.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "BELLSOUTH-NET-BLK"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "66.47.112.0/22",
+   "start": 1110405120,
+   "plen": 22,
+   "rep_ip": "66.47.112.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "NEWEDGENETS",
+    "NEWEDGENETWORKS"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "213.146.245.0/24",
+   "start": 3583177984,
+   "plen": 24,
+   "rep_ip": "213.146.245.1",
+   "org": "SKYTRON",
+   "as_names": [
+    "RIPE-ASNBLOCK11",
+    "SKYTRON"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "199.43.43.0/24",
+   "start": 3341495040,
+   "plen": 24,
+   "rep_ip": "199.43.43.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "BAC-MLAMRS"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "203.32.32.0/24",
+   "start": 3407880192,
+   "plen": 24,
+   "rep_ip": "203.32.32.1",
+   "org": "STARWAYPARRAMAT-AU",
+   "as_names": [
+    "APNIC-AS-3-BLOCK",
+    "INTERNETPRIMUS-AS-AP"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "92.60.96.0/24",
+   "start": 1547460608,
+   "plen": 24,
+   "rep_ip": "92.60.96.1",
+   "org": "HOST-IT-NRTH",
+   "as_names": [
+    "RIPE-ASNBLOCK-33792",
+    "HOSTIT-AS-NN"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "66.85.38.0/24",
+   "start": 1112876544,
+   "plen": 24,
+   "rep_ip": "66.85.38.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "WHC-NET"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "204.101.201.0/24",
+   "start": 3429222656,
+   "plen": 24,
+   "rep_ip": "204.101.201.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "BELLMOBILITY-1"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "63.219.9.0/24",
+   "start": 1071319296,
+   "plen": 24,
+   "rep_ip": "63.219.9.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "APNIC-AS-3-BLOCK",
+    "HUTCHCA-AS"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "58.97.56.0/24",
+   "start": 979449856,
+   "plen": 24,
+   "rep_ip": "58.97.56.1",
+   "org": "TRUE-Corporate",
+   "as_names": [
+    "APNIC-AS-2-BLOCK",
+    "ASIAINFO-AS-AP"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "213.149.145.0/24",
+   "start": 3583348992,
+   "plen": 24,
+   "rep_ip": "213.149.145.1",
+   "org": "MEGALAN-NET",
+   "as_names": [
+    "RIPE-ASNBLOCK-47104",
+    "CITYNET-BLG"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "208.88.65.0/24",
+   "start": 3495444736,
+   "plen": 24,
+   "rep_ip": "208.88.65.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "BLUEBIRD-WIRELESS"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "75.102.176.0/24",
+   "start": 1265020928,
+   "plen": 24,
+   "rep_ip": "75.102.176.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "SDNET"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "205.176.229.0/24",
+   "start": 3450922240,
+   "plen": 24,
+   "rep_ip": "205.176.229.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "STATE-OF-FLA"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "80.93.252.0/24",
+   "start": 1348336640,
+   "plen": 24,
+   "rep_ip": "80.93.252.1",
+   "org": "VIVINMEDIA-NET",
+   "as_names": [
+    "RIPE-ASNBLOCK10",
+    "ABSOLUTOK"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "67.213.128.0/24",
+   "start": 1138065408,
+   "plen": 24,
+   "rep_ip": "67.213.128.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "AWL-29-AS"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "68.170.196.0/24",
+   "start": 1152041984,
+   "plen": 24,
+   "rep_ip": "68.170.196.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "ZAYOB-NE"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "91.206.248.0/23",
+   "start": 1540290560,
+   "plen": 23,
+   "rep_ip": "91.206.248.1",
+   "org": "CITYCOM-NET",
+   "as_names": [
+    "RIPE-ASNBLOCK-47104",
+    "CITYCOM-AS"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "38.108.196.0/24",
+   "start": 644662272,
+   "plen": 24,
+   "rep_ip": "38.108.196.1",
+   "org": "IANA-NETBLOCK-38",
+   "as_names": [
+    "JHR"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "64.114.80.0/22",
+   "start": 1081233408,
+   "plen": 22,
+   "rep_ip": "64.114.80.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "ASN-CIPHERKEY",
+    "CIPHERKEY"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "195.228.253.0/24",
+   "start": 3286564096,
+   "plen": 24,
+   "rep_ip": "195.228.253.1",
+   "org": "Adatpark1",
+   "as_names": [
+    "MT-DC-AS",
+    "RIPE-ASNBLOCK9"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "123.108.172.0/22",
+   "start": 2070719488,
+   "plen": 22,
+   "rep_ip": "123.108.172.1",
+   "org": "HCN-KR",
+   "as_names": [
+    "APNIC-AS-3-BLOCK",
+    "HCN-AS"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "193.164.138.0/24",
+   "start": 3248785920,
+   "plen": 24,
+   "rep_ip": "193.164.138.1",
+   "org": "marc-net",
+   "as_names": [
+    "MARC-NET_AS",
+    "RIPE-ASNBLOCK-40960"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "74.127.74.0/24",
+   "start": 1249856000,
+   "plen": 24,
+   "rep_ip": "74.127.74.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "NRTC-ORG"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "192.54.43.0/24",
+   "start": 3224775424,
+   "plen": 24,
+   "rep_ip": "192.54.43.1",
+   "org": "IX-LAN",
+   "as_names": [
+    "RIPE-ASNBLOCK9",
+    "IPH"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "67.209.39.0/24",
+   "start": 1137780480,
+   "plen": 24,
+   "rep_ip": "67.209.39.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "IC2NET"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "146.83.73.0/24",
+   "start": 2454931712,
+   "plen": 24,
+   "rep_ip": "146.83.73.1",
+   "org": "ERX-NETBLOCK",
+   "as_names": [
+    "LACNIC-11340",
+    "REUNA"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "62.7.40.0/21",
+   "start": 1040656384,
+   "plen": 21,
+   "rep_ip": "62.7.40.1",
+   "org": "BT-CVIPS",
+   "as_names": [
+    "AS8903",
+    "RIPE-ASNBLOCK7"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|21-24"
+  },
+  {
+   "prefix": "138.123.0.0/16",
+   "start": 2323316736,
+   "plen": 16,
+   "rep_ip": "138.123.0.1",
+   "org": "ERX-NETBLOCK",
+   "as_names": [
+    "COGENT",
+    "COGENT-174"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|<=16"
+  },
+  {
+   "prefix": "211.169.0.0/16",
+   "start": 3551068160,
+   "plen": 16,
+   "rep_ip": "211.169.0.1",
+   "org": "BORANET-NET-211-169",
+   "as_names": [
+    "LGDACOM",
+    "APNIC-3786"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|<=16"
+  },
+  {
+   "prefix": "182.232.0.0/16",
+   "start": 3068657664,
+   "plen": 16,
+   "rep_ip": "182.232.0.1",
+   "org": "TH_AIS_Mobile_Internet",
+   "as_names": [
+    "APNIC-37888",
+    "AIS-TH-AP"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|<=16"
+  },
+  {
+   "prefix": "138.27.0.0/16",
+   "start": 2317025280,
+   "plen": 16,
+   "rep_ip": "138.27.0.1",
+   "org": "ERX-NETBLOCK",
+   "as_names": [
+    "CTNOSC-ASNBLK-1464-1465"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|<=16"
+  },
+  {
+   "prefix": "42.113.0.0/16",
+   "start": 712048640,
+   "plen": 16,
+   "rep_ip": "42.113.0.1",
+   "org": "FPT-VN",
+   "as_names": [
+    "FPT-AS-AP",
+    "APNIC-17652"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|<=16"
+  },
+  {
+   "prefix": "195.143.0.0/16",
+   "start": 3280928768,
+   "plen": 16,
+   "rep_ip": "195.143.0.1",
+   "org": "UK-INTEROUTE-970513",
+   "as_names": [
+    "CYBERNET-AG",
+    "RIPE-ASNBLOCK7"
+   ],
+   "registry": "arin",
+   "multihomed_org": true,
+   "stratum": "arin|<=16"
+  },
+  {
+   "prefix": "64.132.240.0/20",
+   "start": 1082454016,
+   "plen": 20,
+   "rep_ip": "64.132.240.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "TWTC"
+   ],
+   "registry": "other",
+   "multihomed_org": true,
+   "stratum": "other|17-20"
+  },
+  {
+   "prefix": "67.228.64.0/20",
+   "start": 1139032064,
+   "plen": 20,
+   "rep_ip": "67.228.64.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "SOFTLAYER"
+   ],
+   "registry": "other",
+   "multihomed_org": true,
+   "stratum": "other|17-20"
+  },
+  {
+   "prefix": "71.29.238.0/24",
+   "start": 1193143808,
+   "plen": 24,
+   "rep_ip": "71.29.238.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "WINDSTREAM"
+   ],
+   "registry": "other",
+   "multihomed_org": true,
+   "stratum": "other|21-24"
+  },
+  {
+   "prefix": "208.117.237.0/24",
+   "start": 3497389312,
+   "plen": 24,
+   "rep_ip": "208.117.237.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "GOOGLE"
+   ],
+   "registry": "other",
+   "multihomed_org": true,
+   "stratum": "other|21-24"
+  },
+  {
+   "prefix": "216.174.28.0/24",
+   "start": 3635289088,
+   "plen": 24,
+   "rep_ip": "216.174.28.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "SHGREENPOINTS"
+   ],
+   "registry": "other",
+   "multihomed_org": true,
+   "stratum": "other|21-24"
+  },
+  {
+   "prefix": "67.121.166.0/24",
+   "start": 1132045824,
+   "plen": 24,
+   "rep_ip": "67.121.166.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "ANDERSON-MERCH"
+   ],
+   "registry": "other",
+   "multihomed_org": true,
+   "stratum": "other|21-24"
+  },
+  {
+   "prefix": "208.88.80.0/24",
+   "start": 3495448576,
+   "plen": 24,
+   "rep_ip": "208.88.80.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "CBSITE-CHI-WEB"
+   ],
+   "registry": "other",
+   "multihomed_org": true,
+   "stratum": "other|21-24"
+  },
+  {
+   "prefix": "204.209.150.0/24",
+   "start": 3436287488,
+   "plen": 24,
+   "rep_ip": "204.209.150.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "UNISERVE",
+    "UNISERVE-ONLINE"
+   ],
+   "registry": "other",
+   "multihomed_org": true,
+   "stratum": "other|21-24"
+  },
+  {
+   "prefix": "65.17.32.0/24",
+   "start": 1091641344,
+   "plen": 24,
+   "rep_ip": "65.17.32.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "BIRCH-TELECOM"
+   ],
+   "registry": "other",
+   "multihomed_org": true,
+   "stratum": "other|21-24"
+  },
+  {
+   "prefix": "206.12.50.0/24",
+   "start": 3456905728,
+   "plen": 24,
+   "rep_ip": "206.12.50.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "UVIC-AS"
+   ],
+   "registry": "other",
+   "multihomed_org": true,
+   "stratum": "other|21-24"
+  },
+  {
+   "prefix": "204.26.60.0/22",
+   "start": 3424271360,
+   "plen": 22,
+   "rep_ip": "204.26.60.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "IPTRANSIT"
+   ],
+   "registry": "other",
+   "multihomed_org": true,
+   "stratum": "other|21-24"
+  },
+  {
+   "prefix": "199.184.112.0/22",
+   "start": 3350753280,
+   "plen": 22,
+   "rep_ip": "199.184.112.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "WA-K20"
+   ],
+   "registry": "other",
+   "multihomed_org": true,
+   "stratum": "other|21-24"
+  },
+  {
+   "prefix": "71.29.201.0/24",
+   "start": 1193134336,
+   "plen": 24,
+   "rep_ip": "71.29.201.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "WINDSTREAM"
+   ],
+   "registry": "other",
+   "multihomed_org": true,
+   "stratum": "other|21-24"
+  },
+  {
+   "prefix": "142.51.0.0/16",
+   "start": 2385707008,
+   "plen": 16,
+   "rep_ip": "142.51.0.1",
+   "org": "ERX-NETBLOCK",
+   "as_names": [
+    "LU-CA",
+    "LAURENTIANU"
+   ],
+   "registry": "other",
+   "multihomed_org": true,
+   "stratum": "other|<=16"
+  },
+  {
+   "prefix": "74.174.0.0/19",
+   "start": 1252917248,
+   "plen": 19,
+   "rep_ip": "74.174.0.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "INS-AS"
+   ],
+   "registry": "ripe",
+   "multihomed_org": true,
+   "stratum": "ripe|17-20"
+  },
+  {
+   "prefix": "199.246.215.0/24",
+   "start": 3354842880,
+   "plen": 24,
+   "rep_ip": "199.246.215.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "CYBERNET"
+   ],
+   "registry": "ripe",
+   "multihomed_org": true,
+   "stratum": "ripe|21-24"
+  },
+  {
+   "prefix": "74.127.64.0/23",
+   "start": 1249853440,
+   "plen": 23,
+   "rep_ip": "74.127.64.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "INS-AS"
+   ],
+   "registry": "ripe",
+   "multihomed_org": true,
+   "stratum": "ripe|21-24"
+  },
+  {
+   "prefix": "208.64.43.0/24",
+   "start": 3493866240,
+   "plen": 24,
+   "rep_ip": "208.64.43.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "GBLX"
+   ],
+   "registry": "ripe",
+   "multihomed_org": true,
+   "stratum": "ripe|21-24"
+  },
+  {
+   "prefix": "64.76.230.0/23",
+   "start": 1078781440,
+   "plen": 23,
+   "rep_ip": "64.76.230.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "GBLX"
+   ],
+   "registry": "ripe",
+   "multihomed_org": true,
+   "stratum": "ripe|21-24"
+  },
+  {
+   "prefix": "64.13.32.0/22",
+   "start": 1074601984,
+   "plen": 22,
+   "rep_ip": "64.13.32.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "UUNET"
+   ],
+   "registry": "ripe",
+   "multihomed_org": true,
+   "stratum": "ripe|21-24"
+  },
+  {
+   "prefix": "209.108.192.0/21",
+   "start": 3513565184,
+   "plen": 21,
+   "rep_ip": "209.108.192.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "LEVEL3"
+   ],
+   "registry": "ripe",
+   "multihomed_org": true,
+   "stratum": "ripe|21-24"
+  },
+  {
+   "prefix": "206.106.183.0/24",
+   "start": 3463100160,
+   "plen": 24,
+   "rep_ip": "206.106.183.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "ETI"
+   ],
+   "registry": "ripe",
+   "multihomed_org": true,
+   "stratum": "ripe|21-24"
+  },
+  {
+   "prefix": "65.91.244.0/24",
+   "start": 1096545280,
+   "plen": 24,
+   "rep_ip": "65.91.244.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "LEVEL3"
+   ],
+   "registry": "ripe",
+   "multihomed_org": true,
+   "stratum": "ripe|21-24"
+  },
+  {
+   "prefix": "199.127.220.0/22",
+   "start": 3347045376,
+   "plen": 22,
+   "rep_ip": "199.127.220.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "ETC"
+   ],
+   "registry": "ripe",
+   "multihomed_org": true,
+   "stratum": "ripe|21-24"
+  },
+  {
+   "prefix": "206.83.24.0/24",
+   "start": 3461552128,
+   "plen": 24,
+   "rep_ip": "206.83.24.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "WIN"
+   ],
+   "registry": "ripe",
+   "multihomed_org": true,
+   "stratum": "ripe|21-24"
+  },
+  {
+   "prefix": "2.16.148.0/23",
+   "start": 34640896,
+   "plen": 23,
+   "rep_ip": "2.16.148.1",
+   "org": "AKAMAI-PA",
+   "as_names": [
+    "GBLX"
+   ],
+   "registry": "ripe",
+   "multihomed_org": true,
+   "stratum": "ripe|21-24"
+  },
+  {
+   "prefix": "206.64.0.0/14",
+   "start": 3460300800,
+   "plen": 14,
+   "rep_ip": "206.64.0.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "UUNET"
+   ],
+   "registry": "ripe",
+   "multihomed_org": true,
+   "stratum": "ripe|<=16"
+  },
+  {
+   "prefix": "130.52.128.0/20",
+   "start": 2184478720,
+   "plen": 20,
+   "rep_ip": "130.52.128.1",
+   "org": "ERX-NETBLOCK",
+   "as_names": [
+    "19533"
+   ],
+   "registry": "unknown",
+   "multihomed_org": true,
+   "stratum": "unknown|17-20"
+  },
+  {
+   "prefix": "204.80.161.0/24",
+   "start": 3427836160,
+   "plen": 24,
+   "rep_ip": "204.80.161.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "23496"
+   ],
+   "registry": "unknown",
+   "multihomed_org": true,
+   "stratum": "unknown|21-24"
+  },
+  {
+   "prefix": "63.144.153.0/24",
+   "start": 1066440960,
+   "plen": 24,
+   "rep_ip": "63.144.153.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "30150"
+   ],
+   "registry": "unknown",
+   "multihomed_org": true,
+   "stratum": "unknown|21-24"
+  },
+  {
+   "prefix": "69.6.80.0/24",
+   "start": 1158041600,
+   "plen": 24,
+   "rep_ip": "69.6.80.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "13442"
+   ],
+   "registry": "unknown",
+   "multihomed_org": true,
+   "stratum": "unknown|21-24"
+  },
+  {
+   "prefix": "64.207.200.0/24",
+   "start": 1087358976,
+   "plen": 24,
+   "rep_ip": "64.207.200.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "30304"
+   ],
+   "registry": "unknown",
+   "multihomed_org": true,
+   "stratum": "unknown|21-24"
+  },
+  {
+   "prefix": "38.112.186.0/24",
+   "start": 644921856,
+   "plen": 24,
+   "rep_ip": "38.112.186.1",
+   "org": "IANA-NETBLOCK-38",
+   "as_names": [
+    "13486"
+   ],
+   "registry": "unknown",
+   "multihomed_org": true,
+   "stratum": "unknown|21-24"
+  },
+  {
+   "prefix": "66.9.244.0/24",
+   "start": 1107948544,
+   "plen": 24,
+   "rep_ip": "66.9.244.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "16455"
+   ],
+   "registry": "unknown",
+   "multihomed_org": true,
+   "stratum": "unknown|21-24"
+  },
+  {
+   "prefix": "160.79.135.0/24",
+   "start": 2689566464,
+   "plen": 24,
+   "rep_ip": "160.79.135.1",
+   "org": "ERX-NETBLOCK",
+   "as_names": [
+    "16455"
+   ],
+   "registry": "unknown",
+   "multihomed_org": true,
+   "stratum": "unknown|21-24"
+  },
+  {
+   "prefix": "65.113.88.0/21",
+   "start": 1097947136,
+   "plen": 21,
+   "rep_ip": "65.113.88.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "14434"
+   ],
+   "registry": "unknown",
+   "multihomed_org": true,
+   "stratum": "unknown|21-24"
+  },
+  {
+   "prefix": "208.97.214.0/24",
+   "start": 3496072704,
+   "plen": 24,
+   "rep_ip": "208.97.214.1",
+   "org": "ARIN-CIDR-BLOCK",
+   "as_names": [
+    "39991"
+   ],
+   "registry": "unknown",
+   "multihomed_org": true,
+   "stratum": "unknown|21-24"
+  },
+  {
+   "prefix": "134.216.0.0/16",
+   "start": 2262302720,
+   "plen": 16,
+   "rep_ip": "134.216.0.1",
+   "org": "ERX-NETBLOCK",
+   "as_names": [
+    "22586"
+   ],
+   "registry": "unknown",
+   "multihomed_org": true,
+   "stratum": "unknown|<=16"
+  }
+ ]
+}

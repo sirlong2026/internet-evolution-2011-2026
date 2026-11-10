@@ -1,0 +1,401 @@
+{
+  "msm": 234624433,
+  "fetched_at": "2026-11-09T05:30:19Z",
+  "rows": 63,
+  "vantages_with_rows": 63,
+  "expected_fps": [
+    "9b03a055ff2b3613",
+    "e4c5b5f977df46ce"
+  ],
+  "union_fps": [
+    "9b03a055ff2b3613",
+    "e4c5b5f977df46ce"
+  ],
+  "stray_fps": [],
+  "per_vantage": {
+    "12214": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "12441": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6251": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6307": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6313": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6316": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6320": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6323": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6329": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6330": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6331": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6333": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6335": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6342": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6349": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6350": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6352": {
+      "hands": 1,
+      "fps": [
+        "e4c5b5f977df46ce"
+      ],
+      "err": 0,
+      "alert": 0
+    },
+    "6370": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6373": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6379": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6410": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6420": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6425": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6429": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6441": {
+      "hands": 1,
+      "fps": [
+        "9b03a055ff2b3613"
+      ],
+      "err": 0,
+      "alert": 0
+    },
+    "6456": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6477": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6485": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6493": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6503": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6506": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6526": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6544": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6547": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6553": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6569": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6604": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6636": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6641": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6662": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6669": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6681": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6779": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6792": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6818": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6868": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6887": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6905": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6907": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6953": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6954": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "6982": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "7007": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "7030": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "7032": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "7099": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "7171": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "7292": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "7298": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "7310": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "7400": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "7414": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    },
+    "7810": {
+      "hands": 0,
+      "fps": [],
+      "err": 1,
+      "alert": 0
+    }
+  },
+  "o3_ready": [],
+  "partial_two_fps": []
+}

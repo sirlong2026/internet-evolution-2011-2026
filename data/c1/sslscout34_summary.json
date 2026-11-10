@@ -1,0 +1,601 @@
+{
+ "meta": {
+  "date": "2026-11-08",
+  "note": "org-domain TLS liveness scout (frame a); fw 5130 success format = top-level cert PEM array (NOT result.certificates); IP targets without SNI — alert 40/80 = vhost rejection, server alive",
+  "tls_live_criterion": "top-level cert array ∪ result.certificates"
+ },
+ "results": [
+  {
+   "msm_id": 234179067,
+   "domain": "2dayhost.com",
+   "ip": "104.21.18.53",
+   "edge": "cloudflare",
+   "tls_ok": false,
+   "cert_variants": 0,
+   "leaf_fps": [],
+   "subject": null,
+   "issuer": null,
+   "notBefore": null,
+   "notAfter": null,
+   "last_err": "",
+   "alerts": [
+    "2/40"
+   ],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179068,
+   "domain": "alstom.com",
+   "ip": "104.18.2.12",
+   "edge": "cloudflare",
+   "tls_ok": false,
+   "cert_variants": 0,
+   "leaf_fps": [],
+   "subject": null,
+   "issuer": null,
+   "notBefore": null,
+   "notAfter": null,
+   "last_err": "",
+   "alerts": [
+    "2/40"
+   ],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179069,
+   "domain": "asp.bg",
+   "ip": "193.192.48.3",
+   "edge": "direct",
+   "tls_ok": true,
+   "cert_variants": 1,
+   "leaf_fps": [
+    "a8b02ba4e5f0c608b0801df1d5141ee3bfd33a0503d99d6c982c946ee89ff3d5"
+   ],
+   "subject": "C=BG, ST=Sofia, L=Sofia, O=ASP Ltd., CN=www.asp.bg",
+   "issuer": "C=BG, ST=Sofia, L=Sofia, O=ASP Ltd., CN=www.asp.bg",
+   "notBefore": "Jan  6 08:21:58 2004 GMT",
+   "notAfter": "Jan  6 08:21:58 2005 GMT",
+   "last_err": "",
+   "alerts": [],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179070,
+   "domain": "caucasus.net",
+   "ip": "172.67.146.6",
+   "edge": "cloudflare",
+   "tls_ok": false,
+   "cert_variants": 0,
+   "leaf_fps": [],
+   "subject": null,
+   "issuer": null,
+   "notBefore": null,
+   "notAfter": null,
+   "last_err": "",
+   "alerts": [
+    "2/40"
+   ],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179071,
+   "domain": "chmr.ru",
+   "ip": "95.163.244.135",
+   "edge": "direct",
+   "tls_ok": false,
+   "cert_variants": 0,
+   "leaf_fps": [],
+   "subject": null,
+   "issuer": null,
+   "notBefore": null,
+   "notAfter": null,
+   "last_err": "",
+   "alerts": [
+    "2/80"
+   ],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179072,
+   "domain": "cqu.edu.au",
+   "ip": "162.159.140.123",
+   "edge": "cloudflare",
+   "tls_ok": false,
+   "cert_variants": 0,
+   "leaf_fps": [],
+   "subject": null,
+   "issuer": null,
+   "notBefore": null,
+   "notAfter": null,
+   "last_err": "",
+   "alerts": [
+    "2/40"
+   ],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179073,
+   "domain": "ctm.net",
+   "ip": "202.175.27.77",
+   "edge": "direct",
+   "tls_ok": true,
+   "cert_variants": 1,
+   "leaf_fps": [
+    "233a7c9c13617b83e154af4060108876c9566627fe00fc66577fb49ebe000bc8"
+   ],
+   "subject": "C=MO, ST=Macao, L=Macao, O=Companhia de Telecomunicacoes de Macau S.A.R.L., CN=*.ctm.net",
+   "issuer": "C=BE, O=GlobalSign nv-sa, CN=GlobalSign RSA OV SSL CA 2018",
+   "notBefore": "Nov  7 10:36:17 2025 GMT",
+   "notAfter": "Dec  9 10:36:16 2026 GMT",
+   "last_err": "",
+   "alerts": [],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179074,
+   "domain": "exchangenext.net",
+   "ip": "202.138.114.4",
+   "edge": "direct",
+   "tls_ok": false,
+   "cert_variants": 0,
+   "leaf_fps": [],
+   "subject": null,
+   "issuer": null,
+   "notBefore": null,
+   "notAfter": null,
+   "last_err": "connect: Connection refused",
+   "alerts": [],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179075,
+   "domain": "farm.de",
+   "ip": "31.24.144.237",
+   "edge": "direct",
+   "tls_ok": true,
+   "cert_variants": 1,
+   "leaf_fps": [
+    "b8551fe79e4ac94bc9daf218348b3fba71e69d8614cc90f7a722bdaaf5bbd925"
+   ],
+   "subject": "CN=abraxas04.hosting.plutex.de",
+   "issuer": "C=US, O=Let's Encrypt, CN=YR1",
+   "notBefore": "Oct 28 05:47:54 2026 GMT",
+   "notAfter": "Jan 26 05:47:53 2027 GMT",
+   "last_err": "",
+   "alerts": [],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179076,
+   "domain": "greennet.ge",
+   "ip": "35.214.223.211",
+   "edge": "gcp",
+   "tls_ok": true,
+   "cert_variants": 1,
+   "leaf_fps": [
+    "3ecd07f99efdb0e53e875188bfc1b6d892d0a314e02772c9a5bc53bcba778c37"
+   ],
+   "subject": "CN=esm32.siteground.biz",
+   "issuer": "C=US, O=Let's Encrypt, CN=YR1",
+   "notBefore": "Oct  8 07:27:56 2026 GMT",
+   "notAfter": "Jan  6 07:27:55 2027 GMT",
+   "last_err": "",
+   "alerts": [],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179077,
+   "domain": "iberiapac.ge",
+   "ip": "212.58.96.3",
+   "edge": "direct",
+   "tls_ok": false,
+   "cert_variants": 0,
+   "leaf_fps": [],
+   "subject": null,
+   "issuer": null,
+   "notBefore": null,
+   "notAfter": null,
+   "last_err": "connect: timeout",
+   "alerts": [],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179078,
+   "domain": "iprimus.com.au",
+   "ip": "202.138.0.21",
+   "edge": "direct",
+   "tls_ok": true,
+   "cert_variants": 1,
+   "leaf_fps": [
+    "e9148548765bf69753a4d578b7d4bfc939a872f8a16af8dde66364791aead63b"
+   ],
+   "subject": "C=AU, ST=Victoria, O=Vocus Pty Ltd, CN=primus.com.au",
+   "issuer": "C=CA, O=Entrust Limited, CN=Entrust OV TLS Issuing RSA CA 2",
+   "notBefore": "Jul 28 00:00:00 2025 GMT",
+   "notAfter": "Aug 21 23:59:59 2026 GMT",
+   "last_err": "",
+   "alerts": [],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179079,
+   "domain": "ixirhost.com",
+   "ip": "85.95.237.188",
+   "edge": "direct",
+   "tls_ok": true,
+   "cert_variants": 1,
+   "leaf_fps": [
+    "175d0b76f990e86be39027be95004168c73a5de0d8d70e6b3f06b9c397bafc5a"
+   ],
+   "subject": "CN=www.newsletter.ixirhost.com",
+   "issuer": "C=US, O=Let's Encrypt, CN=YR1",
+   "notBefore": "Oct  6 06:27:40 2026 GMT",
+   "notAfter": "Jan  4 06:27:39 2027 GMT",
+   "last_err": "",
+   "alerts": [],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179080,
+   "domain": "jump.ro",
+   "ip": "194.8.80.80",
+   "edge": "direct",
+   "tls_ok": true,
+   "cert_variants": 1,
+   "leaf_fps": [
+    "44281d6fbfba3650723d0d2857e14aebcda070d872fb3421f64f3011992a85b9"
+   ],
+   "subject": "CN=www.jump.ro",
+   "issuer": "C=US, O=Let's Encrypt, CN=YR2",
+   "notBefore": "Sep 28 11:54:50 2026 GMT",
+   "notAfter": "Dec 27 11:54:49 2026 GMT",
+   "last_err": "",
+   "alerts": [],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179081,
+   "domain": "macomnet.ru",
+   "ip": "91.189.114.9",
+   "edge": "direct",
+   "tls_ok": false,
+   "cert_variants": 0,
+   "leaf_fps": [],
+   "subject": null,
+   "issuer": null,
+   "notBefore": null,
+   "notAfter": null,
+   "last_err": "",
+   "alerts": [
+    "2/80"
+   ],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179082,
+   "domain": "optus.net.au",
+   "ip": "203.13.127.32",
+   "edge": "direct",
+   "tls_ok": false,
+   "cert_variants": 0,
+   "leaf_fps": [],
+   "subject": null,
+   "issuer": null,
+   "notBefore": null,
+   "notAfter": null,
+   "last_err": "connect: timeout",
+   "alerts": [],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179083,
+   "domain": "plusline.de",
+   "ip": "82.98.127.7",
+   "edge": "direct",
+   "tls_ok": true,
+   "cert_variants": 1,
+   "leaf_fps": [
+    "bcda5194fc5a6a721500564dafa1f3721ef4ba90710b4faf944b7a8d9097e0bf"
+   ],
+   "subject": "CN=plusline.de",
+   "issuer": "C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA DV R36",
+   "notBefore": "Oct 15 00:00:00 2026 GMT",
+   "notAfter": "May  1 23:59:59 2027 GMT",
+   "last_err": "",
+   "alerts": [],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179084,
+   "domain": "powernet.bg",
+   "ip": "104.247.81.99",
+   "edge": "direct",
+   "tls_ok": false,
+   "cert_variants": 0,
+   "leaf_fps": [],
+   "subject": null,
+   "issuer": null,
+   "notBefore": null,
+   "notAfter": null,
+   "last_err": "",
+   "alerts": [
+    "2/80"
+   ],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179085,
+   "domain": "relarn.ru",
+   "ip": "45.95.203.19",
+   "edge": "direct",
+   "tls_ok": false,
+   "cert_variants": 0,
+   "leaf_fps": [],
+   "subject": null,
+   "issuer": null,
+   "notBefore": null,
+   "notAfter": null,
+   "last_err": "connect: Connection refused",
+   "alerts": [],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179086,
+   "domain": "sd-france.net",
+   "ip": "81.93.250.111",
+   "edge": "direct",
+   "tls_ok": false,
+   "cert_variants": 0,
+   "leaf_fps": [],
+   "subject": null,
+   "issuer": null,
+   "notBefore": null,
+   "notAfter": null,
+   "last_err": "connect: Connection refused",
+   "alerts": [],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179087,
+   "domain": "sobranie.mk",
+   "ip": "104.21.92.29",
+   "edge": "cloudflare",
+   "tls_ok": false,
+   "cert_variants": 0,
+   "leaf_fps": [],
+   "subject": null,
+   "issuer": null,
+   "notBefore": null,
+   "notAfter": null,
+   "last_err": "",
+   "alerts": [
+    "2/40"
+   ],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179088,
+   "domain": "sprint.pl",
+   "ip": "172.67.149.23",
+   "edge": "cloudflare",
+   "tls_ok": false,
+   "cert_variants": 0,
+   "leaf_fps": [],
+   "subject": null,
+   "issuer": null,
+   "notBefore": null,
+   "notAfter": null,
+   "last_err": "",
+   "alerts": [
+    "2/40"
+   ],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179089,
+   "domain": "tatanova.com",
+   "ip": "103.224.182.243",
+   "edge": "direct",
+   "tls_ok": true,
+   "cert_variants": 1,
+   "leaf_fps": [
+    "fee977ec67e5effda39411567dc667a32b939656a73a623a0ae2f5a6e38cee7f"
+   ],
+   "subject": "CN=strategicts.net",
+   "issuer": "C=US, O=Let's Encrypt, CN=R10",
+   "notBefore": "Jun 21 13:55:12 2024 GMT",
+   "notAfter": "Sep 19 13:55:11 2024 GMT",
+   "last_err": "",
+   "alerts": [],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179090,
+   "domain": "tatintel.com",
+   "ip": "34.41.139.193",
+   "edge": "gcp",
+   "tls_ok": false,
+   "cert_variants": 0,
+   "leaf_fps": [],
+   "subject": null,
+   "issuer": null,
+   "notBefore": null,
+   "notAfter": null,
+   "last_err": "timeout reading hello",
+   "alerts": [],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179091,
+   "domain": "tele.dk",
+   "ip": "3.125.131.179",
+   "edge": "aws",
+   "tls_ok": true,
+   "cert_variants": 1,
+   "leaf_fps": [
+    "a7590ee8846dd9a10302b9ba5739f7650177b9795455b4ce3c9315e062bdcc32"
+   ],
+   "subject": "O=Acme Co, CN=Kubernetes Ingress Controller Fake Certificate",
+   "issuer": "O=Acme Co, CN=Kubernetes Ingress Controller Fake Certificate",
+   "notBefore": "Sep 28 19:12:59 2026 GMT",
+   "notAfter": "Sep 28 19:12:59 2027 GMT",
+   "last_err": "",
+   "alerts": [],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179092,
+   "domain": "tikona.in",
+   "ip": "113.193.1.103",
+   "edge": "direct",
+   "tls_ok": true,
+   "cert_variants": 1,
+   "leaf_fps": [
+    "1b8c50d812389fce9b1455eb41e89ab3e0209830791a3f44e2413869155b1812"
+   ],
+   "subject": "C=IN, ST=Maharashtra, L=Mumbai, O=TIKONA INFINET PRIVATE LIMITED, CN=*.tikona.in",
+   "issuer": "C=BE, O=GlobalSign nv-sa, CN=GlobalSign RSA OV SSL CA 2018",
+   "notBefore": "Dec  4 10:27:01 2025 GMT",
+   "notAfter": "Dec 29 10:46:23 2026 GMT",
+   "last_err": "",
+   "alerts": [],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179094,
+   "domain": "tnpko.ru",
+   "ip": "81.23.144.250",
+   "edge": "direct",
+   "tls_ok": false,
+   "cert_variants": 0,
+   "leaf_fps": [],
+   "subject": null,
+   "issuer": null,
+   "notBefore": null,
+   "notAfter": null,
+   "last_err": "connect: Connection refused",
+   "alerts": [],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179095,
+   "domain": "tpgi.com.au",
+   "ip": "52.64.173.233",
+   "edge": "aws",
+   "tls_ok": true,
+   "cert_variants": 1,
+   "leaf_fps": [
+    "43d2f16db56885995807208beea7eb8415f4ecc369de3f5a89c620175efc502c"
+   ],
+   "subject": "CN=tpg.prod.tpmwebsite.c2.tpgtelecom.com.au",
+   "issuer": "C=US, O=Amazon, CN=Amazon RSA 2048 M01",
+   "notBefore": "Aug  2 00:00:00 2026 GMT",
+   "notAfter": "Feb 15 23:59:59 2027 GMT",
+   "last_err": "",
+   "alerts": [],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179096,
+   "domain": "trnet.ru",
+   "ip": "82.147.83.3",
+   "edge": "direct",
+   "tls_ok": false,
+   "cert_variants": 0,
+   "leaf_fps": [],
+   "subject": null,
+   "issuer": null,
+   "notBefore": null,
+   "notAfter": null,
+   "last_err": "connect: timeout",
+   "alerts": [],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179097,
+   "domain": "twnic.net",
+   "ip": "60.199.218.196",
+   "edge": "direct",
+   "tls_ok": false,
+   "cert_variants": 0,
+   "leaf_fps": [],
+   "subject": null,
+   "issuer": null,
+   "notBefore": null,
+   "notAfter": null,
+   "last_err": "connect: timeout",
+   "alerts": [],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179098,
+   "domain": "vnet.sk",
+   "ip": "217.73.28.12",
+   "edge": "direct",
+   "tls_ok": true,
+   "cert_variants": 1,
+   "leaf_fps": [
+    "65a077dbc1bb4e27b138dff89f4b861b175084799dfccbafaa3ee2b2edd036bd"
+   ],
+   "subject": "CN=primanet.sk",
+   "issuer": "C=US, O=Let's Encrypt, CN=YR2",
+   "notBefore": "Oct 22 18:34:45 2026 GMT",
+   "notAfter": "Jan 20 18:34:44 2027 GMT",
+   "last_err": "",
+   "alerts": [],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179099,
+   "domain": "vnn.vn",
+   "ip": "123.30.191.33",
+   "edge": "direct",
+   "tls_ok": false,
+   "cert_variants": 0,
+   "leaf_fps": [],
+   "subject": null,
+   "issuer": null,
+   "notBefore": null,
+   "notAfter": null,
+   "last_err": "connect: timeout",
+   "alerts": [],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179100,
+   "domain": "wi-tribe.ph",
+   "ip": "212.92.105.194",
+   "edge": "direct",
+   "tls_ok": true,
+   "cert_variants": 1,
+   "leaf_fps": [
+    "d255d51241a7a0b2f8ed71c96cd81cd42c3a07da87424654de57171101328a9c"
+   ],
+   "subject": "CN=example.com",
+   "issuer": "CN=example.com",
+   "notBefore": "Mar 21 04:15:51 2026 GMT",
+   "notAfter": "Mar 18 04:15:51 2036 GMT",
+   "last_err": "",
+   "alerts": [],
+   "n_results": 1
+  },
+  {
+   "msm_id": 234179101,
+   "domain": "zorgring.nl",
+   "ip": "195.88.137.126",
+   "edge": "direct",
+   "tls_ok": true,
+   "cert_variants": 1,
+   "leaf_fps": [
+    "6981c1c91f9959a4a67b460e6510b5e173d5f82d28aa08f002eb0aebcb6296fa"
+   ],
+   "subject": "CN=*.zorgring.nl",
+   "issuer": "C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA DV R36",
+   "notBefore": "Aug 25 00:00:00 2026 GMT",
+   "notAfter": "Mar 11 23:59:59 2027 GMT",
+   "last_err": "",
+   "alerts": [],
+   "n_results": 1
+  }
+ ]
+}

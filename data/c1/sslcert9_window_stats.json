@@ -1,0 +1,373 @@
+{
+ "at": "2026-11-10T09:53:53Z",
+ "source": "live",
+ "rows": [
+  {
+   "msm": 234183249,
+   "target": "ctm.net",
+   "group": "sslcert9",
+   "status": "Stopped",
+   "status_when": 1794275221,
+   "status_when_utc": "2026-11-10 01:47:01 UTC",
+   "start_time": 1794102395,
+   "stop_time": 1794275195,
+   "interval": 3600,
+   "nominal_window_h": 48.0,
+   "actual_window_h": 47.14,
+   "first_result_ts": 1794102576,
+   "last_result_ts": 1794272088,
+   "results_total": 192,
+   "rounds": 48,
+   "handshakes": 192,
+   "vantages_with_cert": 4,
+   "union_fp16_count": 1,
+   "stop_events": []
+  },
+  {
+   "msm": 234183263,
+   "target": "iprimus.com.au",
+   "group": "sslcert9",
+   "status": "Stopped",
+   "status_when": 1794275221,
+   "status_when_utc": "2026-11-10 01:47:01 UTC",
+   "start_time": 1794102398,
+   "stop_time": 1794275198,
+   "interval": 3600,
+   "nominal_window_h": 48.0,
+   "actual_window_h": 47.1,
+   "first_result_ts": 1794102576,
+   "last_result_ts": 1794271942,
+   "results_total": 192,
+   "rounds": 48,
+   "handshakes": 192,
+   "vantages_with_cert": 4,
+   "union_fp16_count": 1,
+   "stop_events": []
+  },
+  {
+   "msm": 234183279,
+   "target": "jump.ro",
+   "group": "sslcert9",
+   "status": "Stopped",
+   "status_when": 1794275221,
+   "status_when_utc": "2026-11-10 01:47:01 UTC",
+   "start_time": 1794102405,
+   "stop_time": 1794275205,
+   "interval": 3600,
+   "nominal_window_h": 48.0,
+   "actual_window_h": 47.13,
+   "first_result_ts": 1794102562,
+   "last_result_ts": 1794272078,
+   "results_total": 144,
+   "rounds": 48,
+   "handshakes": 96,
+   "vantages_with_cert": 2,
+   "union_fp16_count": 1,
+   "stop_events": []
+  },
+  {
+   "msm": 234183286,
+   "target": "plusline.de",
+   "group": "sslcert9",
+   "status": "Stopped",
+   "status_when": 1794275221,
+   "status_when_utc": "2026-11-10 01:47:01 UTC",
+   "start_time": 1794102410,
+   "stop_time": 1794275210,
+   "interval": 3600,
+   "nominal_window_h": 48.0,
+   "actual_window_h": 47.14,
+   "first_result_ts": 1794102556,
+   "last_result_ts": 1794272130,
+   "results_total": 192,
+   "rounds": 48,
+   "handshakes": 192,
+   "vantages_with_cert": 4,
+   "union_fp16_count": 1,
+   "stop_events": []
+  },
+  {
+   "msm": 234183296,
+   "target": "tikona.in",
+   "group": "sslcert9",
+   "status": "Stopped",
+   "status_when": 1794275221,
+   "status_when_utc": "2026-11-10 01:47:01 UTC",
+   "start_time": 1794102414,
+   "stop_time": 1794275214,
+   "interval": 3600,
+   "nominal_window_h": 48.0,
+   "actual_window_h": 47.13,
+   "first_result_ts": 1794102620,
+   "last_result_ts": 1794272074,
+   "results_total": 192,
+   "rounds": 48,
+   "handshakes": 192,
+   "vantages_with_cert": 4,
+   "union_fp16_count": 1,
+   "stop_events": []
+  },
+  {
+   "msm": 234183304,
+   "target": "tpgi.com.au",
+   "group": "sslcert9",
+   "status": "Stopped",
+   "status_when": 1794275221,
+   "status_when_utc": "2026-11-10 01:47:01 UTC",
+   "start_time": 1794102418,
+   "stop_time": 1794275218,
+   "interval": 3600,
+   "nominal_window_h": 48.0,
+   "actual_window_h": 47.15,
+   "first_result_ts": 1794102703,
+   "last_result_ts": 1794272157,
+   "results_total": 144,
+   "rounds": 48,
+   "handshakes": 143,
+   "vantages_with_cert": 3,
+   "union_fp16_count": 1,
+   "stop_events": []
+  },
+  {
+   "msm": 234183313,
+   "target": "vnet.sk",
+   "group": "sslcert9",
+   "status": "Stopped",
+   "status_when": 1794275281,
+   "status_when_utc": "2026-11-10 01:48:01 UTC",
+   "start_time": 1794102422,
+   "stop_time": 1794275222,
+   "interval": 3600,
+   "nominal_window_h": 48.0,
+   "actual_window_h": 47.13,
+   "first_result_ts": 1794102699,
+   "last_result_ts": 1794272105,
+   "results_total": 96,
+   "rounds": 48,
+   "handshakes": 96,
+   "vantages_with_cert": 2,
+   "union_fp16_count": 1,
+   "stop_events": []
+  },
+  {
+   "msm": 234183322,
+   "target": "zorgring.nl",
+   "group": "sslcert9",
+   "status": "Stopped",
+   "status_when": 1794275281,
+   "status_when_utc": "2026-11-10 01:48:01 UTC",
+   "start_time": 1794102426,
+   "stop_time": 1794275226,
+   "interval": 3600,
+   "nominal_window_h": 48.0,
+   "actual_window_h": 47.11,
+   "first_result_ts": 1794102754,
+   "last_result_ts": 1794272032,
+   "results_total": 144,
+   "rounds": 48,
+   "handshakes": 144,
+   "vantages_with_cert": 3,
+   "union_fp16_count": 1,
+   "stop_events": []
+  },
+  {
+   "msm": 234182558,
+   "target": "asp.bg",
+   "group": "sslcert9",
+   "status": "Forced to Stop",
+   "status_when": 1794123961,
+   "status_when_utc": "2026-11-08 07:46:01 UTC",
+   "start_time": 1794102252,
+   "stop_time": 1794275052,
+   "interval": 3600,
+   "nominal_window_h": 48.0,
+   "actual_window_h": 5.14,
+   "first_result_ts": 1794102426,
+   "last_result_ts": 1794120749,
+   "results_total": 24,
+   "rounds": 6,
+   "handshakes": 24,
+   "vantages_with_cert": 4,
+   "union_fp16_count": 2,
+   "stop_events": [
+    {
+     "time": "2026-11-08 16:18:24",
+     "msm": 234182558,
+     "status": "Forced to Stop",
+     "results": 24,
+     "group": "sslcert9-asp.bg",
+     "detected_local": "2026-11-08 16:18:24",
+     "atlas_status": "Forced to Stop",
+     "atlas_forced_stop_utc": "2026-11-08 07:46:01 UTC"
+    }
+   ]
+  },
+  {
+   "msm": 234657473,
+   "target": "asp.bg",
+   "group": "sslcert9-cont",
+   "status": "Stopped",
+   "status_when": 1794303001,
+   "status_when_utc": "2026-11-10 09:30:01 UTC",
+   "start_time": 1794206438,
+   "stop_time": 1794303000,
+   "interval": 3600,
+   "nominal_window_h": 26.82,
+   "actual_window_h": 26.08,
+   "first_result_ts": 1794206491,
+   "last_result_ts": 1794300321,
+   "results_total": 108,
+   "rounds": 27,
+   "handshakes": 108,
+   "vantages_with_cert": 4,
+   "union_fp16_count": 2,
+   "stop_events": []
+  }
+ ],
+ "per_target_merged": {
+  "ctm.net": {
+   "msms": [
+    234183249
+   ],
+   "handshakes": 192,
+   "vantages_max": 4,
+   "rounds_total": 48,
+   "observation_span_h": 47.09,
+   "active_window_h": 47.14,
+   "stop_events": [],
+   "union_fp16_count": 1
+  },
+  "iprimus.com.au": {
+   "msms": [
+    234183263
+   ],
+   "handshakes": 192,
+   "vantages_max": 4,
+   "rounds_total": 48,
+   "observation_span_h": 47.05,
+   "active_window_h": 47.1,
+   "stop_events": [],
+   "union_fp16_count": 1
+  },
+  "jump.ro": {
+   "msms": [
+    234183279
+   ],
+   "handshakes": 96,
+   "vantages_max": 2,
+   "rounds_total": 48,
+   "observation_span_h": 47.09,
+   "active_window_h": 47.13,
+   "stop_events": [],
+   "union_fp16_count": 1
+  },
+  "plusline.de": {
+   "msms": [
+    234183286
+   ],
+   "handshakes": 192,
+   "vantages_max": 4,
+   "rounds_total": 48,
+   "observation_span_h": 47.1,
+   "active_window_h": 47.14,
+   "stop_events": [],
+   "union_fp16_count": 1
+  },
+  "tikona.in": {
+   "msms": [
+    234183296
+   ],
+   "handshakes": 192,
+   "vantages_max": 4,
+   "rounds_total": 48,
+   "observation_span_h": 47.07,
+   "active_window_h": 47.13,
+   "stop_events": [],
+   "union_fp16_count": 1
+  },
+  "tpgi.com.au": {
+   "msms": [
+    234183304
+   ],
+   "handshakes": 143,
+   "vantages_max": 3,
+   "rounds_total": 48,
+   "observation_span_h": 47.07,
+   "active_window_h": 47.15,
+   "stop_events": [],
+   "union_fp16_count": 1
+  },
+  "vnet.sk": {
+   "msms": [
+    234183313
+   ],
+   "handshakes": 96,
+   "vantages_max": 2,
+   "rounds_total": 48,
+   "observation_span_h": 47.06,
+   "active_window_h": 47.13,
+   "stop_events": [],
+   "union_fp16_count": 1
+  },
+  "zorgring.nl": {
+   "msms": [
+    234183322
+   ],
+   "handshakes": 144,
+   "vantages_max": 3,
+   "rounds_total": 48,
+   "observation_span_h": 47.02,
+   "active_window_h": 47.11,
+   "stop_events": [],
+   "union_fp16_count": 1
+  },
+  "asp.bg": {
+   "msms": [
+    234182558,
+    234657473
+   ],
+   "handshakes": 132,
+   "vantages_max": 4,
+   "rounds_total": 33,
+   "observation_span_h": 54.97,
+   "active_window_h": 31.22,
+   "stop_events": [
+    {
+     "time": "2026-11-08 16:18:24",
+     "msm": 234182558,
+     "status": "Forced to Stop",
+     "results": 24,
+     "group": "sslcert9-asp.bg",
+     "detected_local": "2026-11-08 16:18:24",
+     "atlas_status": "Forced to Stop",
+     "atlas_forced_stop_utc": "2026-11-08 07:46:01 UTC"
+    }
+   ],
+   "union_fp16_count": 2
+  }
+ },
+ "fleet": {
+  "targets": 10,
+  "targets_merged": 9,
+  "handshakes_total": 1379,
+  "union_eq_1": 8,
+  "union_eq_2": 2,
+  "union_other": [],
+  "rounds_min": 6,
+  "rounds_max": 48,
+  "actual_window_h_min": 5.14,
+  "actual_window_h_max": 47.15,
+  "stopped_targets": [
+   "ctm.net",
+   "iprimus.com.au",
+   "jump.ro",
+   "plusline.de",
+   "tikona.in",
+   "tpgi.com.au",
+   "vnet.sk",
+   "zorgring.nl",
+   "asp.bg",
+   "asp.bg"
+  ]
+ }
+}

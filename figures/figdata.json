@@ -1,0 +1,644 @@
+{
+ "meta": {
+  "generated_at": "2026-11-10T09:54:38Z",
+  "generator": "tools/c1_figure_data.py",
+  "package": "artifact",
+  "provenance": {
+   "c1/candidates_today.json": "artifact:c1/candidates_today.json",
+   "c1/phase1_summary.json": "artifact:c1/phase1_summary.json",
+   "c1/scout_prescreen.json": "artifact:c1/scout_prescreen.json",
+   "c1/dnsmap_feasibility.json": "artifact:c1/dnsmap_feasibility.json",
+   "c1/sslscout34_summary.json": "artifact:c1/sslscout34_summary.json",
+   "routeviews/c0_survival.json": "artifact:routeviews/c0_survival.json",
+   "routeviews/c0_2011_calibration.json": "artifact:routeviews/c0_2011_calibration.json",
+   "routeviews/c0_compare.json": "artifact:routeviews/c0_compare.json",
+   "c1/sslcert9_judged.json": "artifact:c1/sslcert9_judged.json",
+   "c1/sslcert9_window_stats.json": "artifact:c1/sslcert9_window_stats.json",
+   "c1/target_labels.json": "artifact:c1/target_labels.json",
+   "c1/anchor/anchor_verdict.json": "artifact:c1/anchor/anchor_verdict.json"
+  },
+  "rule": "every number below is read from a published derived-statistics file; targets carry anonymized labels A-I only"
+ },
+ "fig1": {
+  "lineage": [
+   {
+    "stage": "2011 cohort candidates",
+    "n": 199,
+    "den": 199,
+    "note": "199 stratified candidates drawn from the 2011 snapshot"
+   },
+   {
+    "stage": "routable in 2026",
+    "n": 178,
+    "den": 199,
+    "exact": 90,
+    "note": "178 still covered in the 2026 routing view; 90 survive exactly"
+   },
+   {
+    "stage": "measurement set",
+    "n": 100,
+    "den": 199,
+    "exact": 57,
+    "covered_only": 43,
+    "note": "100 addresses: 57 exact survivors + 43 covered-only"
+   },
+   {
+    "stage": "ICMP-live",
+    "n": 35,
+    "den": 100,
+    "note": "35 of 100 answer echo requests from up to 50 vantages"
+   },
+   {
+    "stage": "TLS handshake at the old address",
+    "n": 1,
+    "den": 100,
+    "note": "1 of 100 completes a TLS handshake (unrelated third party)"
+   },
+   {
+    "stage": "2011 organization TLS identity",
+    "n": 0,
+    "den": 100,
+    "note": "0 of 100 still serve the 2011 organization's identity"
+   }
+  ],
+  "path_layer": {
+   "paths_total": 500,
+   "reached": 180,
+   "distinct_destinations_reached": 18,
+   "distinct_destinations": 50,
+   "live_paths": 180,
+   "live_paths_reached": 180,
+   "dead_paths": 320,
+   "dead_paths_reached": 0,
+   "note": "reachability is fully explained by address liveness: every path to a live address reaches its destination, no path to a dead address does"
+  },
+  "liveness_split": {
+   "live_exact": 25,
+   "exact_total": 57,
+   "live_covered": 10,
+   "covered_total": 43
+  },
+  "bridge": [
+   {
+    "stage": "measured addresses",
+    "n": 100,
+    "den": 100
+   },
+   {
+    "stage": "carrying 2011 hostname mappings",
+    "n": 51,
+    "den": 100,
+    "note": "51 of 100 (49 unique names)"
+   },
+   {
+    "stage": "registrable domains",
+    "n": 48,
+    "den": 100
+   },
+   {
+    "stage": "still resolving in 2026",
+    "n": 34,
+    "den": 48
+   },
+   {
+    "stage": "TLS handshake completed",
+    "n": 15,
+    "den": 34
+   },
+   {
+    "stage": "organization-identity leaves",
+    "n": 9,
+    "den": 15,
+    "note": "nine org-identity domains entered the 48-hour campaign"
+   }
+  ],
+  "edge_class": [
+   {
+    "edge": "direct",
+    "n": 24,
+    "tls_ok": 12
+   },
+   {
+    "edge": "cloudflare",
+    "n": 6,
+    "tls_ok": 0
+   },
+   {
+    "edge": "gcp",
+    "n": 2,
+    "tls_ok": 1
+   },
+   {
+    "edge": "aws",
+    "n": 2,
+    "tls_ok": 2
+   }
+  ]
+ },
+ "fig2": {
+  "buckets": {
+   "17-20": {
+    "agg": 74381,
+    "exact": 37825,
+    "n": 89697,
+    "agg_rate": 0.8292473549840017,
+    "exact_rate": 0.42169749266976597
+   },
+   "21-23": {
+    "agg": 149500,
+    "exact": 43152,
+    "n": 208983,
+    "agg_rate": 0.7153691927094549,
+    "exact_rate": 0.2064856950086849
+   },
+   "24": {
+    "agg": 244909,
+    "exact": 114912,
+    "n": 369292,
+    "agg_rate": 0.6631852301160057,
+    "exact_rate": 0.311168397907347
+   },
+   "<=16": {
+    "agg": 15766,
+    "exact": 11125,
+    "n": 18097,
+    "agg_rate": 0.8711941205724706,
+    "exact_rate": 0.6147427750455877
+   },
+   ">24": {
+    "agg": 6336,
+    "exact": 7,
+    "n": 27784,
+    "agg_rate": 0.2280449179383818,
+    "exact_rate": 0.0002519435646415203
+   }
+  },
+  "totals": {
+   "routes_2011": 713853,
+   "rib_records_2026": 1164339,
+   "rib_unique_prefixes_2026": 1164330,
+   "growth_factor_prefixes": 1.6310500901446097,
+   "aggregate_survival": 0.6876653876918637,
+   "exact_survival": 0.2900050850805418,
+   "aggregate_alive": 490892,
+   "exact_alive": 207021,
+   "slash8_covered_2011": 214,
+   "slash8_still_covered_2026": 207
+  },
+  "by_plen": {
+   "8": {
+    "agg": 25,
+    "exact": 8,
+    "n": 33,
+    "agg_rate": 0.7575757575757576,
+    "exact_rate": 0.24242424242424243
+   },
+   "9": {
+    "agg": 12,
+    "exact": 9,
+    "n": 14,
+    "agg_rate": 0.8571428571428571,
+    "exact_rate": 0.6428571428571429
+   },
+   "10": {
+    "agg": 27,
+    "exact": 20,
+    "n": 32,
+    "agg_rate": 0.84375,
+    "exact_rate": 0.625
+   },
+   "11": {
+    "agg": 93,
+    "exact": 58,
+    "n": 100,
+    "agg_rate": 0.93,
+    "exact_rate": 0.58
+   },
+   "12": {
+    "agg": 257,
+    "exact": 181,
+    "n": 276,
+    "agg_rate": 0.9311594202898551,
+    "exact_rate": 0.6557971014492754
+   },
+   "13": {
+    "agg": 535,
+    "exact": 384,
+    "n": 566,
+    "agg_rate": 0.9452296819787986,
+    "exact_rate": 0.6784452296819788
+   },
+   "14": {
+    "agg": 923,
+    "exact": 623,
+    "n": 992,
+    "agg_rate": 0.9304435483870968,
+    "exact_rate": 0.6280241935483871
+   },
+   "15": {
+    "agg": 1742,
+    "exact": 1025,
+    "n": 1912,
+    "agg_rate": 0.9110878661087866,
+    "exact_rate": 0.5360878661087866
+   },
+   "16": {
+    "agg": 12152,
+    "exact": 8817,
+    "n": 14172,
+    "agg_rate": 0.8574654247812589,
+    "exact_rate": 0.6221422523285352
+   },
+   "17": {
+    "agg": 7005,
+    "exact": 3664,
+    "n": 8015,
+    "agg_rate": 0.8739862757330006,
+    "exact_rate": 0.45714285714285713
+   },
+   "18": {
+    "agg": 11872,
+    "exact": 6040,
+    "n": 13674,
+    "agg_rate": 0.8682170542635659,
+    "exact_rate": 0.4417142021354395
+   },
+   "19": {
+    "agg": 23511,
+    "exact": 12341,
+    "n": 28084,
+    "agg_rate": 0.8371670702179177,
+    "exact_rate": 0.43943170488534394
+   },
+   "20": {
+    "agg": 31993,
+    "exact": 15780,
+    "n": 39924,
+    "agg_rate": 0.8013475603646929,
+    "exact_rate": 0.39525097685602645
+   },
+   "21": {
+    "agg": 34838,
+    "exact": 12723,
+    "n": 45539,
+    "agg_rate": 0.7650146028678715,
+    "exact_rate": 0.2793868991413953
+   },
+   "22": {
+    "agg": 50245,
+    "exact": 16560,
+    "n": 70017,
+    "agg_rate": 0.7176114372223888,
+    "exact_rate": 0.23651398945970264
+   },
+   "23": {
+    "agg": 64417,
+    "exact": 13869,
+    "n": 93427,
+    "agg_rate": 0.6894901902019759,
+    "exact_rate": 0.1484474509510099
+   },
+   "24": {
+    "agg": 244909,
+    "exact": 114912,
+    "n": 369292,
+    "agg_rate": 0.6631852301160057,
+    "exact_rate": 0.311168397907347
+   },
+   "25": {
+    "agg": 701,
+    "exact": 3,
+    "n": 2001,
+    "agg_rate": 0.3503248375812094,
+    "exact_rate": 0.0014992503748125937
+   },
+   "26": {
+    "agg": 690,
+    "exact": 0,
+    "n": 2332,
+    "agg_rate": 0.29588336192109777,
+    "exact_rate": 0.0
+   },
+   "27": {
+    "agg": 1483,
+    "exact": 4,
+    "n": 6994,
+    "agg_rate": 0.2120388904775522,
+    "exact_rate": 0.0005719187875321705
+   },
+   "28": {
+    "agg": 645,
+    "exact": 0,
+    "n": 2807,
+    "agg_rate": 0.22978268614178837,
+    "exact_rate": 0.0
+   },
+   "29": {
+    "agg": 2318,
+    "exact": 0,
+    "n": 12580,
+    "agg_rate": 0.18426073131955484,
+    "exact_rate": 0.0
+   },
+   "30": {
+    "agg": 198,
+    "exact": 0,
+    "n": 587,
+    "agg_rate": 0.3373083475298126,
+    "exact_rate": 0.0
+   },
+   "31": {
+    "agg": 1,
+    "exact": 0,
+    "n": 4,
+    "agg_rate": 0.25,
+    "exact_rate": 0.0
+   },
+   "32": {
+    "agg": 300,
+    "exact": 0,
+    "n": 479,
+    "agg_rate": 0.6263048016701461,
+    "exact_rate": 0.0
+   }
+  },
+  "calibration": {
+   "rib_2011_prefixes": 377201,
+   "rib_2011_peers": 45,
+   "snapshot_prefixes": 713853,
+   "snapshot_visible_in_rib_2011": {
+    "by_bucket": {
+     "<=16": {
+      "n": 18097,
+      "exact": 15022,
+      "covered": 15977,
+      "exact_rate": 0.830082,
+      "covered_rate": 0.882854
+     },
+     "17-20": {
+      "n": 89697,
+      "exact": 61096,
+      "covered": 79943,
+      "exact_rate": 0.681138,
+      "covered_rate": 0.891256
+     },
+     "21-23": {
+      "n": 208983,
+      "exact": 94132,
+      "covered": 186131,
+      "exact_rate": 0.450429,
+      "covered_rate": 0.890651
+     },
+     "24": {
+      "n": 369292,
+      "exact": 187498,
+      "covered": 341891,
+      "exact_rate": 0.507723,
+      "covered_rate": 0.925801
+     },
+     ">24": {
+      "n": 27784,
+      "exact": 638,
+      "covered": 27576,
+      "exact_rate": 0.022963,
+      "covered_rate": 0.992514
+     }
+    },
+    "total": {
+     "n": 713853,
+     "exact": 358386,
+     "covered": 651518,
+     "exact_rate": 0.502045,
+     "covered_rate": 0.912678
+    }
+   },
+   "rib_2011_covered_by_snapshot": {
+    "n": 377200,
+    "exact": 358386,
+    "covered": 376484,
+    "exact_rate": 0.950122,
+    "covered_rate": 0.998102
+   }
+  }
+ },
+ "fig3": {
+  "targets": [
+   {
+    "label": "A",
+    "domain": null,
+    "rounds": 33,
+    "orig_rounds": 6,
+    "handshakes": 132,
+    "vantages": 4,
+    "union_fp": 2,
+    "observation_span_h": 54.97,
+    "active_window_h": 31.22,
+    "msms": [
+     234182558,
+     234657473
+    ],
+    "stop_events": [
+     {
+      "time": "2026-11-08 16:18:24",
+      "msm": 234182558,
+      "status": "Forced to Stop",
+      "results": 24,
+      "group": "sslcert9-asp.bg",
+      "detected_local": "2026-11-08 16:18:24",
+      "atlas_status": "Forced to Stop",
+      "atlas_forced_stop_utc": "2026-11-08 07:46:01 UTC"
+     }
+    ],
+    "verdict": "conditionally decidable",
+    "winner": "c3",
+    "kappa": 0.333
+   },
+   {
+    "label": "B",
+    "domain": null,
+    "rounds": 48,
+    "orig_rounds": null,
+    "handshakes": 192,
+    "vantages": 4,
+    "union_fp": 1,
+    "observation_span_h": 47.09,
+    "active_window_h": 47.14,
+    "msms": [
+     234183249
+    ],
+    "stop_events": [],
+    "verdict": "indistinguishable",
+    "winner": null,
+    "kappa": 0.333
+   },
+   {
+    "label": "C",
+    "domain": null,
+    "rounds": 48,
+    "orig_rounds": null,
+    "handshakes": 192,
+    "vantages": 4,
+    "union_fp": 1,
+    "observation_span_h": 47.05,
+    "active_window_h": 47.1,
+    "msms": [
+     234183263
+    ],
+    "stop_events": [],
+    "verdict": "indistinguishable",
+    "winner": null,
+    "kappa": 0.333
+   },
+   {
+    "label": "D",
+    "domain": null,
+    "rounds": 48,
+    "orig_rounds": null,
+    "handshakes": 96,
+    "vantages": 2,
+    "union_fp": 1,
+    "observation_span_h": 47.09,
+    "active_window_h": 47.13,
+    "msms": [
+     234183279
+    ],
+    "stop_events": [],
+    "verdict": "indistinguishable",
+    "winner": null,
+    "kappa": 0.333
+   },
+   {
+    "label": "E",
+    "domain": null,
+    "rounds": 48,
+    "orig_rounds": null,
+    "handshakes": 192,
+    "vantages": 4,
+    "union_fp": 1,
+    "observation_span_h": 47.1,
+    "active_window_h": 47.14,
+    "msms": [
+     234183286
+    ],
+    "stop_events": [],
+    "verdict": "indistinguishable",
+    "winner": null,
+    "kappa": 0.333
+   },
+   {
+    "label": "F",
+    "domain": null,
+    "rounds": 48,
+    "orig_rounds": null,
+    "handshakes": 192,
+    "vantages": 4,
+    "union_fp": 1,
+    "observation_span_h": 47.07,
+    "active_window_h": 47.13,
+    "msms": [
+     234183296
+    ],
+    "stop_events": [],
+    "verdict": "indistinguishable",
+    "winner": null,
+    "kappa": 0.333
+   },
+   {
+    "label": "G",
+    "domain": null,
+    "rounds": 48,
+    "orig_rounds": null,
+    "handshakes": 143,
+    "vantages": 3,
+    "union_fp": 1,
+    "observation_span_h": 47.07,
+    "active_window_h": 47.15,
+    "msms": [
+     234183304
+    ],
+    "stop_events": [],
+    "verdict": "indistinguishable",
+    "winner": null,
+    "kappa": 0.333
+   },
+   {
+    "label": "H",
+    "domain": null,
+    "rounds": 48,
+    "orig_rounds": null,
+    "handshakes": 96,
+    "vantages": 2,
+    "union_fp": 1,
+    "observation_span_h": 47.06,
+    "active_window_h": 47.13,
+    "msms": [
+     234183313
+    ],
+    "stop_events": [],
+    "verdict": "indistinguishable",
+    "winner": null,
+    "kappa": 0.333
+   },
+   {
+    "label": "I",
+    "domain": null,
+    "rounds": 48,
+    "orig_rounds": null,
+    "handshakes": 144,
+    "vantages": 3,
+    "union_fp": 1,
+    "observation_span_h": 47.02,
+    "active_window_h": 47.11,
+    "msms": [
+     234183322
+    ],
+    "stop_events": [],
+    "verdict": "indistinguishable",
+    "winner": null,
+    "kappa": 0.333
+   }
+  ],
+  "fleet": {
+   "targets": 10,
+   "targets_merged": 9,
+   "handshakes_total": 1379,
+   "union_eq_1": 8,
+   "union_eq_2": 2,
+   "union_other": [],
+   "rounds_min": 6,
+   "rounds_max": 48,
+   "actual_window_h_min": 5.14,
+   "actual_window_h_max": 47.15,
+   "stopped_targets": [
+    "ctm.net",
+    "iprimus.com.au",
+    "jump.ro",
+    "plusline.de",
+    "tikona.in",
+    "tpgi.com.au",
+    "vnet.sk",
+    "zorgring.nl",
+    "asp.bg",
+    "asp.bg"
+   ]
+  },
+  "anchor": {
+   "union_fp16": 2,
+   "stray_fp16": 0,
+   "missing_expected_fp16": 0,
+   "o3_ready": 3,
+   "vantages_total": 4,
+   "rounds_distinct_timestamps": 150,
+   "hour_buckets": 53,
+   "verdict": "decidable",
+   "winner": "c2",
+   "kappa": 0.333,
+   "expect": {
+    "verdict": "decidable",
+    "winner": "c2（round-robin）",
+    "cert_union": 2,
+    "kappa": "2/6=0.333 (sslcert only, exactly at the floor); 0.5 (with a ping measurement)"
+   }
+  }
+ }
+}

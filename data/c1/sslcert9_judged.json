@@ -1,0 +1,665 @@
+{
+ "meta": {
+  "date": "2026-11-10 17:50:17",
+  "protocol": "B-line engine (sensor_compare.decide_formal), gates o3>=3, kappa floor 1/3 exact-fraction",
+  "expected": {
+   "asp.bg": "decidable single, union=1 (fossil 2004 cert)"
+  }
+ },
+ "rows": [
+  {
+   "msm": 234183249,
+   "msms": [
+    234183249
+   ],
+   "domain": "ctm.net",
+   "results_total": 192,
+   "probes_with_cert": 4,
+   "handshakes_total": 192,
+   "pair": [
+    52748,
+    52806
+   ],
+   "fleet": {
+    "union_certs": 1,
+    "probes_multi_cert": 0
+   },
+   "cert_variants": [
+    {
+     "fp": "233a7c9c13617b83",
+     "vantages": [
+      52748,
+      52806,
+      1006956,
+      1008081
+     ],
+     "subject": "C=MO, ST=Macao, L=Macao, O=Companhia de Telecomunicacoes de Macau S.A.R.L., CN=*.ctm.net",
+     "issuer": "C=BE, O=GlobalSign nv-sa, CN=GlobalSign RSA OV SSL CA 2018",
+     "notBefore": "Nov  7 10:36:17 2025 GMT",
+     "notAfter": "Dec  9 10:36:16 2026 GMT"
+    }
+   ],
+   "verdict": {
+    "kappa": 0.333,
+    "obs": {
+     "o1": "unobservable",
+     "o2": "unobservable",
+     "o3": "negative",
+     "o4": "unobservable",
+     "o5": "unobservable",
+     "o6": "negative"
+    },
+    "aux": {
+     "hidden_router": false,
+     "chain": false,
+     "o2_confounded_suppressed": []
+    },
+    "support": {
+     "c1": 2,
+     "c2": 0,
+     "c3": 1,
+     "c4": 1,
+     "c5": 2,
+     "c8": 2
+    },
+    "eliminated": {
+     "c2": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c3": "o6=negative ⇌ predicted + (falsified, eliminated)"
+    },
+    "V": "indistinguishable",
+    "equivalent": [
+     "c1",
+     "c5",
+     "c8"
+    ],
+    "winner": null,
+    "basis": [
+     "equivalent class ['c1', 'c5', 'c8'] ties on support (2); the current observations cannot separate them"
+    ],
+    "family": "undecided"
+   }
+  },
+  {
+   "msm": 234183263,
+   "msms": [
+    234183263
+   ],
+   "domain": "iprimus.com.au",
+   "results_total": 192,
+   "probes_with_cert": 4,
+   "handshakes_total": 192,
+   "pair": [
+    13081,
+    51440
+   ],
+   "fleet": {
+    "union_certs": 1,
+    "probes_multi_cert": 0
+   },
+   "cert_variants": [
+    {
+     "fp": "e9148548765bf697",
+     "vantages": [
+      13081,
+      51440,
+      1008493,
+      1012297
+     ],
+     "subject": "C=AU, ST=Victoria, O=Vocus Pty Ltd, CN=primus.com.au",
+     "issuer": "C=CA, O=Entrust Limited, CN=Entrust OV TLS Issuing RSA CA 2",
+     "notBefore": "Jul 28 00:00:00 2025 GMT",
+     "notAfter": "Aug 21 23:59:59 2026 GMT"
+    }
+   ],
+   "verdict": {
+    "kappa": 0.333,
+    "obs": {
+     "o1": "unobservable",
+     "o2": "unobservable",
+     "o3": "negative",
+     "o4": "unobservable",
+     "o5": "unobservable",
+     "o6": "negative"
+    },
+    "aux": {
+     "hidden_router": false,
+     "chain": false,
+     "o2_confounded_suppressed": []
+    },
+    "support": {
+     "c1": 2,
+     "c2": 0,
+     "c3": 1,
+     "c4": 1,
+     "c5": 2,
+     "c8": 2
+    },
+    "eliminated": {
+     "c2": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c3": "o6=negative ⇌ predicted + (falsified, eliminated)"
+    },
+    "V": "indistinguishable",
+    "equivalent": [
+     "c1",
+     "c5",
+     "c8"
+    ],
+    "winner": null,
+    "basis": [
+     "equivalent class ['c1', 'c5', 'c8'] ties on support (2); the current observations cannot separate them"
+    ],
+    "family": "undecided"
+   }
+  },
+  {
+   "msm": 234183279,
+   "msms": [
+    234183279
+   ],
+   "domain": "jump.ro",
+   "results_total": 144,
+   "probes_with_cert": 2,
+   "handshakes_total": 96,
+   "pair": [
+    10984,
+    1011991
+   ],
+   "fleet": {
+    "union_certs": 1,
+    "probes_multi_cert": 0
+   },
+   "cert_variants": [
+    {
+     "fp": "44281d6fbfba3650",
+     "vantages": [
+      10984,
+      1011991
+     ],
+     "subject": "CN=www.jump.ro",
+     "issuer": "C=US, O=Let's Encrypt, CN=YR2",
+     "notBefore": "Sep 28 11:54:50 2026 GMT",
+     "notAfter": "Dec 27 11:54:49 2026 GMT"
+    }
+   ],
+   "verdict": {
+    "kappa": 0.333,
+    "obs": {
+     "o1": "unobservable",
+     "o2": "unobservable",
+     "o3": "negative",
+     "o4": "unobservable",
+     "o5": "unobservable",
+     "o6": "negative"
+    },
+    "aux": {
+     "hidden_router": false,
+     "chain": false,
+     "o2_confounded_suppressed": []
+    },
+    "support": {
+     "c1": 2,
+     "c2": 0,
+     "c3": 1,
+     "c4": 1,
+     "c5": 2,
+     "c8": 2
+    },
+    "eliminated": {
+     "c2": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c3": "o6=negative ⇌ predicted + (falsified, eliminated)"
+    },
+    "V": "indistinguishable",
+    "equivalent": [
+     "c1",
+     "c5",
+     "c8"
+    ],
+    "winner": null,
+    "basis": [
+     "equivalent class ['c1', 'c5', 'c8'] ties on support (2); the current observations cannot separate them"
+    ],
+    "family": "undecided"
+   }
+  },
+  {
+   "msm": 234183286,
+   "msms": [
+    234183286
+   ],
+   "domain": "plusline.de",
+   "results_total": 192,
+   "probes_with_cert": 4,
+   "handshakes_total": 192,
+   "pair": [
+    22034,
+    60249
+   ],
+   "fleet": {
+    "union_certs": 1,
+    "probes_multi_cert": 0
+   },
+   "cert_variants": [
+    {
+     "fp": "bcda5194fc5a6a72",
+     "vantages": [
+      22034,
+      60249,
+      1014001,
+      1017906
+     ],
+     "subject": "CN=plusline.de",
+     "issuer": "C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA DV R36",
+     "notBefore": "Oct 15 00:00:00 2026 GMT",
+     "notAfter": "May  1 23:59:59 2027 GMT"
+    }
+   ],
+   "verdict": {
+    "kappa": 0.333,
+    "obs": {
+     "o1": "unobservable",
+     "o2": "unobservable",
+     "o3": "negative",
+     "o4": "unobservable",
+     "o5": "unobservable",
+     "o6": "negative"
+    },
+    "aux": {
+     "hidden_router": false,
+     "chain": false,
+     "o2_confounded_suppressed": []
+    },
+    "support": {
+     "c1": 2,
+     "c2": 0,
+     "c3": 1,
+     "c4": 1,
+     "c5": 2,
+     "c8": 2
+    },
+    "eliminated": {
+     "c2": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c3": "o6=negative ⇌ predicted + (falsified, eliminated)"
+    },
+    "V": "indistinguishable",
+    "equivalent": [
+     "c1",
+     "c5",
+     "c8"
+    ],
+    "winner": null,
+    "basis": [
+     "equivalent class ['c1', 'c5', 'c8'] ties on support (2); the current observations cannot separate them"
+    ],
+    "family": "undecided"
+   }
+  },
+  {
+   "msm": 234183296,
+   "msms": [
+    234183296
+   ],
+   "domain": "tikona.in",
+   "results_total": 192,
+   "probes_with_cert": 4,
+   "handshakes_total": 192,
+   "pair": [
+    13291,
+    61267
+   ],
+   "fleet": {
+    "union_certs": 1,
+    "probes_multi_cert": 0
+   },
+   "cert_variants": [
+    {
+     "fp": "1b8c50d812389fce",
+     "vantages": [
+      13291,
+      61267,
+      1015205,
+      1016568
+     ],
+     "subject": "C=IN, ST=Maharashtra, L=Mumbai, O=TIKONA INFINET PRIVATE LIMITED, CN=*.tikona.in",
+     "issuer": "C=BE, O=GlobalSign nv-sa, CN=GlobalSign RSA OV SSL CA 2018",
+     "notBefore": "Dec  4 10:27:01 2025 GMT",
+     "notAfter": "Dec 29 10:46:23 2026 GMT"
+    }
+   ],
+   "verdict": {
+    "kappa": 0.333,
+    "obs": {
+     "o1": "unobservable",
+     "o2": "unobservable",
+     "o3": "negative",
+     "o4": "unobservable",
+     "o5": "unobservable",
+     "o6": "negative"
+    },
+    "aux": {
+     "hidden_router": false,
+     "chain": false,
+     "o2_confounded_suppressed": []
+    },
+    "support": {
+     "c1": 2,
+     "c2": 0,
+     "c3": 1,
+     "c4": 1,
+     "c5": 2,
+     "c8": 2
+    },
+    "eliminated": {
+     "c2": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c3": "o6=negative ⇌ predicted + (falsified, eliminated)"
+    },
+    "V": "indistinguishable",
+    "equivalent": [
+     "c1",
+     "c5",
+     "c8"
+    ],
+    "winner": null,
+    "basis": [
+     "equivalent class ['c1', 'c5', 'c8'] ties on support (2); the current observations cannot separate them"
+    ],
+    "family": "undecided"
+   }
+  },
+  {
+   "msm": 234183304,
+   "msms": [
+    234183304
+   ],
+   "domain": "tpgi.com.au",
+   "results_total": 144,
+   "probes_with_cert": 3,
+   "handshakes_total": 143,
+   "pair": [
+    26943,
+    1014932
+   ],
+   "fleet": {
+    "union_certs": 1,
+    "probes_multi_cert": 0
+   },
+   "cert_variants": [
+    {
+     "fp": "43d2f16db5688599",
+     "vantages": [
+      26943,
+      1006191,
+      1014932
+     ],
+     "subject": "CN=tpg.prod.tpmwebsite.c2.tpgtelecom.com.au",
+     "issuer": "C=US, O=Amazon, CN=Amazon RSA 2048 M01",
+     "notBefore": "Aug  2 00:00:00 2026 GMT",
+     "notAfter": "Feb 15 23:59:59 2027 GMT"
+    }
+   ],
+   "verdict": {
+    "kappa": 0.333,
+    "obs": {
+     "o1": "unobservable",
+     "o2": "unobservable",
+     "o3": "negative",
+     "o4": "unobservable",
+     "o5": "unobservable",
+     "o6": "negative"
+    },
+    "aux": {
+     "hidden_router": false,
+     "chain": false,
+     "o2_confounded_suppressed": []
+    },
+    "support": {
+     "c1": 2,
+     "c2": 0,
+     "c3": 1,
+     "c4": 1,
+     "c5": 2,
+     "c8": 2
+    },
+    "eliminated": {
+     "c2": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c3": "o6=negative ⇌ predicted + (falsified, eliminated)"
+    },
+    "V": "indistinguishable",
+    "equivalent": [
+     "c1",
+     "c5",
+     "c8"
+    ],
+    "winner": null,
+    "basis": [
+     "equivalent class ['c1', 'c5', 'c8'] ties on support (2); the current observations cannot separate them"
+    ],
+    "family": "undecided"
+   }
+  },
+  {
+   "msm": 234183313,
+   "msms": [
+    234183313
+   ],
+   "domain": "vnet.sk",
+   "results_total": 96,
+   "probes_with_cert": 2,
+   "handshakes_total": 96,
+   "pair": [
+    64409,
+    1011060
+   ],
+   "fleet": {
+    "union_certs": 1,
+    "probes_multi_cert": 0
+   },
+   "cert_variants": [
+    {
+     "fp": "65a077dbc1bb4e27",
+     "vantages": [
+      64409,
+      1011060
+     ],
+     "subject": "CN=primanet.sk",
+     "issuer": "C=US, O=Let's Encrypt, CN=YR2",
+     "notBefore": "Oct 22 18:34:45 2026 GMT",
+     "notAfter": "Jan 20 18:34:44 2027 GMT"
+    }
+   ],
+   "verdict": {
+    "kappa": 0.333,
+    "obs": {
+     "o1": "unobservable",
+     "o2": "unobservable",
+     "o3": "negative",
+     "o4": "unobservable",
+     "o5": "unobservable",
+     "o6": "negative"
+    },
+    "aux": {
+     "hidden_router": false,
+     "chain": false,
+     "o2_confounded_suppressed": []
+    },
+    "support": {
+     "c1": 2,
+     "c2": 0,
+     "c3": 1,
+     "c4": 1,
+     "c5": 2,
+     "c8": 2
+    },
+    "eliminated": {
+     "c2": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c3": "o6=negative ⇌ predicted + (falsified, eliminated)"
+    },
+    "V": "indistinguishable",
+    "equivalent": [
+     "c1",
+     "c5",
+     "c8"
+    ],
+    "winner": null,
+    "basis": [
+     "equivalent class ['c1', 'c5', 'c8'] ties on support (2); the current observations cannot separate them"
+    ],
+    "family": "undecided"
+   }
+  },
+  {
+   "msm": 234183322,
+   "msms": [
+    234183322
+   ],
+   "domain": "zorgring.nl",
+   "results_total": 144,
+   "probes_with_cert": 3,
+   "handshakes_total": 144,
+   "pair": [
+    29662,
+    1008864
+   ],
+   "fleet": {
+    "union_certs": 1,
+    "probes_multi_cert": 0
+   },
+   "cert_variants": [
+    {
+     "fp": "6981c1c91f9959a4",
+     "vantages": [
+      29662,
+      1008864,
+      1014281
+     ],
+     "subject": "CN=*.zorgring.nl",
+     "issuer": "C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA DV R36",
+     "notBefore": "Aug 25 00:00:00 2026 GMT",
+     "notAfter": "Mar 11 23:59:59 2027 GMT"
+    }
+   ],
+   "verdict": {
+    "kappa": 0.333,
+    "obs": {
+     "o1": "unobservable",
+     "o2": "unobservable",
+     "o3": "negative",
+     "o4": "unobservable",
+     "o5": "unobservable",
+     "o6": "negative"
+    },
+    "aux": {
+     "hidden_router": false,
+     "chain": false,
+     "o2_confounded_suppressed": []
+    },
+    "support": {
+     "c1": 2,
+     "c2": 0,
+     "c3": 1,
+     "c4": 1,
+     "c5": 2,
+     "c8": 2
+    },
+    "eliminated": {
+     "c2": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c3": "o6=negative ⇌ predicted + (falsified, eliminated)"
+    },
+    "V": "indistinguishable",
+    "equivalent": [
+     "c1",
+     "c5",
+     "c8"
+    ],
+    "winner": null,
+    "basis": [
+     "equivalent class ['c1', 'c5', 'c8'] ties on support (2); the current observations cannot separate them"
+    ],
+    "family": "undecided"
+   }
+  },
+  {
+   "msm": 234182558,
+   "msms": [
+    234182558,
+    234657473
+   ],
+   "domain": "asp.bg",
+   "results_total": 132,
+   "probes_with_cert": 4,
+   "handshakes_total": 132,
+   "pair": [
+    19815,
+    61201
+   ],
+   "fleet": {
+    "union_certs": 2,
+    "probes_multi_cert": 0
+   },
+   "cert_variants": [
+    {
+     "fp": "1303a6a61b71a5d2",
+     "vantages": [
+      19815
+     ],
+     "subject": "C=BG, ST=Sofia, L=Sofia, O=ASP Ltd., CN=www.asp.bg",
+     "issuer": "C=IT, ST=Trentino, L=Trento, O=Trentino Digitale, OU=Certificate Authority, CN=Forti-PAT-CA, emailAddress=cybersecurity@tndigit.it",
+     "notBefore": "Jan  6 08:21:58 2004 GMT",
+     "notAfter": "Jan  6 08:21:58 2005 GMT"
+    },
+    {
+     "fp": "a8b02ba4e5f0c608",
+     "vantages": [
+      61201,
+      1008041,
+      1010702
+     ],
+     "subject": "C=BG, ST=Sofia, L=Sofia, O=ASP Ltd., CN=www.asp.bg",
+     "issuer": "C=BG, ST=Sofia, L=Sofia, O=ASP Ltd., CN=www.asp.bg",
+     "notBefore": "Jan  6 08:21:58 2004 GMT",
+     "notAfter": "Jan  6 08:21:58 2005 GMT"
+    }
+   ],
+   "variant_note": "same subject and validity, different issuer => vantage-side re-signing (middlebox TLS inspection), not server-side rotation",
+   "verdict": {
+    "kappa": 0.333,
+    "obs": {
+     "o1": "unobservable",
+     "o2": "unobservable",
+     "o3": "negative",
+     "o4": "unobservable",
+     "o5": "unobservable",
+     "o6": "positive"
+    },
+    "aux": {
+     "hidden_router": false,
+     "chain": false,
+     "o2_confounded_suppressed": []
+    },
+    "support": {
+     "c1": 1,
+     "c2": 1,
+     "c3": 2,
+     "c4": 1,
+     "c5": 1,
+     "c8": 1
+    },
+    "eliminated": {
+     "c1": "o6=positive ⇌ predicted - (falsified, eliminated)",
+     "c2": "o3=negative ⇌ predicted + (falsified, eliminated)",
+     "c5": "o6=positive ⇌ predicted - (falsified, eliminated)",
+     "c8": "o6=positive ⇌ predicted - (falsified, eliminated)"
+    },
+    "V": "conditionally decidable",
+    "equivalent": [
+     "c3",
+     "c4"
+    ],
+    "winner": "c3",
+    "basis": [
+     "c3 support 2; the remaining surviving hypotheses tie below the threshold"
+    ],
+    "family": "multi"
+   }
+  }
+ ]
+}
