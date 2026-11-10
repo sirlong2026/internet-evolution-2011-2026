@@ -6,6 +6,7 @@ authors:
     given-names: Wensheng
 version: 1.0.0
 date-released: "2026-11-10"
+doi: 10.5281/zenodo.24106494
 license: MIT
 repository-code: "https://github.com/sirlong2026/internet-evolution-2011-2026"
 keywords:
