@@ -40,9 +40,10 @@
 
   "release_status": {
     "prepared_at": "2026-11-15",
-    "committed": false,
-    "pushed": false,
+    "committed": true,
+    "pushed": true,
+    "push_commit": "cde19d36c0655fdf882f188205dbe3397f1df71a",
     "zenodo_release": false,
-    "condition": "Requires explicit author authorisation, then inclusion via build_repo_c1.py whitelist plus its path/content/identity gates; a new Zenodo Release is required before the manuscript DOI can point at round-2 content."
+    "condition": "GitHub push completed as one fast-forward commit on top of the first-round archive (history preserved). The remaining step is an author-created GitHub Release, which is what triggers Zenodo archiving; a plain push does not. Until that Release exists, the manuscript DOI 10.5281/zenodo.24106494 still points at the first-round archive."
   }
 }
