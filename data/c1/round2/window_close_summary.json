@@ -44,10 +44,10 @@
     "pushed": true,
     "push_commit": "cde19d36c0655fdf882f188205dbe3397f1df71a",
     "zenodo_release": true,
-    "release_tag": "V2.0",
-    "release_commit": "be1027a3b8bf00a16e4db9e5b827e4d821315ab1",
-    "zenodo_version_doi": "10.5281/zenodo.24241380",
+    "release_tag": "V3.0",
+    "release_commit": "2f4049a6e7083a43eec3be62f642441f39cb73c1",
+    "zenodo_version_doi": "10.5281/zenodo.24248960",
     "zenodo_concept_doi": "10.5281/zenodo.24106493",
-    "condition": "GitHub Release V2.0 was published on 2026-11-15 from the round-2 commit; Zenodo archived it under version DOI 10.5281/zenodo.24241380 with concept DOI 10.5281/zenodo.24106493. The manuscript and CITATION.cff cite the version DOI so the reference resolves to the exact snapshot used in the paper."
+    "condition": "GitHub Release V3.0 was published on 2026-11-15 from commit 2f4049a (which carries the v0.29 figure-legend corrections); Zenodo archived it under version DOI 10.5281/zenodo.24248960 with concept DOI 10.5281/zenodo.24106493. The manuscript and CITATION.cff cite the version DOI so the reference resolves to the exact snapshot used in the paper."
   }
 }

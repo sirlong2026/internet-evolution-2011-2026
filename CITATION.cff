@@ -4,9 +4,9 @@ title: "Same-target longitudinal measurement of Internet infrastructure evolutio
 authors:
   - family-names: Huang
     given-names: Wensheng
-version: 2.0.0
+version: 3.0.0
 date-released: "2026-11-15"
-doi: 10.5281/zenodo.24241380
+doi: 10.5281/zenodo.24248960
 license: MIT
 repository-code: "https://github.com/sirlong2026/internet-evolution-2011-2026"
 keywords:
