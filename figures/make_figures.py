@@ -627,10 +627,10 @@ def legends(d):
     L = []
     L.append("### Figure 1 | Four-layer survival cascade from the 2011 snapshot to the "
              "2026 live network\n")
-    L.append("**(a)** Address lineage of the stratified cohort. Of %d candidate prefixes "
+    L.append("**(a)** Address lineage of the stratified cohort. Of %d representative addresses "
              "drawn from the 2011 snapshot, %d (%.1f%%) remain covered in the 2026 "
-             "routing view, %d of them survive as identical prefixes; the measurement "
-             "set comprises %d addresses (%d exact survivors and %d covered-only). "
+             "routing view, and for %d of them an identical covering prefix is still announced; "
+             "the measurement set comprises %d addresses (%d exact survivors and %d covered-only). "
              "%d of the %d answer ICMP echo requests (%d of the %d exact survivors, "
              "%d of the %d covered-only). %d address completes a TLS handshake, and its "
              "certificate belongs to an unrelated third party, so %d of the %d still "

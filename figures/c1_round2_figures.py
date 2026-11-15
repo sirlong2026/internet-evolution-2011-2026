@@ -358,7 +358,7 @@ def legends(rows, top):
 
 ### Figure 5 | Cohort proportions with 95%% Wilson score intervals
 
-Point estimates and intervals for the measured proportions, ordered by the layer they belong to (routing, address, service). Intervals are 95%% Wilson score intervals on the cohort proportion; an interval is shown for every proportion that enters the abstract. The address-layer pair (live: exact survivors 44%%, covered-only 23%%) is the contrast tested by the two-sided Fisher exact test (p = 0.037); the two intervals do not overlap.
+Point estimates and intervals for the measured proportions, ordered by the layer they belong to (routing, address, service). Intervals are 95%% Wilson score intervals on the cohort proportion; an interval is shown for every cohort proportion plotted. The address-layer pair (live: exact survivors 44%%, covered-only 23%%) is the contrast tested by the two-sided Fisher exact test (p = 0.037); the two intervals do not overlap.
 
 *Source data:* cohort survival, address-layer and service-layer summaries of the artifact package.
 """ % (h2["n"], h2["single"], h2["n"], h2["share"] * 100,
