@@ -1,0 +1,660 @@
+{
+ "schema": "campaign-spec/2",
+ "_comment": "Measurement specification template for the round-2 certificate campaign. Targets and probes are referenced by role names or files; no real domains or addresses are written here. prereg.sha256 must be filled before submission; the budget script reads this file to produce the cost tiers.",
+ "meta": {
+  "campaign_id": "c1-round2-multiaxis",
+  "prereg": {
+   "file": "paper/round2/prereg_round2.md",
+   "sha256": "7489b41a15f4f9ba415a057e4b50cd28cd61d97b764d037819ed1419d573b6fc",
+   "version": "1.1-draft",
+   "kappa_floor": 0.5,
+   "axes_required": [
+    "o3",
+    "o4",
+    "o6"
+   ],
+   "_axes_note": "Amendment 1.1: o4 is promoted from optional to mandatory (only o4 can falsify c5); o1 is demoted to an optional axis, lit in the L1SP/L2S6 tiers that carry ping",
+   "axes_optional": [
+    "o1",
+    "o5"
+   ],
+   "status": "locked",
+   "locked_at": "2026-11-11"
+  },
+  "created": "2026-11-10",
+  "amended": "2026-11-11",
+  "status": "locked",
+  "description_prefix": "C1 round2 multiaxis"
+ },
+ "defaults": {
+  "is_public": true,
+  "interval_s": 3600,
+  "_interval_note": "one round per hour, using the smallest recurring interval the platform permits",
+  "stagger_s": 60,
+  "_stagger_note": "start times are staggered by >=60 s across measurements so that a serial server is not saturated concurrently (a round-1 anchor lesson)",
+  "sni": {
+   "contrast_name": "sni-control.invalid",
+   "_contrast_note": "RFC 6761 reserved domain: it never resolves and is never issued, so it points at no third-party virtual host. It contributes only the second sni_map entry and never enters tls.hashes",
+   "identity_name_rule": "the domain on which the round-1 identity claim rested (the A-record name of the same explicit address); stored in the targets file, not in this template",
+   "_why_identity_required": "c5 is a front end that selects certificates by name. If neither arm presents a real name it returns the same default certificate and the test loses its power (false negative)",
+   "never": [
+    "merge contrast-name handshakes into tls.hashes",
+    "write the two name conditions to different probes"
+   ]
+  },
+  "probes": {
+   "mode": "explicit",
+   "_mode_note": "an explicit prb_id array is required: a newly created user tag is not accepted by probe selection immediately (about a 15-minute lag), and all three measurement types must land on the same probes before their bundles can be merged",
+   "ids_ref": "data/c1/round2/probe_whitelist.json",
+   "per_target": 4
+  },
+  "retire_policy": "stop-only",
+  "_retire_note": "never delete; stop only. The paper and the response letter cite the measurement IDs"
+ },
+ "arms": [
+  {
+   "arm": "hetero",
+   "role": "experimental arm: heterogeneous targets from S1, feeding the H1 statistic",
+   "targets_ref": "data/c1/round2/targets_hetero.json",
+   "target_count_expect": "8-10",
+   "measurements": [
+    {
+     "group": "tls",
+     "type": "sslcert",
+     "target_kind": "domain",
+     "_target_kind_note": "a domain target is rejected by the API's pre-resolution check; resolve it over DoH first, then target the address and present the name",
+     "port": 443,
+     "duration_h": 48,
+     "prereg_axes": [
+      "o3",
+      "o6"
+     ],
+     "cost_class": "recurring"
+    },
+    {
+     "group": "ping",
+     "type": "ping",
+     "target_kind": "ip",
+     "packets": 6,
+     "size": 48,
+     "duration_h": 48,
+     "prereg_axes": [
+      "o1"
+     ],
+     "cost_class": "recurring"
+    }
+   ]
+  },
+  {
+   "arm": "control_single",
+   "role": "negative controls: the eight known single-certificate fleets of round 1, testing H2 specificity",
+   "targets_ref": "data/c1/round2/targets_control_single.json",
+   "target_count_expect": "8",
+   "measurements": [
+    {
+     "group": "tls",
+     "type": "sslcert",
+     "target_kind": "domain",
+     "port": 443,
+     "duration_h": 48,
+     "prereg_axes": [
+      "o3",
+      "o6"
+     ],
+     "cost_class": "recurring"
+    },
+    {
+     "group": "ping",
+     "type": "ping",
+     "target_kind": "ip",
+     "packets": 6,
+     "size": 48,
+     "duration_h": 48,
+     "prereg_axes": [
+      "o1"
+     ],
+     "cost_class": "recurring"
+    }
+   ]
+  },
+  {
+   "arm": "control_positive",
+   "role": "positive control: round-1 target A (two known fingerprints, known re-signing)",
+   "targets_ref": "data/c1/round2/targets_control_positive.json",
+   "target_count_expect": "1",
+   "measurements": [
+    {
+     "group": "tls",
+     "type": "sslcert",
+     "target_kind": "domain",
+     "port": 443,
+     "duration_h": 48,
+     "prereg_axes": [
+      "o3",
+      "o6"
+     ],
+     "cost_class": "recurring"
+    },
+    {
+     "group": "ping",
+     "type": "ping",
+     "target_kind": "ip",
+     "packets": 6,
+     "size": 48,
+     "duration_h": 48,
+     "prereg_axes": [
+      "o1"
+     ],
+     "cost_class": "recurring"
+    }
+   ]
+  },
+  {
+   "arm": "rig_rotation",
+   "role": "controlled rotation rig (laboratory, known pool), testing H3/H4",
+   "targets_ref": "data/c1/round2/targets_rig.json",
+   "target_count_expect": "1",
+   "measurements": [
+    {
+     "group": "tls_sni_a",
+     "type": "sslcert",
+     "target_kind": "ip",
+     "hostname_role": "identity_name",
+     "port": 443,
+     "duration_h": 48,
+     "prereg_axes": [
+      "o3",
+      "o6"
+     ],
+     "cost_class": "recurring",
+     "_o4_note": "Fix of 2026-11-12: the rig arm was a single SNI-less arm, violating meta.prereg.axes_required=[o3,o4,o6], and was rejected by launcher gate 2. The rig is the known-answer calibration and must run the same two-name instrument as the main line; otherwise H3/H4 cannot calibrate o4."
+    },
+    {
+     "group": "tls_sni_b",
+     "type": "sslcert",
+     "target_kind": "ip",
+     "hostname_role": "contrast_name",
+     "port": 443,
+     "duration_h": 48,
+     "prereg_axes": [
+      "o4"
+     ],
+     "cost_class": "recurring",
+     "_bundle_note": "feeds sni_map only, never tls.hashes"
+    },
+    {
+     "group": "ping",
+     "type": "ping",
+     "target_kind": "ip",
+     "packets": 6,
+     "size": 48,
+     "duration_h": 48,
+     "prereg_axes": [
+      "o1"
+     ],
+     "cost_class": "recurring"
+    }
+   ]
+  },
+  {
+   "arm": "rig_middlebox",
+   "role": "controlled re-signing rig (new: a TLS-inspecting proxy that preserves subject and validity and swaps the issuer)",
+   "targets_ref": "data/c1/round2/targets_rig.json",
+   "target_count_expect": "1",
+   "measurements": [
+    {
+     "group": "tls_sni_a",
+     "type": "sslcert",
+     "target_kind": "ip",
+     "hostname_role": "identity_name",
+     "port": 443,
+     "duration_h": 48,
+     "prereg_axes": [
+      "o3",
+      "o6"
+     ],
+     "cost_class": "recurring",
+     "_o4_note": "As rig_rotation: extended to two names on 2026-11-12 to satisfy axes_required. The re-signing rig's o4 positive control is H4's known answer."
+    },
+    {
+     "group": "tls_sni_b",
+     "type": "sslcert",
+     "target_kind": "ip",
+     "hostname_role": "contrast_name",
+     "port": 443,
+     "duration_h": 48,
+     "prereg_axes": [
+      "o4"
+     ],
+     "cost_class": "recurring",
+     "_bundle_note": "feeds sni_map only, never tls.hashes"
+    }
+   ]
+  },
+  {
+   "arm": "control_single_sni",
+   "role": "negative controls (o4-corrected): the eight round-1 single-certificate fleets under two names on the same address, testing H2",
+   "targets_ref": "data/c1/round2/targets_control_single.json",
+   "target_count_expect": "8",
+   "_why": "The offline preflight of 2026-11-11 (data/c1/round2/preflight.json) shows that TLS+ping lifts kappa only to 0.5, where c5 still ties with c1/c8, so 8/8 remain indistinguishable. Only o4 can falsify c5, hence the same-address two-name arm. Deployability of o4 is documented in atlas_sni_evidence.json (hostname is read_only=false with help_text 'Server Name Indication (SNI) hostname').",
+   "measurements": [
+    {
+     "group": "tls_sni_a",
+     "type": "sslcert",
+     "target_kind": "ip",
+     "hostname_role": "identity_name",
+     "port": 443,
+     "duration_h": 48,
+     "prereg_axes": [
+      "o3",
+      "o6"
+     ],
+     "cost_class": "recurring",
+     "_bundle_note": "this arm's handshakes feed tls.hashes; the o3/o6 calibers are identical to round 1"
+    },
+    {
+     "group": "tls_sni_b",
+     "type": "sslcert",
+     "target_kind": "ip",
+     "hostname_role": "contrast_name",
+     "port": 443,
+     "duration_h": 48,
+     "prereg_axes": [
+      "o4"
+     ],
+     "cost_class": "recurring",
+     "_bundle_note": "this arm contributes only the second sni_map entry and never enters tls.hashes; otherwise o6 would record name divergence as rotation in time",
+     "_same_ip_note": "both arms must target the same explicit address with the same prb_ids and starts >=60 s apart; hostname takes two real identity names (author decision pending)"
+    }
+   ]
+  },
+  {
+   "arm": "control_positive_sni",
+   "role": "positive control (o4-corrected): round-1 target A under two names on the same address",
+   "targets_ref": "data/c1/round2/targets_control_positive.json",
+   "target_count_expect": "1",
+   "measurements": [
+    {
+     "group": "tls_sni_a",
+     "type": "sslcert",
+     "target_kind": "ip",
+     "hostname_role": "identity_name",
+     "port": 443,
+     "duration_h": 48,
+     "prereg_axes": [
+      "o3",
+      "o6"
+     ],
+     "cost_class": "recurring"
+    },
+    {
+     "group": "tls_sni_b",
+     "type": "sslcert",
+     "target_kind": "ip",
+     "hostname_role": "contrast_name",
+     "port": 443,
+     "duration_h": 48,
+     "prereg_axes": [
+      "o4"
+     ],
+     "cost_class": "recurring"
+    }
+   ]
+  },
+  {
+   "arm": "controls_ping",
+   "role": "o1 supplement for the control arms (9 targets): lifts kappa from 0.5 to 0.667; H2 does not depend on it",
+   "targets_ref": "data/c1/round2/targets_controls_all.json",
+   "target_count_expect": "9",
+   "measurements": [
+    {
+     "group": "ping",
+     "type": "ping",
+     "target_kind": "ip",
+     "packets": 6,
+     "size": 48,
+     "duration_h": 48,
+     "prereg_axes": [
+      "o1"
+     ],
+     "cost_class": "recurring"
+    }
+   ]
+  },
+  {
+   "arm": "hetero_sni",
+   "role": "experimental arm (o4-corrected): heterogeneous targets under two names on the same address plus ping; the H1 statistic",
+   "targets_ref": "data/c1/round2/targets_hetero.json",
+   "target_count_expect": "2",
+   "_why": "The preflight shows that o1 cannot separate {c1,c5,c8}; if heterogeneous targets ran TLS+ping only, H1's decidability would be structurally driven toward zero. o4 is the only discriminating axis, so the main line must carry the two-name arm.",
+   "measurements": [
+    {
+     "group": "tls_sni_a",
+     "type": "sslcert",
+     "target_kind": "ip",
+     "hostname_role": "identity_name",
+     "port": 443,
+     "duration_h": 48,
+     "prereg_axes": [
+      "o3",
+      "o6"
+     ],
+     "cost_class": "recurring",
+     "_bundle_note": "identity name: handshakes feed tls.hashes; o3/o6 as in round 1"
+    },
+    {
+     "group": "tls_sni_b",
+     "type": "sslcert",
+     "target_kind": "ip",
+     "hostname_role": "contrast_name",
+     "port": 443,
+     "duration_h": 48,
+     "prereg_axes": [
+      "o4"
+     ],
+     "cost_class": "recurring",
+     "_bundle_note": "contrast name: feeds sni_map only, never tls.hashes",
+     "_same_ip_note": "both arms: same explicit address, same prb_ids, starts >=60 s apart"
+    },
+    {
+     "group": "ping",
+     "type": "ping",
+     "target_kind": "ip",
+     "packets": 6,
+     "size": 48,
+     "duration_h": 48,
+     "prereg_axes": [
+      "o1"
+     ],
+     "cost_class": "recurring",
+     "_bundle_note": "same probe set as the two sslcert arms, for build_merged_bundle"
+    }
+   ],
+   "_count_note": "Measured on 2026-11-12: after exclusion criteria 1-5 only two targets pass under both names (one strong, one weak), so the pre-registered H1 has n=2 and its caliber needs the author's decision."
+  },
+  {
+   "arm": "trace_probe",
+   "role": "o5 add-on arm (3 targets x 12 rounds): shows o5 is obtainable; not part of the main criteria",
+   "targets_ref": "data/c1/round2/targets_hetero.json",
+   "target_count_expect": "3",
+   "measurements": [
+    {
+     "group": "trace",
+     "type": "traceroute",
+     "target_kind": "ip",
+     "duration_h": 12,
+     "interval_s": 3600,
+     "probes": 4,
+     "ladder_override": false,
+     "prereg_axes": [
+      "o5"
+     ],
+     "cost_class": "recurring"
+    }
+   ]
+  },
+  {
+   "arm": "s1_screen",
+   "role": "S1 heterogeneity screen (pre-campaign): one-off, many vantages across three time bands",
+   "targets_ref": "data/c1/round2/targets_candidates.json",
+   "target_count_expect": "20-25",
+   "measurements": [
+    {
+     "group": "tls_scout",
+     "type": "sslcert",
+     "target_kind": "ip",
+     "hostname_role": "identity_name",
+     "port": 443,
+     "duration_h": 0,
+     "repeats": 1,
+     "probes": 12,
+     "prereg_axes": [
+      "o3",
+      "o6"
+     ],
+     "cost_class": "one-off",
+     "_kind_note": "the screen uses the same name condition as the campaign (explicit address plus identity name); otherwise 'screened' does not imply 'still handshakes in the campaign'. Domain targets are rejected by the API's pre-resolution check."
+    },
+    {
+     "group": "tls_scout_contrast",
+     "type": "sslcert",
+     "target_kind": "ip",
+     "hostname_role": "contrast_name",
+     "port": 443,
+     "duration_h": 0,
+     "repeats": 1,
+     "probes": 6,
+     "prereg_axes": [
+      "o4"
+     ],
+     "cost_class": "one-off",
+     "_why": "prereg §4 exclusion 5: test before the campaign whether the target rejects an unknown name outright; rejected targets do not enter the 48-hour window, saving window and credits"
+    },
+    {
+     "group": "ping_scout",
+     "type": "ping",
+     "target_kind": "ip",
+     "packets": 6,
+     "size": 48,
+     "duration_h": 0,
+     "repeats": 1,
+     "probes": 12,
+     "prereg_axes": [
+      "o1"
+     ],
+     "cost_class": "one-off"
+    }
+   ]
+  },
+  {
+   "arm": "probe_pretest",
+   "role": "vantage capability pre-test (D5 expanded): 9 control targets x 24 candidate probes x 2 names, one-off",
+   "targets_ref": "data/c1/round2/targets_controls_all.json",
+   "target_count_expect": "9",
+   "_why": "In round 1, 24 probes produced >=3 handshakes, each at exactly one target, so the intersection is empty (data/c1/round2/probe_seed.json). The whitelist cannot be inherited from round 1, and a rig-only pre-test cannot show that these probes handshake against third-party stacks. The campaign needs TLS and ping on the same probes, so the whitelist is the intersection of probes that qualify at all nine targets under both names.",
+   "measurements": [
+    {
+     "group": "tls_pretest_identity",
+     "type": "sslcert",
+     "target_kind": "ip",
+     "hostname_role": "identity_name",
+     "port": 443,
+     "duration_h": 0,
+     "repeats": 1,
+     "probes": 24,
+     "prb_ids_ref": "data/c1/round2/probe_seed.json",
+     "prereg_axes": [
+      "o3"
+     ],
+     "cost_class": "one-off"
+    },
+    {
+     "group": "tls_pretest_contrast",
+     "type": "sslcert",
+     "target_kind": "ip",
+     "hostname_role": "contrast_name",
+     "port": 443,
+     "duration_h": 0,
+     "repeats": 1,
+     "probes": 24,
+     "prb_ids_ref": "data/c1/round2/probe_seed.json",
+     "prereg_axes": [
+      "o4"
+     ],
+     "cost_class": "one-off"
+    }
+   ],
+   "_whitelist_rule": "Take the intersection of probes that complete a handshake at all nine targets under both names; when the intersection is >=4 use it directly (4 per target, optionally 6). Below 4, backfill by descending number of qualifying targets, then descending handshakes at those targets, then ascending prb_id, and record the backfill and its reason in deviations.md."
+  },
+  {
+   "arm": "hetero_pilot",
+   "role": "cross-round pilot for o1 heterogeneity (a screening extension, not part of any hypothesis test): whether a probe's TTL changes across 12 rounds",
+   "targets_ref": "data/c1/round2/targets_candidates.json",
+   "target_count_expect": "25",
+   "_why": "a single-round screen cannot assess o1: the ttl of an echo reply is the remaining hop count, and cross-vantage differences are path-length differences. True heterogeneity is a same-probe TTL set of cardinality greater than one across rounds",
+   "measurements": [
+    {
+     "group": "ping_ttl_pilot",
+     "type": "ping",
+     "target_kind": "ip",
+     "packets": 6,
+     "size": 48,
+     "duration_h": 12,
+     "interval_s": 3600,
+     "probes": 4,
+     "ladder_override": false,
+     "prereg_axes": [
+      "o1"
+     ],
+     "cost_class": "recurring",
+     "_note": "four vantages drawn with area=WW over 12 rounds; the criterion reads each (target, probe) TTL set across them"
+    }
+   ]
+  }
+ ],
+ "ladder": {
+  "_comment": "Three original tiers (L1/L2/L3) plus two o4-corrected tiers (L1S/L1SP). L1 tests G2 only; without passing L1, L2 must not start. The offline preflight of 2026-11-11 found that the TLS+ping combination of the original tiers cannot falsify c5, so H2 is structurally unreachable (8/8 remain indistinguishable); G2 must therefore be tested via L1S/L1SP. The original tiers are retained for audit only and must not be launched.",
+  "L1": {
+   "description": "24 h, the nine existing targets (eight negative controls plus A), TLS+ping [original tier: preflight found H2 unreachable; do not use]",
+   "arms": [
+    "control_single",
+    "control_positive",
+    "probe_pretest"
+   ],
+   "duration_h_override": 24
+  },
+  "L1S": {
+   "description": "24 h, nine targets x two names on the same address (o3/o4/o6, kappa=0.5) plus the vantage pre-test: the minimum deliverable for G2",
+   "arms": [
+    "control_single_sni",
+    "control_positive_sni",
+    "probe_pretest"
+   ],
+   "duration_h_override": 24
+  },
+  "L1SP": {
+   "description": "L1S plus the control-arm ping (o1/o3/o4/o6, kappa=0.667), which also leaves observations for H1's TTL heterogeneity criterion",
+   "arms": [
+    "control_single_sni",
+    "control_positive_sni",
+    "controls_ping",
+    "probe_pretest"
+   ],
+   "duration_h_override": 24
+  },
+  "L2": {
+   "description": "48 h, eight controls plus 8-10 heterogeneous plus the positive control, TLS+ping",
+   "arms": [
+    "control_single",
+    "control_positive",
+    "hetero",
+    "rig_rotation",
+    "rig_middlebox",
+    "s1_screen",
+    "probe_pretest"
+   ],
+   "duration_h_override": 48,
+   "_void": "No power for H1 (the L1 problem): the heterogeneous arm lacks o4. Retained for audit only; must not be launched."
+  },
+  "L2S": {
+   "description": "48 h, the o4-corrected main line: eight controls plus 8-10 heterogeneous plus the positive control, all under two names on the same address (plus ping on heterogeneous targets); two rigs for H3/H4",
+   "arms": [
+    "control_single_sni",
+    "control_positive_sni",
+    "hetero_sni",
+    "rig_rotation",
+    "rig_middlebox",
+    "s1_screen",
+    "probe_pretest"
+   ],
+   "duration_h_override": 48,
+   "_cost_note": "Re-budgeted after D5: total 102,576, upper bound 108,912, stop line 10,891, so 113,467 must be pre-charged against a 113,573 baseline, leaving 106 and no buffer; not recommended. The selected tier is L2S6 (total 84,912, needs 93,806)."
+  },
+  "L2S6": {
+   "description": "L2S trims the heterogeneous arm to six targets (saving four targets x 48 h x two names plus ping): the only o4 main line that fits the balance",
+   "arms": [
+    "control_single_sni",
+    "control_positive_sni",
+    "hetero_sni",
+    "rig_rotation",
+    "rig_middlebox",
+    "s1_screen",
+    "probe_pretest"
+   ],
+   "duration_h_override": 48,
+   "target_count_override": {
+    "hetero_sni": 6
+   },
+   "_note": "Target trimming must share the control arms' window, otherwise H2 and H1 are not comparable; fewer heterogeneous targets only widens H1's Wilson interval",
+   "_cost_note": "Selected tier (author decision, 2026-11-11): total 84,912, upper bound 88,944, stop line 8,894, so 93,806 must be pre-charged, leaving 19,767 against the 113,573 baseline. Includes the D5 pre-test (8,640) and the S1 screen (10,800)."
+  },
+  "L2Sc": {
+   "description": "L2S drops the 48-hour negative-control arm and reuses the 24-hour control results of L1S: cheaper, but the windows differ, so it serves as a sensitivity analysis only",
+   "arms": [
+    "control_positive_sni",
+    "hetero_sni",
+    "rig_rotation",
+    "rig_middlebox",
+    "s1_screen",
+    "probe_pretest"
+   ],
+   "duration_h_override": 48,
+   "_caveat": "prereg §8 states that targets with different window lengths are not pooled; this tier's H2 can only be reported for the L1S window and may not share a table with H1"
+  },
+  "L3": {
+   "description": "L2 plus the o5 add-on arm (3 targets x 12 rounds of traceroute)",
+   "arms": [
+    "control_single",
+    "control_positive",
+    "hetero",
+    "rig_rotation",
+    "rig_middlebox",
+    "trace_probe",
+    "s1_screen",
+    "probe_pretest"
+   ],
+   "duration_h_override": 48
+  },
+  "PILOT_TTL": {
+   "description": "24 candidates x 4 vantages x 12 rounds of recurring ping (3,456 credits): answers cheaply whether H1 has any targets at all",
+   "arms": [
+    "hetero_pilot"
+   ],
+   "duration_h_override": 12
+  }
+ },
+ "stop_rules": [
+  {
+   "id": "S1",
+   "trigger": "balance < 0.10 * projected_total",
+   "action": "stop_all"
+  },
+  {
+   "id": "S2",
+   "trigger": "any target reached status 'Forced to Stop'",
+   "action": "stop_all"
+  },
+  {
+   "id": "S3",
+   "trigger": "anchor_stray > 0",
+   "action": "stop_all"
+  },
+  {
+   "id": "S4",
+   "trigger": "target has 6 consecutive zero-handshake rounds",
+   "action": "stop_all"
+  },
+  {
+   "id": "S5",
+   "trigger": "merge_failure_rate > 0.20",
+   "action": "stop_all"
+  }
+ ],
+ "outputs": {
+  "msm_ids": "data/c1/round2/msm_ids.json",
+  "stop_log": "data/c1/round2/stop_log.json",
+  "cost_units": "data/c1/round2/cost_units.json",
+  "verdicts_v2": "data/c1/round2/verdicts_v2.json",
+  "deviations": "data/c1/round2/deviations.md"
+ }
+}

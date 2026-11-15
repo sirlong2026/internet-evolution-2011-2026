@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-10T09:54:38Z",
+  "generated_at": "2026-11-14T15:05:18Z",
   "generator": "tools/c1_figure_data.py",
   "package": "artifact",
   "provenance": {
@@ -640,5 +640,117 @@
     "kappa": "2/6=0.333 (sslcert only, exactly at the floor); 0.5 (with a ping measurement)"
    }
   }
+ },
+ "fig3_round2": {
+  "arms": [
+   {
+    "code": "N1",
+    "arm": "control_single_sni",
+    "o4": "negative",
+    "state": "decidable",
+    "family": "single"
+   },
+   {
+    "code": "N2",
+    "arm": "control_single_sni",
+    "o4": "positive",
+    "state": "decidable",
+    "family": "multi"
+   },
+   {
+    "code": "N3",
+    "arm": "control_single_sni",
+    "o4": "negative",
+    "state": "decidable",
+    "family": "single"
+   },
+   {
+    "code": "N4",
+    "arm": "control_single_sni",
+    "o4": "negative",
+    "state": "decidable",
+    "family": "single"
+   },
+   {
+    "code": "N5",
+    "arm": "control_single_sni",
+    "o4": "negative",
+    "state": "decidable",
+    "family": "single"
+   },
+   {
+    "code": "N6",
+    "arm": "control_single_sni",
+    "o4": "negative",
+    "state": "decidable",
+    "family": "single"
+   },
+   {
+    "code": "N7",
+    "arm": "control_single_sni",
+    "o4": "negative",
+    "state": "decidable",
+    "family": "single"
+   },
+   {
+    "code": "N8",
+    "arm": "control_single_sni",
+    "o4": "negative",
+    "state": "decidable",
+    "family": "single"
+   },
+   {
+    "code": "P1",
+    "arm": "control_positive_sni",
+    "o4": "negative",
+    "state": "decidable",
+    "family": "single"
+   },
+   {
+    "code": "H1",
+    "arm": "hetero_sni",
+    "o4": "positive",
+    "state": "decidable",
+    "family": "multi"
+   },
+   {
+    "code": "H2",
+    "arm": "hetero_sni",
+    "o4": "positive",
+    "state": "decidable",
+    "family": "multi"
+   },
+   {
+    "code": "R1",
+    "arm": "rig_rotation",
+    "o4": "negative",
+    "state": "decidable",
+    "family": "multi"
+   }
+  ],
+  "n_pairs": 12,
+  "h2": {
+   "n": 8,
+   "single": 7,
+   "share": 0.875,
+   "wilson95": [
+    0.5291,
+    0.9776
+   ]
+  },
+  "h1": {
+   "n": 2,
+   "decidable": 2,
+   "share": 1.0,
+   "wilson95": [
+    0.3424,
+    1.0
+   ]
+  },
+  "o4_dist": {
+   "negative": 9,
+   "positive": 3
+  },
+  "provenance": "data/c1/round2/campaign_judged.json"
  }
 }

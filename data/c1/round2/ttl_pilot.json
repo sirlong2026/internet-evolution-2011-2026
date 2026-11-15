@@ -1,0 +1,1063 @@
+{
+ "at": "2026-11-12T12:06:38Z",
+ "rule": "same probe, TTL set cardinality > 1 across rounds",
+ "strength_rule": "persistent = at least two separate excursions from the modal TTL; strong = at least two persistent probes, medium = one, weak = none",
+ "n_targets": 24,
+ "n_hetero": 4,
+ "n_by_strength": {
+  "strong": 1,
+  "weak": 2,
+  "medium": 1
+ },
+ "summary": {
+  "2dayhost.com": {
+   "msms": 1,
+   "hetero": false,
+   "probes": 2,
+   "n_persistent_probes": 0,
+   "strength": null,
+   "target_ip": "104.21.18.53",
+   "multi": {}
+  },
+  "alstom.com": {
+   "msms": 1,
+   "hetero": false,
+   "probes": 4,
+   "n_persistent_probes": 0,
+   "strength": null,
+   "target_ip": "104.18.2.12",
+   "multi": {}
+  },
+  "caucasus.net": {
+   "msms": 1,
+   "hetero": false,
+   "probes": 3,
+   "n_persistent_probes": 0,
+   "strength": null,
+   "target_ip": "104.21.28.119",
+   "multi": {}
+  },
+  "chmr.ru": {
+   "msms": 1,
+   "hetero": false,
+   "probes": 4,
+   "n_persistent_probes": 0,
+   "strength": null,
+   "target_ip": "46.254.21.69",
+   "multi": {}
+  },
+  "cqu.edu.au": {
+   "msms": 1,
+   "hetero": false,
+   "probes": 2,
+   "n_persistent_probes": 0,
+   "strength": null,
+   "target_ip": "162.159.140.123",
+   "multi": {}
+  },
+  "exchangenext.net": {
+   "msms": 1,
+   "hetero": false,
+   "probes": 2,
+   "n_persistent_probes": 0,
+   "strength": null,
+   "target_ip": "202.138.114.4",
+   "multi": {}
+  },
+  "farm.de": {
+   "msms": 1,
+   "hetero": false,
+   "probes": 4,
+   "n_persistent_probes": 0,
+   "strength": null,
+   "target_ip": "31.24.144.237",
+   "multi": {}
+  },
+  "greennet.ge": {
+   "msms": 1,
+   "hetero": true,
+   "probes": 4,
+   "n_persistent_probes": 3,
+   "strength": "strong",
+   "target_ip": "35.214.223.211",
+   "multi": {
+    "236461234": {
+     "1006309": [
+      94,
+      97
+     ],
+     "1002225": [
+      98,
+      99,
+      101,
+      102
+     ],
+     "12093": [
+      99,
+      102
+     ],
+     "21458": [
+      99,
+      102
+     ]
+    }
+   }
+  },
+  "iberiapac.ge": {
+   "msms": 1,
+   "hetero": true,
+   "probes": 4,
+   "n_persistent_probes": 0,
+   "strength": "weak",
+   "target_ip": "212.58.96.3",
+   "multi": {
+    "236461659": {
+     "1011751": [
+      46,
+      47
+     ],
+     "1014829": [
+      48,
+      50
+     ]
+    }
+   }
+  },
+  "ixirhost.com": {
+   "msms": 1,
+   "hetero": false,
+   "probes": 3,
+   "n_persistent_probes": 0,
+   "strength": null,
+   "target_ip": "85.95.237.188",
+   "multi": {}
+  },
+  "macomnet.ru": {
+   "msms": 1,
+   "hetero": false,
+   "probes": 4,
+   "n_persistent_probes": 0,
+   "strength": null,
+   "target_ip": "91.189.114.9",
+   "multi": {}
+  },
+  "optus.net.au": {
+   "msms": 1,
+   "hetero": false,
+   "probes": 0,
+   "n_persistent_probes": 0,
+   "strength": null,
+   "target_ip": "203.13.127.32",
+   "multi": {}
+  },
+  "powernet.bg": {
+   "msms": 1,
+   "hetero": false,
+   "probes": 4,
+   "n_persistent_probes": 0,
+   "strength": null,
+   "target_ip": "104.247.81.99",
+   "multi": {}
+  },
+  "relarn.ru": {
+   "msms": 1,
+   "hetero": false,
+   "probes": 3,
+   "n_persistent_probes": 0,
+   "strength": null,
+   "target_ip": "45.95.203.19",
+   "multi": {}
+  },
+  "sd-france.net": {
+   "msms": 1,
+   "hetero": false,
+   "probes": 4,
+   "n_persistent_probes": 0,
+   "strength": null,
+   "target_ip": "81.93.250.111",
+   "multi": {}
+  },
+  "sobranie.mk": {
+   "msms": 1,
+   "hetero": false,
+   "probes": 4,
+   "n_persistent_probes": 0,
+   "strength": null,
+   "target_ip": "104.21.92.29",
+   "multi": {}
+  },
+  "sprint.pl": {
+   "msms": 1,
+   "hetero": false,
+   "probes": 4,
+   "n_persistent_probes": 0,
+   "strength": null,
+   "target_ip": "104.21.41.180",
+   "multi": {}
+  },
+  "tatanova.com": {
+   "msms": 1,
+   "hetero": true,
+   "probes": 4,
+   "n_persistent_probes": 0,
+   "strength": "weak",
+   "target_ip": "103.224.182.243",
+   "multi": {
+    "236465962": {
+     "1008864": [
+      44,
+      47
+     ],
+     "51572": [
+      42,
+      43
+     ]
+    }
+   }
+  },
+  "tatintel.com": {
+   "msms": 1,
+   "hetero": true,
+   "probes": 4,
+   "n_persistent_probes": 1,
+   "strength": "medium",
+   "target_ip": "34.41.139.193",
+   "multi": {
+    "236466232": {
+     "1009157": [
+      103,
+      106
+     ],
+     "62031": [
+      104,
+      105,
+      107
+     ],
+     "1012104": [
+      101,
+      103
+     ]
+    }
+   }
+  },
+  "tele.dk": {
+   "msms": 1,
+   "hetero": false,
+   "probes": 0,
+   "n_persistent_probes": 0,
+   "strength": null,
+   "target_ip": "18.192.246.145",
+   "multi": {}
+  },
+  "tnpko.ru": {
+   "msms": 1,
+   "hetero": false,
+   "probes": 3,
+   "n_persistent_probes": 0,
+   "strength": null,
+   "target_ip": "81.23.144.250",
+   "multi": {}
+  },
+  "trnet.ru": {
+   "msms": 1,
+   "hetero": false,
+   "probes": 0,
+   "n_persistent_probes": 0,
+   "strength": null,
+   "target_ip": "82.147.83.3",
+   "multi": {}
+  },
+  "twnic.net": {
+   "msms": 1,
+   "hetero": false,
+   "probes": 3,
+   "n_persistent_probes": 0,
+   "strength": null,
+   "target_ip": "60.199.218.196",
+   "multi": {}
+  },
+  "vnn.vn": {
+   "msms": 1,
+   "hetero": false,
+   "probes": 0,
+   "n_persistent_probes": 0,
+   "strength": null,
+   "target_ip": "123.30.191.33",
+   "multi": {}
+  }
+ },
+ "rows": [
+  {
+   "msm_id": 236460008,
+   "domain": "2dayhost.com",
+   "target_ip": "104.21.18.53",
+   "probes": 2,
+   "rounds_per_probe": [
+    12,
+    12
+   ],
+   "rounds_total": 24,
+   "ttl_multi_probes": {},
+   "probe_classes": {},
+   "n_persistent_probes": 0,
+   "strength": null,
+   "hetero": false
+  },
+  {
+   "msm_id": 236460194,
+   "domain": "alstom.com",
+   "target_ip": "104.18.2.12",
+   "probes": 4,
+   "rounds_per_probe": [
+    12,
+    12,
+    12,
+    12
+   ],
+   "rounds_total": 48,
+   "ttl_multi_probes": {},
+   "probe_classes": {},
+   "n_persistent_probes": 0,
+   "strength": null,
+   "hetero": false
+  },
+  {
+   "msm_id": 236460302,
+   "domain": "caucasus.net",
+   "target_ip": "104.21.28.119",
+   "probes": 3,
+   "rounds_per_probe": [
+    12,
+    12,
+    12
+   ],
+   "rounds_total": 36,
+   "ttl_multi_probes": {},
+   "probe_classes": {},
+   "n_persistent_probes": 0,
+   "strength": null,
+   "hetero": false
+  },
+  {
+   "msm_id": 236460365,
+   "domain": "chmr.ru",
+   "target_ip": "46.254.21.69",
+   "probes": 4,
+   "rounds_per_probe": [
+    12,
+    12,
+    12,
+    12
+   ],
+   "rounds_total": 48,
+   "ttl_multi_probes": {},
+   "probe_classes": {},
+   "n_persistent_probes": 0,
+   "strength": null,
+   "hetero": false
+  },
+  {
+   "msm_id": 236460474,
+   "domain": "cqu.edu.au",
+   "target_ip": "162.159.140.123",
+   "probes": 2,
+   "rounds_per_probe": [
+    12,
+    12
+   ],
+   "rounds_total": 36,
+   "ttl_multi_probes": {},
+   "probe_classes": {},
+   "n_persistent_probes": 0,
+   "strength": null,
+   "hetero": false
+  },
+  {
+   "msm_id": 236460780,
+   "domain": "exchangenext.net",
+   "target_ip": "202.138.114.4",
+   "probes": 2,
+   "rounds_per_probe": [
+    12,
+    12
+   ],
+   "rounds_total": 24,
+   "ttl_multi_probes": {},
+   "probe_classes": {},
+   "n_persistent_probes": 0,
+   "strength": null,
+   "hetero": false
+  },
+  {
+   "msm_id": 236461019,
+   "domain": "farm.de",
+   "target_ip": "31.24.144.237",
+   "probes": 4,
+   "rounds_per_probe": [
+    12,
+    12,
+    12,
+    12
+   ],
+   "rounds_total": 48,
+   "ttl_multi_probes": {},
+   "probe_classes": {},
+   "n_persistent_probes": 0,
+   "strength": null,
+   "hetero": false
+  },
+  {
+   "msm_id": 236461234,
+   "domain": "greennet.ge",
+   "target_ip": "35.214.223.211",
+   "probes": 4,
+   "rounds_per_probe": [
+    12,
+    12,
+    12,
+    12
+   ],
+   "rounds_total": 48,
+   "ttl_multi_probes": {
+    "1006309": [
+     94,
+     97
+    ],
+    "1002225": [
+     98,
+     99,
+     101,
+     102
+    ],
+    "12093": [
+     99,
+     102
+    ],
+    "21458": [
+     99,
+     102
+    ]
+   },
+   "probe_classes": {
+    "12093": {
+     "kind": "persistent",
+     "n_runs": 4,
+     "n_excursions": 2,
+     "runs": [
+      [
+       102,
+       2
+      ],
+      [
+       99,
+       3
+      ],
+      [
+       102,
+       1
+      ],
+      [
+       99,
+       6
+      ]
+     ],
+     "rtt_mean_by_ttl": {
+      "99": 144.2,
+      "102": 144.3
+     },
+     "rtt_flat": true
+    },
+    "21458": {
+     "kind": "persistent",
+     "n_runs": 6,
+     "n_excursions": 3,
+     "runs": [
+      [
+       102,
+       1
+      ],
+      [
+       99,
+       2
+      ],
+      [
+       102,
+       1
+      ],
+      [
+       99,
+       1
+      ],
+      [
+       102,
+       2
+      ],
+      [
+       99,
+       5
+      ]
+     ],
+     "rtt_mean_by_ttl": {
+      "99": 46.2,
+      "102": 46.2
+     },
+     "rtt_flat": true
+    },
+    "1002225": {
+     "kind": "persistent",
+     "n_runs": 8,
+     "n_excursions": 4,
+     "runs": [
+      [
+       99,
+       5
+      ],
+      [
+       98,
+       1
+      ],
+      [
+       99,
+       1
+      ],
+      [
+       102,
+       1
+      ],
+      [
+       98,
+       1
+      ],
+      [
+       99,
+       1
+      ],
+      [
+       101,
+       1
+      ],
+      [
+       99,
+       1
+      ]
+     ],
+     "rtt_mean_by_ttl": {
+      "98": 298.1,
+      "99": 298.7,
+      "101": 297.0,
+      "102": 295.6
+     },
+     "rtt_flat": true
+    },
+    "1006309": {
+     "kind": "single_excursion",
+     "n_runs": 3,
+     "n_excursions": 1,
+     "runs": [
+      [
+       94,
+       3
+      ],
+      [
+       97,
+       1
+      ],
+      [
+       94,
+       8
+      ]
+     ],
+     "rtt_mean_by_ttl": {
+      "94": 255.4,
+      "97": 242.4
+     },
+     "rtt_flat": true
+    }
+   },
+   "n_persistent_probes": 3,
+   "strength": "strong",
+   "hetero": true
+  },
+  {
+   "msm_id": 236461659,
+   "domain": "iberiapac.ge",
+   "target_ip": "212.58.96.3",
+   "probes": 4,
+   "rounds_per_probe": [
+    12,
+    12,
+    12,
+    12
+   ],
+   "rounds_total": 48,
+   "ttl_multi_probes": {
+    "1011751": [
+     46,
+     47
+    ],
+    "1014829": [
+     48,
+     50
+    ]
+   },
+   "probe_classes": {
+    "1011751": {
+     "kind": "single_excursion",
+     "n_runs": 3,
+     "n_excursions": 1,
+     "runs": [
+      [
+       47,
+       7
+      ],
+      [
+       46,
+       1
+      ],
+      [
+       47,
+       4
+      ]
+     ],
+     "rtt_mean_by_ttl": {
+      "46": 280.3,
+      "47": 287.7
+     },
+     "rtt_flat": true
+    },
+    "1014829": {
+     "kind": "single_excursion",
+     "n_runs": 3,
+     "n_excursions": 1,
+     "runs": [
+      [
+       50,
+       1
+      ],
+      [
+       48,
+       1
+      ],
+      [
+       50,
+       10
+      ]
+     ],
+     "rtt_mean_by_ttl": {
+      "48": 72.0,
+      "50": 65.6
+     },
+     "rtt_flat": true
+    }
+   },
+   "n_persistent_probes": 0,
+   "strength": "weak",
+   "hetero": true
+  },
+  {
+   "msm_id": 236462751,
+   "domain": "ixirhost.com",
+   "target_ip": "85.95.237.188",
+   "probes": 3,
+   "rounds_per_probe": [
+    12,
+    12,
+    12
+   ],
+   "rounds_total": 36,
+   "ttl_multi_probes": {},
+   "probe_classes": {},
+   "n_persistent_probes": 0,
+   "strength": null,
+   "hetero": false
+  },
+  {
+   "msm_id": 236463060,
+   "domain": "macomnet.ru",
+   "target_ip": "91.189.114.9",
+   "probes": 4,
+   "rounds_per_probe": [
+    12,
+    12,
+    12,
+    12
+   ],
+   "rounds_total": 48,
+   "ttl_multi_probes": {},
+   "probe_classes": {},
+   "n_persistent_probes": 0,
+   "strength": null,
+   "hetero": false
+  },
+  {
+   "msm_id": 236463226,
+   "domain": "optus.net.au",
+   "target_ip": "203.13.127.32",
+   "probes": 0,
+   "rounds_per_probe": [],
+   "rounds_total": 48,
+   "ttl_multi_probes": {},
+   "probe_classes": {},
+   "n_persistent_probes": 0,
+   "strength": null,
+   "hetero": false
+  },
+  {
+   "msm_id": 236463281,
+   "domain": "powernet.bg",
+   "target_ip": "104.247.81.99",
+   "probes": 4,
+   "rounds_per_probe": [
+    12,
+    12,
+    12,
+    12
+   ],
+   "rounds_total": 48,
+   "ttl_multi_probes": {},
+   "probe_classes": {},
+   "n_persistent_probes": 0,
+   "strength": null,
+   "hetero": false
+  },
+  {
+   "msm_id": 236463395,
+   "domain": "relarn.ru",
+   "target_ip": "45.95.203.19",
+   "probes": 3,
+   "rounds_per_probe": [
+    12,
+    12,
+    12
+   ],
+   "rounds_total": 36,
+   "ttl_multi_probes": {},
+   "probe_classes": {},
+   "n_persistent_probes": 0,
+   "strength": null,
+   "hetero": false
+  },
+  {
+   "msm_id": 236464291,
+   "domain": "sd-france.net",
+   "target_ip": "81.93.250.111",
+   "probes": 4,
+   "rounds_per_probe": [
+    12,
+    12,
+    12,
+    12
+   ],
+   "rounds_total": 48,
+   "ttl_multi_probes": {},
+   "probe_classes": {},
+   "n_persistent_probes": 0,
+   "strength": null,
+   "hetero": false
+  },
+  {
+   "msm_id": 236465412,
+   "domain": "sobranie.mk",
+   "target_ip": "104.21.92.29",
+   "probes": 4,
+   "rounds_per_probe": [
+    12,
+    12,
+    12,
+    12
+   ],
+   "rounds_total": 48,
+   "ttl_multi_probes": {},
+   "probe_classes": {},
+   "n_persistent_probes": 0,
+   "strength": null,
+   "hetero": false
+  },
+  {
+   "msm_id": 236465897,
+   "domain": "sprint.pl",
+   "target_ip": "104.21.41.180",
+   "probes": 4,
+   "rounds_per_probe": [
+    12,
+    12,
+    12,
+    12
+   ],
+   "rounds_total": 48,
+   "ttl_multi_probes": {},
+   "probe_classes": {},
+   "n_persistent_probes": 0,
+   "strength": null,
+   "hetero": false
+  },
+  {
+   "msm_id": 236465962,
+   "domain": "tatanova.com",
+   "target_ip": "103.224.182.243",
+   "probes": 4,
+   "rounds_per_probe": [
+    12,
+    12,
+    12,
+    12
+   ],
+   "rounds_total": 48,
+   "ttl_multi_probes": {
+    "1008864": [
+     44,
+     47
+    ],
+    "51572": [
+     42,
+     43
+    ]
+   },
+   "probe_classes": {
+    "51572": {
+     "kind": "sustained_shift",
+     "n_runs": 2,
+     "n_excursions": 1,
+     "runs": [
+      [
+       42,
+       6
+      ],
+      [
+       43,
+       6
+      ]
+     ],
+     "rtt_mean_by_ttl": {
+      "42": 170.0,
+      "43": 166.8
+     },
+     "rtt_flat": true
+    },
+    "1008864": {
+     "kind": "single_excursion",
+     "n_runs": 2,
+     "n_excursions": 1,
+     "runs": [
+      [
+       44,
+       11
+      ],
+      [
+       47,
+       1
+      ]
+     ],
+     "rtt_mean_by_ttl": {
+      "44": 162.4,
+      "47": 154.9
+     },
+     "rtt_flat": true
+    }
+   },
+   "n_persistent_probes": 0,
+   "strength": "weak",
+   "hetero": true
+  },
+  {
+   "msm_id": 236466232,
+   "domain": "tatintel.com",
+   "target_ip": "34.41.139.193",
+   "probes": 4,
+   "rounds_per_probe": [
+    12,
+    12,
+    12,
+    12
+   ],
+   "rounds_total": 48,
+   "ttl_multi_probes": {
+    "1009157": [
+     103,
+     106
+    ],
+    "62031": [
+     104,
+     105,
+     107
+    ],
+    "1012104": [
+     101,
+     103
+    ]
+   },
+   "probe_classes": {
+    "62031": {
+     "kind": "persistent",
+     "n_runs": 4,
+     "n_excursions": 2,
+     "runs": [
+      [
+       105,
+       9
+      ],
+      [
+       107,
+       1
+      ],
+      [
+       105,
+       1
+      ],
+      [
+       104,
+       1
+      ]
+     ],
+     "rtt_mean_by_ttl": {
+      "104": 137.3,
+      "105": 137.5,
+      "107": 137.0
+     },
+     "rtt_flat": true
+    },
+    "1009157": {
+     "kind": "single_excursion",
+     "n_runs": 3,
+     "n_excursions": 1,
+     "runs": [
+      [
+       103,
+       6
+      ],
+      [
+       106,
+       1
+      ],
+      [
+       103,
+       5
+      ]
+     ],
+     "rtt_mean_by_ttl": {
+      "103": 42.3,
+      "106": 41.5
+     },
+     "rtt_flat": true
+    },
+    "1012104": {
+     "kind": "single_excursion",
+     "n_runs": 3,
+     "n_excursions": 1,
+     "runs": [
+      [
+       103,
+       2
+      ],
+      [
+       101,
+       1
+      ],
+      [
+       103,
+       9
+      ]
+     ],
+     "rtt_mean_by_ttl": {
+      "101": 114.0,
+      "103": 112.8
+     },
+     "rtt_flat": true
+    }
+   },
+   "n_persistent_probes": 1,
+   "strength": "medium",
+   "hetero": true
+  },
+  {
+   "msm_id": 236466441,
+   "domain": "tele.dk",
+   "target_ip": "18.192.246.145",
+   "probes": 0,
+   "rounds_per_probe": [],
+   "rounds_total": 43,
+   "ttl_multi_probes": {},
+   "probe_classes": {},
+   "n_persistent_probes": 0,
+   "strength": null,
+   "hetero": false
+  },
+  {
+   "msm_id": 236466810,
+   "domain": "tnpko.ru",
+   "target_ip": "81.23.144.250",
+   "probes": 3,
+   "rounds_per_probe": [
+    12,
+    12,
+    12
+   ],
+   "rounds_total": 36,
+   "ttl_multi_probes": {},
+   "probe_classes": {},
+   "n_persistent_probes": 0,
+   "strength": null,
+   "hetero": false
+  },
+  {
+   "msm_id": 236467657,
+   "domain": "trnet.ru",
+   "target_ip": "82.147.83.3",
+   "probes": 0,
+   "rounds_per_probe": [],
+   "rounds_total": 48,
+   "ttl_multi_probes": {},
+   "probe_classes": {},
+   "n_persistent_probes": 0,
+   "strength": null,
+   "hetero": false
+  },
+  {
+   "msm_id": 236468707,
+   "domain": "twnic.net",
+   "target_ip": "60.199.218.196",
+   "probes": 3,
+   "rounds_per_probe": [
+    12,
+    12,
+    12
+   ],
+   "rounds_total": 48,
+   "ttl_multi_probes": {},
+   "probe_classes": {},
+   "n_persistent_probes": 0,
+   "strength": null,
+   "hetero": false
+  },
+  {
+   "msm_id": 236469258,
+   "domain": "vnn.vn",
+   "target_ip": "123.30.191.33",
+   "probes": 0,
+   "rounds_per_probe": [],
+   "rounds_total": 24,
+   "ttl_multi_probes": {},
+   "probe_classes": {},
+   "n_persistent_probes": 0,
+   "strength": null,
+   "hetero": false
+  },
+  {
+   "msm_id": 236469483,
+   "domain": null,
+   "target_ip": "172.93.103.101",
+   "probes": 3,
+   "rounds_per_probe": [
+    12,
+    12,
+    12
+   ],
+   "rounds_total": 36,
+   "ttl_multi_probes": {},
+   "probe_classes": {},
+   "n_persistent_probes": 0,
+   "strength": null,
+   "hetero": false
+  }
+ ]
+}

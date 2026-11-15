@@ -1,0 +1,155 @@
+{
+ "arm": "controls_ping",
+ "role": "o1 supplement for the control arms (same address targets)",
+ "resolver_today": "system_recursive",
+ "targets": [
+  {
+   "target_ip": "202.175.27.77",
+   "identity_name": "ctm.net",
+   "ip_source": "raw_dst_addr_majority",
+   "resolver_today": "system_recursive",
+   "today_a_records": [
+    "202.175.27.77"
+   ],
+   "ip_drift": false,
+   "round1_verdict": "indistinguishable",
+   "probes_with_ge3_handshakes": [
+    52748,
+    52806,
+    1006956,
+    1008081
+   ]
+  },
+  {
+   "target_ip": "202.138.0.21",
+   "identity_name": "iprimus.com.au",
+   "ip_source": "raw_dst_addr_majority",
+   "resolver_today": "system_recursive",
+   "today_a_records": [
+    "202.138.0.21"
+   ],
+   "ip_drift": false,
+   "round1_verdict": "indistinguishable",
+   "probes_with_ge3_handshakes": [
+    13081,
+    51440,
+    1008493,
+    1012297
+   ]
+  },
+  {
+   "target_ip": "194.8.80.80",
+   "identity_name": "jump.ro",
+   "ip_source": "raw_dst_addr_majority",
+   "resolver_today": "system_recursive",
+   "today_a_records": [
+    "194.8.80.80"
+   ],
+   "ip_drift": false,
+   "round1_verdict": "indistinguishable",
+   "probes_with_ge3_handshakes": [
+    10984,
+    1011991
+   ]
+  },
+  {
+   "target_ip": "82.98.127.7",
+   "identity_name": "plusline.de",
+   "ip_source": "raw_dst_addr_majority",
+   "resolver_today": "system_recursive",
+   "today_a_records": [
+    "82.98.127.7"
+   ],
+   "ip_drift": false,
+   "round1_verdict": "indistinguishable",
+   "probes_with_ge3_handshakes": [
+    22034,
+    60249,
+    1014001,
+    1017906
+   ]
+  },
+  {
+   "target_ip": "113.193.1.103",
+   "identity_name": "tikona.in",
+   "ip_source": "raw_dst_addr_majority",
+   "resolver_today": "system_recursive",
+   "today_a_records": [
+    "113.193.1.103"
+   ],
+   "ip_drift": false,
+   "round1_verdict": "indistinguishable",
+   "probes_with_ge3_handshakes": [
+    13291,
+    61267,
+    1015205,
+    1016568
+   ]
+  },
+  {
+   "target_ip": "52.64.173.233",
+   "identity_name": "tpgi.com.au",
+   "ip_source": "raw_dst_addr_majority",
+   "resolver_today": "system_recursive",
+   "today_a_records": [
+    "13.237.200.17",
+    "52.64.173.233"
+   ],
+   "ip_drift": false,
+   "round1_verdict": "indistinguishable",
+   "probes_with_ge3_handshakes": [
+    26943,
+    1006191,
+    1014932
+   ]
+  },
+  {
+   "target_ip": "217.73.28.12",
+   "identity_name": "vnet.sk",
+   "ip_source": "raw_dst_addr_majority",
+   "resolver_today": "system_recursive",
+   "today_a_records": [
+    "217.73.28.12"
+   ],
+   "ip_drift": false,
+   "round1_verdict": "indistinguishable",
+   "probes_with_ge3_handshakes": [
+    64409,
+    1011060
+   ]
+  },
+  {
+   "target_ip": "195.88.137.126",
+   "identity_name": "zorgring.nl",
+   "ip_source": "raw_dst_addr_majority",
+   "resolver_today": "system_recursive",
+   "today_a_records": [
+    "195.88.137.126"
+   ],
+   "ip_drift": false,
+   "round1_verdict": "indistinguishable",
+   "probes_with_ge3_handshakes": [
+    29662,
+    1008864,
+    1014281
+   ]
+  },
+  {
+   "target_ip": "193.192.48.3",
+   "identity_name": "asp.bg",
+   "ip_source": "raw_dst_addr_majority",
+   "resolver_today": "system_recursive",
+   "today_a_records": [
+    "193.192.48.3"
+   ],
+   "ip_drift": false,
+   "round1_verdict": "conditionally decidable",
+   "probes_with_ge3_handshakes": [
+    19815,
+    61201,
+    1008041,
+    1010702
+   ]
+  }
+ ]
+}

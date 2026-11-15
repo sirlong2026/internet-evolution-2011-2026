@@ -1,0 +1,1437 @@
+{
+ "at": "2026-11-12T14:43:23Z",
+ "frame": {
+  "id_gte": 234000000,
+  "id_lt": 234200000,
+  "type": "sslcert",
+  "is_public": true,
+  "frame_size": 6858,
+  "excluded_own": 100,
+  "pool_size": 6758,
+  "seed": 20261112,
+  "n_requested": 200,
+  "n_scored": 200,
+  "errors": 0,
+  "note": "an id interval rather than a 'latest N' list: an id interval does not change as new measurements are added, so the sample is reproducible"
+ },
+ "result": {
+  "hostname_set": 188,
+  "hostname_null": 12,
+  "ipv4_targets": 72,
+  "domain_targets": 128,
+  "domain_targets_null_hostname": 12,
+  "domain_null_share": 0.0938,
+  "domain_null_wilson95": [
+   0.0544,
+   0.1567
+  ],
+  "hostname_equals_target_among_set": 112
+ },
+ "era": {
+  "start_time_min": 1794053097,
+  "start_time_max": 1794107644
+ },
+ "rows": [
+  {
+   "id": 234001205,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794053097
+  },
+  {
+   "id": 234004040,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794053734
+  },
+  {
+   "id": 234007195,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794054506
+  },
+  {
+   "id": 234008859,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794054909
+  },
+  {
+   "id": 234009222,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794054978
+  },
+  {
+   "id": 234011146,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794055436
+  },
+  {
+   "id": 234012813,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794055807
+  },
+  {
+   "id": 234013963,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794056038
+  },
+  {
+   "id": 234014099,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794056080
+  },
+  {
+   "id": 234014229,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794056103
+  },
+  {
+   "id": 234014917,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794056304
+  },
+  {
+   "id": 234015303,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794056426
+  },
+  {
+   "id": 234016764,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794056754
+  },
+  {
+   "id": 234017197,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794056823
+  },
+  {
+   "id": 234019430,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794057361
+  },
+  {
+   "id": 234020227,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794057567
+  },
+  {
+   "id": 234023531,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794058373
+  },
+  {
+   "id": 234023588,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794058389
+  },
+  {
+   "id": 234023663,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794058413
+  },
+  {
+   "id": 234024786,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794058626
+  },
+  {
+   "id": 234027596,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794059347
+  },
+  {
+   "id": 234029875,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794059905
+  },
+  {
+   "id": 234032101,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794060423
+  },
+  {
+   "id": 234032102,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794060423
+  },
+  {
+   "id": 234032523,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794060502
+  },
+  {
+   "id": 234035497,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794061222
+  },
+  {
+   "id": 234038504,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794061964
+  },
+  {
+   "id": 234039766,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794062225
+  },
+  {
+   "id": 234039802,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794062227
+  },
+  {
+   "id": 234040057,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794062285
+  },
+  {
+   "id": 234040150,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794062318
+  },
+  {
+   "id": 234040183,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794062330
+  },
+  {
+   "id": 234043442,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794063134
+  },
+  {
+   "id": 234043706,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794063200
+  },
+  {
+   "id": 234043711,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794063207
+  },
+  {
+   "id": 234044002,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794063294
+  },
+  {
+   "id": 234044725,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794063421
+  },
+  {
+   "id": 234047750,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794064187
+  },
+  {
+   "id": 234049158,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794064505
+  },
+  {
+   "id": 234052566,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794065298
+  },
+  {
+   "id": 234052653,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794065329
+  },
+  {
+   "id": 234053377,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794065501
+  },
+  {
+   "id": 234056085,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794066179
+  },
+  {
+   "id": 234061896,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794067421
+  },
+  {
+   "id": 234062115,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794067460
+  },
+  {
+   "id": 234062842,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794067617
+  },
+  {
+   "id": 234062918,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794067624
+  },
+  {
+   "id": 234063429,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794067760
+  },
+  {
+   "id": 234063930,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794067881
+  },
+  {
+   "id": 234066238,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794068404
+  },
+  {
+   "id": 234067272,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794068669
+  },
+  {
+   "id": 234068518,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794068905
+  },
+  {
+   "id": 234068719,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794068973
+  },
+  {
+   "id": 234069045,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794069034
+  },
+  {
+   "id": 234069626,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794069166
+  },
+  {
+   "id": 234075900,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794070704
+  },
+  {
+   "id": 234076542,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794070857
+  },
+  {
+   "id": 234077879,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794071148
+  },
+  {
+   "id": 234077889,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794071148
+  },
+  {
+   "id": 234078880,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794071405
+  },
+  {
+   "id": 234078881,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794071405
+  },
+  {
+   "id": 234078937,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794071414
+  },
+  {
+   "id": 234082562,
+   "target_kind": "domain",
+   "has_hostname": false,
+   "hostname_equals_target": false,
+   "start_time": 1794072297
+  },
+  {
+   "id": 234082629,
+   "target_kind": "domain",
+   "has_hostname": false,
+   "hostname_equals_target": false,
+   "start_time": 1794072304
+  },
+  {
+   "id": 234082670,
+   "target_kind": "domain",
+   "has_hostname": false,
+   "hostname_equals_target": false,
+   "start_time": 1794072309
+  },
+  {
+   "id": 234082705,
+   "target_kind": "domain",
+   "has_hostname": false,
+   "hostname_equals_target": false,
+   "start_time": 1794072313
+  },
+  {
+   "id": 234083655,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794072481
+  },
+  {
+   "id": 234085028,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794072885
+  },
+  {
+   "id": 234086171,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794073136
+  },
+  {
+   "id": 234086262,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794073209
+  },
+  {
+   "id": 234086311,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794073230
+  },
+  {
+   "id": 234087299,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794073474
+  },
+  {
+   "id": 234089739,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794074103
+  },
+  {
+   "id": 234092328,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794074696
+  },
+  {
+   "id": 234093423,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794074823
+  },
+  {
+   "id": 234093925,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794075019
+  },
+  {
+   "id": 234097513,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794075638
+  },
+  {
+   "id": 234098080,
+   "target_kind": "domain",
+   "has_hostname": false,
+   "hostname_equals_target": false,
+   "start_time": 1794075752
+  },
+  {
+   "id": 234098345,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794075839
+  },
+  {
+   "id": 234098847,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794075943
+  },
+  {
+   "id": 234099018,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794075970
+  },
+  {
+   "id": 234099131,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794075986
+  },
+  {
+   "id": 234099200,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794076000
+  },
+  {
+   "id": 234099368,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794076029
+  },
+  {
+   "id": 234099966,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794076202
+  },
+  {
+   "id": 234101000,
+   "target_kind": "domain",
+   "has_hostname": false,
+   "hostname_equals_target": false,
+   "start_time": 1794076427
+  },
+  {
+   "id": 234101395,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794076517
+  },
+  {
+   "id": 234101935,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794076625
+  },
+  {
+   "id": 234101938,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794076625
+  },
+  {
+   "id": 234108914,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794078303
+  },
+  {
+   "id": 234109271,
+   "target_kind": "domain",
+   "has_hostname": false,
+   "hostname_equals_target": false,
+   "start_time": 1794078349
+  },
+  {
+   "id": 234110021,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794078517
+  },
+  {
+   "id": 234111523,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794078902
+  },
+  {
+   "id": 234118995,
+   "target_kind": "domain",
+   "has_hostname": false,
+   "hostname_equals_target": false,
+   "start_time": 1794080701
+  },
+  {
+   "id": 234119037,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794080702
+  },
+  {
+   "id": 234119299,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794080737
+  },
+  {
+   "id": 234121215,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794081234
+  },
+  {
+   "id": 234121711,
+   "target_kind": "domain",
+   "has_hostname": false,
+   "hostname_equals_target": false,
+   "start_time": 1794081342
+  },
+  {
+   "id": 234122261,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794081504
+  },
+  {
+   "id": 234122264,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794081504
+  },
+  {
+   "id": 234123699,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794081859
+  },
+  {
+   "id": 234124588,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794082024
+  },
+  {
+   "id": 234124728,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794082049
+  },
+  {
+   "id": 234124816,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794082074
+  },
+  {
+   "id": 234125593,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794082299
+  },
+  {
+   "id": 234126156,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794082459
+  },
+  {
+   "id": 234127475,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794082750
+  },
+  {
+   "id": 234130108,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794083418
+  },
+  {
+   "id": 234130371,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794083487
+  },
+  {
+   "id": 234131853,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794083822
+  },
+  {
+   "id": 234131875,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794083824
+  },
+  {
+   "id": 234134180,
+   "target_kind": "domain",
+   "has_hostname": false,
+   "hostname_equals_target": false,
+   "start_time": 1794084400
+  },
+  {
+   "id": 234134883,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794084645
+  },
+  {
+   "id": 234135840,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794084905
+  },
+  {
+   "id": 234136709,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794085105
+  },
+  {
+   "id": 234136768,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794085124
+  },
+  {
+   "id": 234137030,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794085207
+  },
+  {
+   "id": 234137743,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794085355
+  },
+  {
+   "id": 234138151,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794085503
+  },
+  {
+   "id": 234139477,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794085760
+  },
+  {
+   "id": 234140710,
+   "target_kind": "domain",
+   "has_hostname": false,
+   "hostname_equals_target": false,
+   "start_time": 1794086100
+  },
+  {
+   "id": 234140736,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794086102
+  },
+  {
+   "id": 234142047,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794086433
+  },
+  {
+   "id": 234144044,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794086904
+  },
+  {
+   "id": 234144137,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794086931
+  },
+  {
+   "id": 234145022,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794087129
+  },
+  {
+   "id": 234146405,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794087438
+  },
+  {
+   "id": 234147075,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794087638
+  },
+  {
+   "id": 234148653,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794088220
+  },
+  {
+   "id": 234148663,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794088221
+  },
+  {
+   "id": 234149435,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794088504
+  },
+  {
+   "id": 234149793,
+   "target_kind": "domain",
+   "has_hostname": false,
+   "hostname_equals_target": false,
+   "start_time": 1794088624
+  },
+  {
+   "id": 234150738,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794088971
+  },
+  {
+   "id": 234151448,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794089224
+  },
+  {
+   "id": 234151507,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794089257
+  },
+  {
+   "id": 234151847,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794089358
+  },
+  {
+   "id": 234151889,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794089369
+  },
+  {
+   "id": 234153578,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794090260
+  },
+  {
+   "id": 234153713,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794090415
+  },
+  {
+   "id": 234153782,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794090475
+  },
+  {
+   "id": 234154388,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794090903
+  },
+  {
+   "id": 234154489,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794091044
+  },
+  {
+   "id": 234154496,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794091045
+  },
+  {
+   "id": 234156298,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794092743
+  },
+  {
+   "id": 234158501,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794093595
+  },
+  {
+   "id": 234158563,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794093620
+  },
+  {
+   "id": 234159079,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794093783
+  },
+  {
+   "id": 234159114,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794093842
+  },
+  {
+   "id": 234160770,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794094501
+  },
+  {
+   "id": 234161230,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794094623
+  },
+  {
+   "id": 234162214,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794095077
+  },
+  {
+   "id": 234163036,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794095349
+  },
+  {
+   "id": 234163754,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794095701
+  },
+  {
+   "id": 234163963,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794095743
+  },
+  {
+   "id": 234164083,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794095787
+  },
+  {
+   "id": 234164378,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794095904
+  },
+  {
+   "id": 234164408,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794095922
+  },
+  {
+   "id": 234164819,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794096040
+  },
+  {
+   "id": 234164854,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794096056
+  },
+  {
+   "id": 234165043,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794096151
+  },
+  {
+   "id": 234165420,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794096293
+  },
+  {
+   "id": 234165920,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794096414
+  },
+  {
+   "id": 234165976,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794096417
+  },
+  {
+   "id": 234166021,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794096423
+  },
+  {
+   "id": 234166123,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794096449
+  },
+  {
+   "id": 234166563,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794096640
+  },
+  {
+   "id": 234166908,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794096748
+  },
+  {
+   "id": 234166970,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794096768
+  },
+  {
+   "id": 234167874,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794097060
+  },
+  {
+   "id": 234168064,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794097235
+  },
+  {
+   "id": 234168393,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794097335
+  },
+  {
+   "id": 234168415,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794097344
+  },
+  {
+   "id": 234168637,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794097491
+  },
+  {
+   "id": 234169461,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794097705
+  },
+  {
+   "id": 234170282,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794098081
+  },
+  {
+   "id": 234170730,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794098199
+  },
+  {
+   "id": 234173920,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794099504
+  },
+  {
+   "id": 234175226,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794099832
+  },
+  {
+   "id": 234175485,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794099935
+  },
+  {
+   "id": 234175863,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794100023
+  },
+  {
+   "id": 234176783,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794100255
+  },
+  {
+   "id": 234178108,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794100678
+  },
+  {
+   "id": 234178732,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794100876
+  },
+  {
+   "id": 234178946,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794100955
+  },
+  {
+   "id": 234179334,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794101119
+  },
+  {
+   "id": 234180014,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794101401
+  },
+  {
+   "id": 234184329,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794102784
+  },
+  {
+   "id": 234185850,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794103341
+  },
+  {
+   "id": 234186880,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794103623
+  },
+  {
+   "id": 234187032,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794103705
+  },
+  {
+   "id": 234190268,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794104702
+  },
+  {
+   "id": 234190537,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794104763
+  },
+  {
+   "id": 234191465,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794105094
+  },
+  {
+   "id": 234191922,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794105337
+  },
+  {
+   "id": 234192402,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794105423
+  },
+  {
+   "id": 234192406,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794105423
+  },
+  {
+   "id": 234192885,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794105600
+  },
+  {
+   "id": 234198701,
+   "target_kind": "ipv4",
+   "has_hostname": true,
+   "hostname_equals_target": false,
+   "start_time": 1794107379
+  },
+  {
+   "id": 234199128,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794107518
+  },
+  {
+   "id": 234199550,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1794107644
+  }
+ ],
+ "reproduce": "python tools/c1_sni_usage_survey.py --n 200 --seed 20261112"
+}

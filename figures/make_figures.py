@@ -1,6 +1,8 @@
-# Release copy (built by tools/build_repo_c1.py): reads figdata.json in this
-# directory and writes the three figure files next to it. Regenerate the
-# figure data first with:  python ../analysis/c1_figure_data.py --out figdata.json
+# Release copy (built by tools/build_repo_c1.py).
+# make_figures.py reads figdata.json here and writes Figs. 1-3 next to it;
+# regenerate its data with:  python ../analysis/c1_figure_data.py --out figdata.json
+# c1_round2_figures.py reads ../data/c1/round2/campaign_judged.json and
+# fig5_ci.json here, and writes Figs. 4-5 next to it.
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """make_figures.py — C 线稿件配图（IJNM 投稿规格：矢量 PDF + 600 dpi TIFF + 可编辑 SVG）。
@@ -484,10 +486,16 @@ def fig3(d):
     tg = d["fig3"]["targets"]
     anc = d["fig3"]["anchor"]
     fleet = d["fig3"]["fleet"]
+    r2 = d.get("fig3_round2")
 
-    fig = plt.figure(figsize=(7.0, 4.60))
-    gs = fig.add_gridspec(1, 2, width_ratios=[1.18, 1.0], wspace=0.40,
-                          left=0.085, right=0.985, top=0.915, bottom=0.145)
+    if r2:
+        fig = plt.figure(figsize=(9.3, 4.60))
+        gs = fig.add_gridspec(1, 3, width_ratios=[1.18, 0.92, 0.78], wspace=0.42,
+                              left=0.072, right=0.992, top=0.915, bottom=0.145)
+    else:
+        fig = plt.figure(figsize=(7.0, 4.60))
+        gs = fig.add_gridspec(1, 2, width_ratios=[1.18, 1.0], wspace=0.40,
+                              left=0.085, right=0.985, top=0.915, bottom=0.145)
 
     # ---- (a) per-target campaign profile -------------------------------------
     ax = fig.add_subplot(gs[0, 0])
@@ -554,6 +562,51 @@ def fig3(d):
             color=GREY, ha="right")
     ax.set_title("b  Fingerprint set and engine verdict", loc="left",
                  fontsize=8.2, fontweight="bold", pad=6)
+
+    # ---- (c) round-2 name-condition panel (only when judged data exists) ------
+    if r2:
+        ax = fig.add_subplot(gs[0, 2])
+        arms = r2["arms"]
+        ax.set_xlim(0, 1)
+        ax.set_ylim(-0.7, len(arms) - 0.3)
+        ax.axis("off")
+        prev = None
+        for yi, a in zip(list(range(len(arms)))[::-1], arms):
+            if prev is not None and a["arm"] != prev:
+                ax.plot([0.0, 1.0], [yi + 0.5, yi + 0.5], color=LGREY, lw=0.6, zorder=1)
+            prev = a["arm"]
+            o4 = a.get("o4")
+            # 身份名一侧：恒为蓝实心；对比名一侧：同指纹=同色实心，不同=红斜线，不可观测=灰虚框
+            ax.add_patch(FancyBboxPatch((0.03, yi - 0.22), 0.20, 0.44,
+                                        boxstyle="round,pad=0.006,rounding_size=0.015",
+                                        linewidth=0.8, edgecolor=BLUE, facecolor=BLUE,
+                                        alpha=0.85, zorder=3))
+            if o4 == "positive":
+                ax.add_patch(FancyBboxPatch((0.28, yi - 0.22), 0.20, 0.44,
+                                            boxstyle="round,pad=0.006,rounding_size=0.015",
+                                            linewidth=0.8, edgecolor=RED, facecolor="white",
+                                            hatch="//", zorder=3))
+                ax.text(0.53, yi, "differs", fontsize=6.0, va="center", color=RED)
+            elif o4 == "negative":
+                ax.add_patch(FancyBboxPatch((0.28, yi - 0.22), 0.20, 0.44,
+                                            boxstyle="round,pad=0.006,rounding_size=0.015",
+                                            linewidth=0.8, edgecolor=BLUE, facecolor=BLUE,
+                                            alpha=0.85, zorder=3))
+                ax.text(0.53, yi, "same", fontsize=6.0, va="center", color=BLUE)
+            else:
+                ax.add_patch(FancyBboxPatch((0.28, yi - 0.22), 0.20, 0.44,
+                                            boxstyle="round,pad=0.006,rounding_size=0.015",
+                                            linewidth=0.8, edgecolor=GREY, facecolor="white",
+                                            linestyle="--", zorder=3))
+                ax.text(0.53, yi, "n/a", fontsize=6.0, va="center", color=GREY)
+            ax.text(0.0, yi, a["code"], fontsize=6.0, va="center", ha="right",
+                    color=DGREY, fontweight="bold")
+        ax.set_title("c  Two names, one address\n   (round 2, o$_4$)", loc="left",
+                     fontsize=8.2, fontweight="bold", pad=6)
+        ax.text(0.0, -0.06,
+                "left box = target's own name; right box = reserved name\n"
+                "same = one leaf certificate for both; // = a different certificate",
+                transform=ax.transAxes, fontsize=6.0, color=GREY, va="top")
 
     return save(fig, "fig3_certificate_campaign")
 
@@ -676,6 +729,16 @@ def legends(d):
              "slots."
              % (en_verdict(anc["verdict"]), "conditionally decidable",
                 anc["union_fp16"], anc["stray_fp16"], anc["hour_buckets"]))
+    if d.get("fig3_round2"):
+        L.append("**(c)** Round-2 name-condition panel. Each row is one explicit address "
+                 "probed under two names with the same probe set: the target's own name "
+                 "(left box) and a reserved name that belongs to no operator (right box). "
+                 "A filled pair means the server returned the same leaf certificate for "
+                 "both names; a hatched box means the certificate differed by name, which "
+                 "is the observation that separates name-conditioned selection from "
+                 "rotation in time. Rows are anonymized: N1–N8 negative controls, P1 the "
+                 "positive control, H1–H2 heterogeneous targets, R1 the rotation rig; a "
+                 "row marked n/a has no certificate under one of the two names.")
     L.append("\n*Source data:* published per-target judgment, window statistics, target "
              "labels and anchor verdict of the artifact package. Targets are reported "
              "by anonymized label A–I; the label-to-target mapping is released with the "

@@ -1,0 +1,25 @@
+{
+ "arm": "control_positive_sni",
+ "role": "positive control: the only informative round-1 target",
+ "resolver_today": "system_recursive",
+ "contrast_name_ref": "defaults.sni.contrast_name",
+ "targets": [
+  {
+   "target_ip": "193.192.48.3",
+   "identity_name": "asp.bg",
+   "ip_source": "raw_dst_addr_majority",
+   "resolver_today": "system_recursive",
+   "today_a_records": [
+    "193.192.48.3"
+   ],
+   "ip_drift": false,
+   "round1_verdict": "conditionally decidable",
+   "probes_with_ge3_handshakes": [
+    19815,
+    61201,
+    1008041,
+    1010702
+   ]
+  }
+ ]
+}

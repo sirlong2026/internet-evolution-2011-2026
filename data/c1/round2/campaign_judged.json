@@ -1,0 +1,1244 @@
+{
+ "at": "2026-11-14T15:05:17Z",
+ "rule": "o3/o6 from the identity-name side only; o4 by per-probe fingerprint-set comparison plus a target-level sni_map; H1 reported descriptively (D7)",
+ "n_pairs": 12,
+ "rows": [
+  {
+   "arm": "control_single_sni",
+   "msm_a": 236805049,
+   "msm_b": 236805103,
+   "label": "ctm.net",
+   "handshakes_a": 190,
+   "probes_a": 4,
+   "probes_b": 4,
+   "common_probes": 4,
+   "rounds_a": 48,
+   "rounds_b": 49,
+   "results_a": 190,
+   "results_b": 190,
+   "last_ts": 1794657772,
+   "o4_votes": {
+    "negative": 4
+   },
+   "o4": "negative",
+   "o4_mixed": [],
+   "fp_sets": {
+    "10984": {
+     "identity": [
+      "58f25dc1d3dc1390"
+     ],
+     "contrast": [
+      "58f25dc1d3dc1390"
+     ]
+    },
+    "13081": {
+     "identity": [
+      "58f25dc1d3dc1390"
+     ],
+     "contrast": [
+      "58f25dc1d3dc1390"
+     ]
+    },
+    "13291": {
+     "identity": [
+      "58f25dc1d3dc1390"
+     ],
+     "contrast": [
+      "58f25dc1d3dc1390"
+     ]
+    },
+    "22034": {
+     "identity": [
+      "58f25dc1d3dc1390"
+     ],
+     "contrast": [
+      "58f25dc1d3dc1390"
+     ]
+    }
+   },
+   "verdict": {
+    "kappa": 0.5,
+    "obs": {
+     "o1": "unobservable",
+     "o2": "unobservable",
+     "o3": "negative",
+     "o4": "negative",
+     "o5": "unobservable",
+     "o6": "negative"
+    },
+    "aux": {
+     "hidden_router": false,
+     "chain": false,
+     "o2_confounded_suppressed": []
+    },
+    "support": {
+     "c1": 3,
+     "c2": 0,
+     "c3": 1,
+     "c4": 1,
+     "c5": 2,
+     "c8": 3
+    },
+    "eliminated": {
+     "c2": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c3": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c5": "o4=negative ⇌ predicted + (falsified, eliminated)"
+    },
+    "V": "decidable",
+    "equivalent": [
+     "c1",
+     "c8"
+    ],
+    "winner": "single",
+    "basis": [
+     "three negative readings support a single backend; the equivalence class retains the c8 anchor, because a perfect camouflage cluster is indistinguishable from a single host under this sensor set"
+    ],
+    "family": "single"
+   },
+   "stop_time": 1794661092,
+   "coverage_ok": true
+  },
+  {
+   "arm": "control_single_sni",
+   "msm_a": 236805346,
+   "msm_b": 236805575,
+   "label": "iprimus.com.au",
+   "handshakes_a": 190,
+   "probes_a": 4,
+   "probes_b": 4,
+   "common_probes": 4,
+   "rounds_a": 48,
+   "rounds_b": 48,
+   "results_a": 190,
+   "results_b": 190,
+   "last_ts": 1794657946,
+   "o4_votes": {
+    "positive": 4
+   },
+   "o4": "positive",
+   "o4_mixed": [],
+   "fp_sets": {
+    "10984": {
+     "identity": [
+      "a850869defd7e95f"
+     ],
+     "contrast": [
+      "4dd79143ed531748"
+     ]
+    },
+    "13081": {
+     "identity": [
+      "a850869defd7e95f"
+     ],
+     "contrast": [
+      "4dd79143ed531748"
+     ]
+    },
+    "13291": {
+     "identity": [
+      "a850869defd7e95f"
+     ],
+     "contrast": [
+      "4dd79143ed531748"
+     ]
+    },
+    "22034": {
+     "identity": [
+      "a850869defd7e95f"
+     ],
+     "contrast": [
+      "4dd79143ed531748"
+     ]
+    }
+   },
+   "verdict": {
+    "kappa": 0.5,
+    "obs": {
+     "o1": "unobservable",
+     "o2": "unobservable",
+     "o3": "negative",
+     "o4": "positive",
+     "o5": "unobservable",
+     "o6": "negative"
+    },
+    "aux": {
+     "hidden_router": false,
+     "chain": false,
+     "o2_confounded_suppressed": []
+    },
+    "support": {
+     "c1": 2,
+     "c2": 0,
+     "c3": 1,
+     "c4": 1,
+     "c5": 3,
+     "c8": 2
+    },
+    "eliminated": {
+     "c1": "o4=positive ⇌ predicted - (falsified, eliminated)",
+     "c2": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c3": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c8": "o4=positive ⇌ predicted - (falsified, eliminated)"
+    },
+    "V": "decidable",
+    "equivalent": [
+     "c5",
+     "c4"
+    ],
+    "winner": "c5",
+    "basis": [
+     "c5 support 3; the remaining surviving hypotheses tie below it"
+    ],
+    "family": "multi"
+   },
+   "stop_time": 1794661328,
+   "coverage_ok": true
+  },
+  {
+   "arm": "control_single_sni",
+   "msm_a": 236806080,
+   "msm_b": 236806951,
+   "label": "jump.ro",
+   "handshakes_a": 190,
+   "probes_a": 4,
+   "probes_b": 4,
+   "common_probes": 4,
+   "rounds_a": 48,
+   "rounds_b": 48,
+   "results_a": 190,
+   "results_b": 190,
+   "last_ts": 1794658344,
+   "o4_votes": {
+    "negative": 4
+   },
+   "o4": "negative",
+   "o4_mixed": [],
+   "fp_sets": {
+    "10984": {
+     "identity": [
+      "c0aade3a86d4a531"
+     ],
+     "contrast": [
+      "c0aade3a86d4a531"
+     ]
+    },
+    "13081": {
+     "identity": [
+      "c0aade3a86d4a531"
+     ],
+     "contrast": [
+      "c0aade3a86d4a531"
+     ]
+    },
+    "13291": {
+     "identity": [
+      "c0aade3a86d4a531"
+     ],
+     "contrast": [
+      "c0aade3a86d4a531"
+     ]
+    },
+    "22034": {
+     "identity": [
+      "c0aade3a86d4a531"
+     ],
+     "contrast": [
+      "c0aade3a86d4a531"
+     ]
+    }
+   },
+   "verdict": {
+    "kappa": 0.5,
+    "obs": {
+     "o1": "unobservable",
+     "o2": "unobservable",
+     "o3": "negative",
+     "o4": "negative",
+     "o5": "unobservable",
+     "o6": "negative"
+    },
+    "aux": {
+     "hidden_router": false,
+     "chain": false,
+     "o2_confounded_suppressed": []
+    },
+    "support": {
+     "c1": 3,
+     "c2": 0,
+     "c3": 1,
+     "c4": 1,
+     "c5": 2,
+     "c8": 3
+    },
+    "eliminated": {
+     "c2": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c3": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c5": "o4=negative ⇌ predicted + (falsified, eliminated)"
+    },
+    "V": "decidable",
+    "equivalent": [
+     "c1",
+     "c8"
+    ],
+    "winner": "single",
+    "basis": [
+     "three negative readings support a single backend; the equivalence class retains the c8 anchor, because a perfect camouflage cluster is indistinguishable from a single host under this sensor set"
+    ],
+    "family": "single"
+   },
+   "stop_time": 1794661574,
+   "coverage_ok": true
+  },
+  {
+   "arm": "control_single_sni",
+   "msm_a": 236807227,
+   "msm_b": 236807495,
+   "label": "plusline.de",
+   "handshakes_a": 189,
+   "probes_a": 4,
+   "probes_b": 4,
+   "common_probes": 4,
+   "rounds_a": 48,
+   "rounds_b": 48,
+   "results_a": 189,
+   "results_b": 189,
+   "last_ts": 1794658496,
+   "o4_votes": {
+    "negative": 4
+   },
+   "o4": "negative",
+   "o4_mixed": [],
+   "fp_sets": {
+    "10984": {
+     "identity": [
+      "7596792252b7cc01"
+     ],
+     "contrast": [
+      "7596792252b7cc01"
+     ]
+    },
+    "13081": {
+     "identity": [
+      "7596792252b7cc01"
+     ],
+     "contrast": [
+      "7596792252b7cc01"
+     ]
+    },
+    "13291": {
+     "identity": [
+      "7596792252b7cc01"
+     ],
+     "contrast": [
+      "7596792252b7cc01"
+     ]
+    },
+    "22034": {
+     "identity": [
+      "7596792252b7cc01"
+     ],
+     "contrast": [
+      "7596792252b7cc01"
+     ]
+    }
+   },
+   "verdict": {
+    "kappa": 0.5,
+    "obs": {
+     "o1": "unobservable",
+     "o2": "unobservable",
+     "o3": "negative",
+     "o4": "negative",
+     "o5": "unobservable",
+     "o6": "negative"
+    },
+    "aux": {
+     "hidden_router": false,
+     "chain": false,
+     "o2_confounded_suppressed": []
+    },
+    "support": {
+     "c1": 3,
+     "c2": 0,
+     "c3": 1,
+     "c4": 1,
+     "c5": 2,
+     "c8": 3
+    },
+    "eliminated": {
+     "c2": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c3": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c5": "o4=negative ⇌ predicted + (falsified, eliminated)"
+    },
+    "V": "decidable",
+    "equivalent": [
+     "c1",
+     "c8"
+    ],
+    "winner": "single",
+    "basis": [
+     "three negative readings support a single backend; the equivalence class retains the c8 anchor, because a perfect camouflage cluster is indistinguishable from a single host under this sensor set"
+    ],
+    "family": "single"
+   },
+   "stop_time": 1794661805,
+   "coverage_ok": true
+  },
+  {
+   "arm": "control_single_sni",
+   "msm_a": 236807706,
+   "msm_b": 236808183,
+   "label": "tikona.in",
+   "handshakes_a": 190,
+   "probes_a": 4,
+   "probes_b": 4,
+   "common_probes": 4,
+   "rounds_a": 48,
+   "rounds_b": 48,
+   "results_a": 190,
+   "results_b": 190,
+   "last_ts": 1794658716,
+   "o4_votes": {
+    "negative": 4
+   },
+   "o4": "negative",
+   "o4_mixed": [],
+   "fp_sets": {
+    "10984": {
+     "identity": [
+      "458ae1cb01264564"
+     ],
+     "contrast": [
+      "458ae1cb01264564"
+     ]
+    },
+    "13081": {
+     "identity": [
+      "458ae1cb01264564"
+     ],
+     "contrast": [
+      "458ae1cb01264564"
+     ]
+    },
+    "13291": {
+     "identity": [
+      "458ae1cb01264564"
+     ],
+     "contrast": [
+      "458ae1cb01264564"
+     ]
+    },
+    "22034": {
+     "identity": [
+      "458ae1cb01264564"
+     ],
+     "contrast": [
+      "458ae1cb01264564"
+     ]
+    }
+   },
+   "verdict": {
+    "kappa": 0.5,
+    "obs": {
+     "o1": "unobservable",
+     "o2": "unobservable",
+     "o3": "negative",
+     "o4": "negative",
+     "o5": "unobservable",
+     "o6": "negative"
+    },
+    "aux": {
+     "hidden_router": false,
+     "chain": false,
+     "o2_confounded_suppressed": []
+    },
+    "support": {
+     "c1": 3,
+     "c2": 0,
+     "c3": 1,
+     "c4": 1,
+     "c5": 2,
+     "c8": 3
+    },
+    "eliminated": {
+     "c2": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c3": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c5": "o4=negative ⇌ predicted + (falsified, eliminated)"
+    },
+    "V": "decidable",
+    "equivalent": [
+     "c1",
+     "c8"
+    ],
+    "winner": "single",
+    "basis": [
+     "three negative readings support a single backend; the equivalence class retains the c8 anchor, because a perfect camouflage cluster is indistinguishable from a single host under this sensor set"
+    ],
+    "family": "single"
+   },
+   "stop_time": 1794662056,
+   "coverage_ok": true
+  },
+  {
+   "arm": "control_single_sni",
+   "msm_a": 236808805,
+   "msm_b": 236809595,
+   "label": "tpgi.com.au",
+   "handshakes_a": 190,
+   "probes_a": 4,
+   "probes_b": 4,
+   "common_probes": 4,
+   "rounds_a": 48,
+   "rounds_b": 48,
+   "results_a": 191,
+   "results_b": 191,
+   "last_ts": 1794659119,
+   "o4_votes": {
+    "negative": 4
+   },
+   "o4": "negative",
+   "o4_mixed": [],
+   "fp_sets": {
+    "10984": {
+     "identity": [
+      "fa9140c76e60329b"
+     ],
+     "contrast": [
+      "fa9140c76e60329b"
+     ]
+    },
+    "13081": {
+     "identity": [
+      "fa9140c76e60329b"
+     ],
+     "contrast": [
+      "fa9140c76e60329b"
+     ]
+    },
+    "13291": {
+     "identity": [
+      "fa9140c76e60329b"
+     ],
+     "contrast": [
+      "fa9140c76e60329b"
+     ]
+    },
+    "22034": {
+     "identity": [
+      "fa9140c76e60329b"
+     ],
+     "contrast": [
+      "fa9140c76e60329b"
+     ]
+    }
+   },
+   "verdict": {
+    "kappa": 0.5,
+    "obs": {
+     "o1": "unobservable",
+     "o2": "unobservable",
+     "o3": "negative",
+     "o4": "negative",
+     "o5": "unobservable",
+     "o6": "negative"
+    },
+    "aux": {
+     "hidden_router": false,
+     "chain": false,
+     "o2_confounded_suppressed": []
+    },
+    "support": {
+     "c1": 3,
+     "c2": 0,
+     "c3": 1,
+     "c4": 1,
+     "c5": 2,
+     "c8": 3
+    },
+    "eliminated": {
+     "c2": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c3": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c5": "o4=negative ⇌ predicted + (falsified, eliminated)"
+    },
+    "V": "decidable",
+    "equivalent": [
+     "c1",
+     "c8"
+    ],
+    "winner": "single",
+    "basis": [
+     "three negative readings support a single backend; the equivalence class retains the c8 anchor, because a perfect camouflage cluster is indistinguishable from a single host under this sensor set"
+    ],
+    "family": "single"
+   },
+   "stop_time": 1794662322,
+   "coverage_ok": true
+  },
+  {
+   "arm": "control_single_sni",
+   "msm_a": 236810475,
+   "msm_b": 236810675,
+   "label": "vnet.sk",
+   "handshakes_a": 191,
+   "probes_a": 4,
+   "probes_b": 4,
+   "common_probes": 4,
+   "rounds_a": 48,
+   "rounds_b": 48,
+   "results_a": 191,
+   "results_b": 190,
+   "last_ts": 1794659296,
+   "o4_votes": {
+    "negative": 4
+   },
+   "o4": "negative",
+   "o4_mixed": [],
+   "fp_sets": {
+    "10984": {
+     "identity": [
+      "7a54a9f22ac0973b"
+     ],
+     "contrast": [
+      "7a54a9f22ac0973b"
+     ]
+    },
+    "13081": {
+     "identity": [
+      "7a54a9f22ac0973b"
+     ],
+     "contrast": [
+      "7a54a9f22ac0973b"
+     ]
+    },
+    "13291": {
+     "identity": [
+      "7a54a9f22ac0973b"
+     ],
+     "contrast": [
+      "7a54a9f22ac0973b"
+     ]
+    },
+    "22034": {
+     "identity": [
+      "7a54a9f22ac0973b"
+     ],
+     "contrast": [
+      "7a54a9f22ac0973b"
+     ]
+    }
+   },
+   "verdict": {
+    "kappa": 0.5,
+    "obs": {
+     "o1": "unobservable",
+     "o2": "unobservable",
+     "o3": "negative",
+     "o4": "negative",
+     "o5": "unobservable",
+     "o6": "negative"
+    },
+    "aux": {
+     "hidden_router": false,
+     "chain": false,
+     "o2_confounded_suppressed": []
+    },
+    "support": {
+     "c1": 3,
+     "c2": 0,
+     "c3": 1,
+     "c4": 1,
+     "c5": 2,
+     "c8": 3
+    },
+    "eliminated": {
+     "c2": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c3": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c5": "o4=negative ⇌ predicted + (falsified, eliminated)"
+    },
+    "V": "decidable",
+    "equivalent": [
+     "c1",
+     "c8"
+    ],
+    "winner": "single",
+    "basis": [
+     "three negative readings support a single backend; the equivalence class retains the c8 anchor, because a perfect camouflage cluster is indistinguishable from a single host under this sensor set"
+    ],
+    "family": "single"
+   },
+   "stop_time": 1794662582,
+   "coverage_ok": true
+  },
+  {
+   "arm": "control_single_sni",
+   "msm_a": 236811209,
+   "msm_b": 236811626,
+   "label": "zorgring.nl",
+   "handshakes_a": 190,
+   "probes_a": 4,
+   "probes_b": 4,
+   "common_probes": 4,
+   "rounds_a": 48,
+   "rounds_b": 48,
+   "results_a": 190,
+   "results_b": 190,
+   "last_ts": 1794659614,
+   "o4_votes": {
+    "negative": 4
+   },
+   "o4": "negative",
+   "o4_mixed": [],
+   "fp_sets": {
+    "10984": {
+     "identity": [
+      "67f7d9bc8cf44ab8"
+     ],
+     "contrast": [
+      "67f7d9bc8cf44ab8"
+     ]
+    },
+    "13081": {
+     "identity": [
+      "67f7d9bc8cf44ab8"
+     ],
+     "contrast": [
+      "67f7d9bc8cf44ab8"
+     ]
+    },
+    "13291": {
+     "identity": [
+      "67f7d9bc8cf44ab8"
+     ],
+     "contrast": [
+      "67f7d9bc8cf44ab8"
+     ]
+    },
+    "22034": {
+     "identity": [
+      "67f7d9bc8cf44ab8"
+     ],
+     "contrast": [
+      "67f7d9bc8cf44ab8"
+     ]
+    }
+   },
+   "verdict": {
+    "kappa": 0.5,
+    "obs": {
+     "o1": "unobservable",
+     "o2": "unobservable",
+     "o3": "negative",
+     "o4": "negative",
+     "o5": "unobservable",
+     "o6": "negative"
+    },
+    "aux": {
+     "hidden_router": false,
+     "chain": false,
+     "o2_confounded_suppressed": []
+    },
+    "support": {
+     "c1": 3,
+     "c2": 0,
+     "c3": 1,
+     "c4": 1,
+     "c5": 2,
+     "c8": 3
+    },
+    "eliminated": {
+     "c2": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c3": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c5": "o4=negative ⇌ predicted + (falsified, eliminated)"
+    },
+    "V": "decidable",
+    "equivalent": [
+     "c1",
+     "c8"
+    ],
+    "winner": "single",
+    "basis": [
+     "three negative readings support a single backend; the equivalence class retains the c8 anchor, because a perfect camouflage cluster is indistinguishable from a single host under this sensor set"
+    ],
+    "family": "single"
+   },
+   "stop_time": 1794662845,
+   "coverage_ok": true
+  },
+  {
+   "arm": "control_positive_sni",
+   "msm_a": 236811837,
+   "msm_b": 236812241,
+   "label": "asp.bg",
+   "handshakes_a": 190,
+   "probes_a": 4,
+   "probes_b": 4,
+   "common_probes": 4,
+   "rounds_a": 48,
+   "rounds_b": 48,
+   "results_a": 190,
+   "results_b": 190,
+   "last_ts": 1794659732,
+   "o4_votes": {
+    "negative": 4
+   },
+   "o4": "negative",
+   "o4_mixed": [],
+   "fp_sets": {
+    "10984": {
+     "identity": [
+      "fbe23205369b6a46"
+     ],
+     "contrast": [
+      "fbe23205369b6a46"
+     ]
+    },
+    "13081": {
+     "identity": [
+      "fbe23205369b6a46"
+     ],
+     "contrast": [
+      "fbe23205369b6a46"
+     ]
+    },
+    "13291": {
+     "identity": [
+      "fbe23205369b6a46"
+     ],
+     "contrast": [
+      "fbe23205369b6a46"
+     ]
+    },
+    "22034": {
+     "identity": [
+      "fbe23205369b6a46"
+     ],
+     "contrast": [
+      "fbe23205369b6a46"
+     ]
+    }
+   },
+   "verdict": {
+    "kappa": 0.5,
+    "obs": {
+     "o1": "unobservable",
+     "o2": "unobservable",
+     "o3": "negative",
+     "o4": "negative",
+     "o5": "unobservable",
+     "o6": "negative"
+    },
+    "aux": {
+     "hidden_router": false,
+     "chain": false,
+     "o2_confounded_suppressed": []
+    },
+    "support": {
+     "c1": 3,
+     "c2": 0,
+     "c3": 1,
+     "c4": 1,
+     "c5": 2,
+     "c8": 3
+    },
+    "eliminated": {
+     "c2": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c3": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c5": "o4=negative ⇌ predicted + (falsified, eliminated)"
+    },
+    "V": "decidable",
+    "equivalent": [
+     "c1",
+     "c8"
+    ],
+    "winner": "single",
+    "basis": [
+     "three negative readings support a single backend; the equivalence class retains the c8 anchor, because a perfect camouflage cluster is indistinguishable from a single host under this sensor set"
+    ],
+    "family": "single"
+   },
+   "stop_time": 1794663104,
+   "coverage_ok": true
+  },
+  {
+   "arm": "hetero_sni",
+   "msm_a": 236813806,
+   "msm_b": 236814401,
+   "label": "greennet.ge",
+   "handshakes_a": 190,
+   "probes_a": 4,
+   "probes_b": 4,
+   "common_probes": 4,
+   "rounds_a": 48,
+   "rounds_b": 48,
+   "results_a": 190,
+   "results_b": 190,
+   "last_ts": 1794659980,
+   "o4_votes": {
+    "positive": 4
+   },
+   "o4": "positive",
+   "o4_mixed": [],
+   "fp_sets": {
+    "10984": {
+     "identity": [
+      "ca341948cab70f04"
+     ],
+     "contrast": [
+      "802aa4bf0341a873"
+     ]
+    },
+    "13081": {
+     "identity": [
+      "ca341948cab70f04"
+     ],
+     "contrast": [
+      "802aa4bf0341a873"
+     ]
+    },
+    "13291": {
+     "identity": [
+      "ca341948cab70f04"
+     ],
+     "contrast": [
+      "802aa4bf0341a873"
+     ]
+    },
+    "22034": {
+     "identity": [
+      "ca341948cab70f04"
+     ],
+     "contrast": [
+      "802aa4bf0341a873"
+     ]
+    }
+   },
+   "verdict": {
+    "kappa": 0.5,
+    "obs": {
+     "o1": "unobservable",
+     "o2": "unobservable",
+     "o3": "negative",
+     "o4": "positive",
+     "o5": "unobservable",
+     "o6": "negative"
+    },
+    "aux": {
+     "hidden_router": false,
+     "chain": false,
+     "o2_confounded_suppressed": []
+    },
+    "support": {
+     "c1": 2,
+     "c2": 0,
+     "c3": 1,
+     "c4": 1,
+     "c5": 3,
+     "c8": 2
+    },
+    "eliminated": {
+     "c1": "o4=positive ⇌ predicted - (falsified, eliminated)",
+     "c2": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c3": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c8": "o4=positive ⇌ predicted - (falsified, eliminated)"
+    },
+    "V": "decidable",
+    "equivalent": [
+     "c5",
+     "c4"
+    ],
+    "winner": "c5",
+    "basis": [
+     "c5 support 3; the remaining surviving hypotheses tie below it"
+    ],
+    "family": "multi"
+   },
+   "stop_time": 1794663375,
+   "coverage_ok": true
+  },
+  {
+   "arm": "hetero_sni",
+   "msm_a": 236814959,
+   "msm_b": 236815370,
+   "label": "tatanova.com",
+   "handshakes_a": 188,
+   "probes_a": 4,
+   "probes_b": 4,
+   "common_probes": 4,
+   "rounds_a": 48,
+   "rounds_b": 48,
+   "results_a": 188,
+   "results_b": 190,
+   "last_ts": 1794660541,
+   "o4_votes": {
+    "positive": 4
+   },
+   "o4": "positive",
+   "o4_mixed": [],
+   "fp_sets": {
+    "10984": {
+     "identity": [
+      "3728c94028856923"
+     ],
+     "contrast": [
+      "3c39a59432086af4"
+     ]
+    },
+    "13081": {
+     "identity": [
+      "3728c94028856923"
+     ],
+     "contrast": [
+      "3c39a59432086af4"
+     ]
+    },
+    "13291": {
+     "identity": [
+      "3728c94028856923"
+     ],
+     "contrast": [
+      "3c39a59432086af4"
+     ]
+    },
+    "22034": {
+     "identity": [
+      "3728c94028856923"
+     ],
+     "contrast": [
+      "3c39a59432086af4"
+     ]
+    }
+   },
+   "verdict": {
+    "kappa": 0.5,
+    "obs": {
+     "o1": "unobservable",
+     "o2": "unobservable",
+     "o3": "negative",
+     "o4": "positive",
+     "o5": "unobservable",
+     "o6": "negative"
+    },
+    "aux": {
+     "hidden_router": false,
+     "chain": false,
+     "o2_confounded_suppressed": []
+    },
+    "support": {
+     "c1": 2,
+     "c2": 0,
+     "c3": 1,
+     "c4": 1,
+     "c5": 3,
+     "c8": 2
+    },
+    "eliminated": {
+     "c1": "o4=positive ⇌ predicted - (falsified, eliminated)",
+     "c2": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c3": "o6=negative ⇌ predicted + (falsified, eliminated)",
+     "c8": "o4=positive ⇌ predicted - (falsified, eliminated)"
+    },
+    "V": "decidable",
+    "equivalent": [
+     "c5",
+     "c4"
+    ],
+    "winner": "c5",
+    "basis": [
+     "c5 support 3; the remaining surviving hypotheses tie below it"
+    ],
+    "family": "multi"
+   },
+   "stop_time": 1794663774,
+   "coverage_ok": true
+  },
+  {
+   "arm": "rig_rotation",
+   "msm_a": 236821902,
+   "msm_b": 236822375,
+   "label": "<rig>",
+   "handshakes_a": 190,
+   "probes_a": 4,
+   "probes_b": 4,
+   "common_probes": 4,
+   "rounds_a": 48,
+   "rounds_b": 48,
+   "results_a": 190,
+   "results_b": 190,
+   "last_ts": 1794661997,
+   "o4_votes": {
+    "negative": 4
+   },
+   "o4": "negative",
+   "o4_mixed": [],
+   "fp_sets": {
+    "10984": {
+     "identity": [
+      "ed3fa7feab9e57b1",
+      "f35b12d0f8dc6ada"
+     ],
+     "contrast": [
+      "ed3fa7feab9e57b1",
+      "f35b12d0f8dc6ada"
+     ]
+    },
+    "13081": {
+     "identity": [
+      "ed3fa7feab9e57b1",
+      "f35b12d0f8dc6ada"
+     ],
+     "contrast": [
+      "ed3fa7feab9e57b1",
+      "f35b12d0f8dc6ada"
+     ]
+    },
+    "13291": {
+     "identity": [
+      "ed3fa7feab9e57b1",
+      "f35b12d0f8dc6ada"
+     ],
+     "contrast": [
+      "ed3fa7feab9e57b1",
+      "f35b12d0f8dc6ada"
+     ]
+    },
+    "22034": {
+     "identity": [
+      "ed3fa7feab9e57b1",
+      "f35b12d0f8dc6ada"
+     ],
+     "contrast": [
+      "ed3fa7feab9e57b1",
+      "f35b12d0f8dc6ada"
+     ]
+    }
+   },
+   "verdict": {
+    "kappa": 0.5,
+    "obs": {
+     "o1": "unobservable",
+     "o2": "unobservable",
+     "o3": "positive",
+     "o4": "negative",
+     "o5": "unobservable",
+     "o6": "positive"
+    },
+    "aux": {
+     "hidden_router": false,
+     "chain": false,
+     "o2_confounded_suppressed": []
+    },
+    "support": {
+     "c1": 1,
+     "c2": 2,
+     "c3": 1,
+     "c4": 0,
+     "c5": 0,
+     "c8": 1
+    },
+    "eliminated": {
+     "c1": "o6=positive ⇌ predicted - (falsified, eliminated)",
+     "c3": "o3=positive ⇌ predicted - (falsified, eliminated)",
+     "c4": "o3=positive ⇌ predicted - (falsified, eliminated)",
+     "c5": "o6=positive ⇌ predicted - (falsified, eliminated)",
+     "c8": "o6=positive ⇌ predicted - (falsified, eliminated)"
+    },
+    "V": "decidable",
+    "equivalent": [
+     "c2"
+    ],
+    "winner": "c2",
+    "basis": [
+     "c2 support 2; the remaining surviving hypotheses tie below the threshold"
+    ],
+    "family": "multi"
+   },
+   "stop_time": 1794665390,
+   "coverage_ok": true
+  }
+ ],
+ "window": {
+  "close_at": 1794665524,
+  "closed": true,
+  "status": {
+   "Stopped": 36
+  },
+  "n_msm": 36,
+  "coverage_ok_pairs": 12,
+  "min_rounds_a": 48
+ },
+ "H2": {
+  "n": 8,
+  "single": 7,
+  "share": 0.875,
+  "wilson95": [
+   0.5291,
+   0.9776
+  ]
+ },
+ "H1": {
+  "n": 2,
+  "decidable": 2,
+  "share": 1.0,
+  "wilson95": [
+   0.3424,
+   1.0
+  ]
+ },
+ "o4_dist": {
+  "negative": 9,
+  "positive": 3
+ },
+ "positive_control": [
+  {
+   "label": "asp.bg",
+   "family": "single",
+   "o4": "negative"
+  }
+ ],
+ "rig": [
+  {
+   "family": "multi",
+   "o4": "negative",
+   "verdict": {
+    "kappa": 0.5,
+    "obs": {
+     "o1": "unobservable",
+     "o2": "unobservable",
+     "o3": "positive",
+     "o4": "negative",
+     "o5": "unobservable",
+     "o6": "positive"
+    },
+    "aux": {
+     "hidden_router": false,
+     "chain": false,
+     "o2_confounded_suppressed": []
+    },
+    "support": {
+     "c1": 1,
+     "c2": 2,
+     "c3": 1,
+     "c4": 0,
+     "c5": 0,
+     "c8": 1
+    },
+    "eliminated": {
+     "c1": "o6=positive ⇌ predicted - (falsified, eliminated)",
+     "c3": "o3=positive ⇌ predicted - (falsified, eliminated)",
+     "c4": "o3=positive ⇌ predicted - (falsified, eliminated)",
+     "c5": "o6=positive ⇌ predicted - (falsified, eliminated)",
+     "c8": "o6=positive ⇌ predicted - (falsified, eliminated)"
+    },
+    "V": "decidable",
+    "equivalent": [
+     "c2"
+    ],
+    "winner": "c2",
+    "basis": [
+     "c2 support 2; the remaining surviving hypotheses tie below the threshold"
+    ],
+    "family": "multi"
+   }
+  }
+ ]
+}

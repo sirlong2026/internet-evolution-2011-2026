@@ -1,0 +1,11 @@
+{
+ "arm": "rig_rotation / rig_middlebox / probe_pretest",
+ "role": "controlled rig: the target address is never stored; it is resolved from the environment at run time",
+ "targets": [
+  {
+   "target_ip_from_env": "C1_ANCHOR_TARGET",
+   "identity_name_from_env": "C1_ANCHOR_IDENTITY_NAME",
+   "contrast_name_ref": "defaults.sni.contrast_name"
+  }
+ ]
+}

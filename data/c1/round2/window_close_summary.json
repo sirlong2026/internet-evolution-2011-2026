@@ -1,0 +1,48 @@
+{
+  "schema": "c1_round2_window_close_summary/1",
+  "purpose": "Auditable evidence of the round-2 data-close discipline. Derived window metadata only; no new measurements and no re-judged results.",
+  "campaign": "round-2 name-condition (same-target replay, 2011-2026)",
+  "source": "public RIPE Atlas recurring measurements, cited by permanent measurement IDs in the artifact",
+
+  "n_measurements": 36,
+  "status_at_close": {"Stopped": 36},
+  "close_at_utc": "2026-11-14T14:12:04Z",
+  "close_at_unix": 1794665524,
+  "settlement_margin_min": 15,
+  "judge_started_at_utc": "2026-11-14T14:27:05Z",
+  "judge_completed_at_utc": "2026-11-14T15:05:17Z",
+  "judge_procedure": "single full-window re-pull after the close; verdict computed once",
+  "window_closed": true,
+  "coverage_ok_pairs": 12,
+  "n_pairs": 12,
+  "min_identity_side_rounds": 48,
+  "interim_checks": "mid-campaign checks were read-only and logged separately; none entered the verdict",
+
+  "reported_result_in_manuscript": {
+    "H2": "7/8 = 0.875",
+    "wilson95": [0.5291, 0.9776],
+    "o4_distribution": {"negative": 9, "positive": 3},
+    "note": "these values were already in the manuscript before this summary was prepared; unchanged"
+  },
+
+  "evidence_chain": {
+    "judged_json": "data/c1/round2/campaign_judged.json",
+    "chain_log": "retained locally; not shipped (the raw log contains local paths and public target names)",
+    "log_identity": "497 lines, 38354 bytes, md5 c2ad368bb1d3b135080b5c38b2eeb627; the author's working copy is byte-identical to the chain log"
+  },
+
+  "redaction": {
+    "local_absolute_paths": 0,
+    "credential_strings": 0,
+    "target_identities": 0,
+    "note": "The raw chain log contains local absolute paths and public target names and must NOT be shipped verbatim. Target names are anonymised A-L in the manuscript and mapped in the package's target_labels.json. This summary contains no target names and no local paths."
+  },
+
+  "release_status": {
+    "prepared_at": "2026-11-15",
+    "committed": false,
+    "pushed": false,
+    "zenodo_release": false,
+    "condition": "Requires explicit author authorisation, then inclusion via build_repo_c1.py whitelist plus its path/content/identity gates; a new Zenodo Release is required before the manuscript DOI can point at round-2 content."
+  }
+}

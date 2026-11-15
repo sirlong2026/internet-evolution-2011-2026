@@ -156,6 +156,29 @@ def build_ping_bundle(tag, ttl_set, samples):
     }
 
 
+def build_merged_bundle(tag, cert_entry, ttl_set, samples, hops=None, sni_map=None):
+    """同一探针的 TLS ＋ ICMP（＋路径）观测 → 一个 sensor-report/v1 束。
+
+    第二轮多轴判卷的唯一仪器改动：o₁ 由同批 ping 点亮，o₃/o₆ 口径不变。
+    **未提供 ping 数据（ttl_set 空且 samples=0）时返回与 build_cert_bundle
+    逐字相同的束**——这是"升级不改变已知答案"（prereg H4）的回归契约。
+    闸规则一律复用 build_ping_bundle，不在此另写一套。
+    """
+    bundle = build_cert_bundle(tag, cert_entry, sni_map)
+    if not ttl_set and not samples:
+        return bundle
+    ping = build_ping_bundle(tag, ttl_set, samples)
+    bundle["ttl"] = ping["ttl"]
+    bundle["gate"]["o1"] = ping["gate"]["o1"]
+    if hops:
+        bundle["path"] = {"hops": list(hops)}
+        o5_ok = len(bundle["ttl"]["ttl_set"]) == 1
+        bundle["gate"]["o5"] = {
+            "observable": o5_ok,
+            "reason": "" if o5_ok else "TTL 多值，o₅ 结构性不可判（引擎 §二）"}
+    return bundle
+
+
 # ---------------------------------------------------------------- 批次处理 ---- #
 def pick_pair(per):
     """选代表探针对：成功轮次 ≥3 的探针里按 (轮次降序, prb_id 升序) 取前二。"""

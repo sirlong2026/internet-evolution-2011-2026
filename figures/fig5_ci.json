@@ -1,0 +1,79 @@
+[
+ {
+  "key": "ci_cand_routable",
+  "label": "candidates routable",
+  "layer": "routing",
+  "k": 178,
+  "n": 199,
+  "pct": 89.4,
+  "lo": 84.4,
+  "hi": 93.0,
+  "raw": "178/199 = 89.4% (95% CI 84.4-93.0)"
+ },
+ {
+  "key": "ci_cand_exact",
+  "label": "candidates exact",
+  "layer": "routing",
+  "k": 90,
+  "n": 199,
+  "pct": 45.2,
+  "lo": 38.5,
+  "hi": 52.2,
+  "raw": "90/199 = 45.2% (95% CI 38.5-52.2)"
+ },
+ {
+  "key": "ci_resolve",
+  "label": "mapped domains resolving",
+  "layer": "service",
+  "k": 34,
+  "n": 48,
+  "pct": 70.8,
+  "lo": 56.8,
+  "hi": 81.8,
+  "raw": "34/48 = 70.8% (95% CI 56.8-81.8)"
+ },
+ {
+  "key": "ci_ping_live",
+  "label": "addresses ICMP-live (all 100)",
+  "layer": "address",
+  "k": 35,
+  "n": 100,
+  "pct": 35.0,
+  "lo": 26.4,
+  "hi": 44.7,
+  "raw": "35/100 = 35.0% (95% CI 26.4-44.7)"
+ },
+ {
+  "key": "ci_ping_exact",
+  "label": "live: exact survivors",
+  "layer": "address",
+  "k": 25,
+  "n": 57,
+  "pct": 44.0,
+  "lo": 31.8,
+  "hi": 56.7,
+  "raw": "25/57 = 44% (95% CI 31.8-56.7)"
+ },
+ {
+  "key": "ci_ping_covered",
+  "label": "live: covered-only",
+  "layer": "address",
+  "k": 10,
+  "n": 43,
+  "pct": 23.0,
+  "lo": 13.2,
+  "hi": 37.7,
+  "raw": "10/43 = 23% (95% CI 13.2-37.7)"
+ },
+ {
+  "key": "ci_tls34",
+  "label": "resolving domains with TLS",
+  "layer": "service",
+  "k": 15,
+  "n": 34,
+  "pct": 44.1,
+  "lo": 28.9,
+  "hi": 60.5,
+  "raw": "15/34 = 44.1% (95% CI 28.9-60.5)"
+ }
+]

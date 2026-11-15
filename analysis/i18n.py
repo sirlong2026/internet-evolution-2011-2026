@@ -84,6 +84,13 @@ EN_PATTERNS = [
      lambda m: ("equivalent class [%s] ties on support (%s); the current observations "
                 "cannot separate them" % (m.group(1), m.group(2)))),
 ]
+# 第二轮（2026-11-12）：规格模板/判卷/审计的注记表，分文件维护、此处合并。
+try:
+    from c1_i18n_round2 import R2_EXACT, R2_PATTERNS
+    EN_EXACT.update(R2_EXACT)
+    EN_PATTERNS.extend(R2_PATTERNS)
+except ImportError:
+    pass
 
 
 def translate_string(s):

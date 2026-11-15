@@ -18,6 +18,7 @@ Sections:
   H  recurring-campaign verdict recompute with the shipped engine    [offline]
   J  uncertainty: Wilson 95% intervals + Fisher exact test          [offline]
   K  prior-work search record behind the §2 novelty claim           [offline]
+  L  round-2 name-condition aggregates (recomputed, language-invariant) [offline]
 
 Usage:
   python analysis/verify_paper_tables.py             # A-H (G fetches public results)
@@ -764,6 +765,76 @@ def section_k():
           % (len(d.get("verdict") or ""), len(d.get("limitations") or "")))
 
 
+def section_l():
+    """Round-2 name-condition round: recompute the published aggregates from the
+    shipped per-pair rows.
+
+    Language invariance: the shipped copy is English, while a reader who re-runs
+    the shipped judge locally gets the engine's Chinese state labels. Both sides
+    pass through the same i18n map before they are compared, so the check holds
+    whichever language produced the file.
+    """
+    print("== L  round-2 name-condition round (aggregates recomputed from shipped rows) ==")
+    p = os.path.join(C1, "round2", "campaign_judged.json")
+    if not os.path.exists(p):
+        check("L", "round-2 judged file present", True, "not shipped in this package")
+        return
+    j = jload(p)
+    rows = j.get("rows") or []
+
+    def en(x):
+        return i18n.translate(x)[0] if isinstance(x, str) else x
+
+    def state(r):
+        return en((r.get("verdict") or {}).get("V"))
+
+    def fam(r):
+        return en((r.get("verdict") or {}).get("family"))
+
+    singles = [r for r in rows if r.get("arm") == "control_single_sni"]
+    het = [r for r in rows if r.get("arm") == "hetero_sni"]
+    h2 = j.get("H2") or {}
+    h1 = j.get("H1") or {}
+    k_single = sum(1 for r in singles if fam(r) == "single")
+    dec = ("decidable", "conditionally decidable")
+    k_dec = sum(1 for r in het if state(r) in dec)
+    o4 = {}
+    for r in rows:
+        v = en(r.get("o4")) or "unobservable"
+        o4[v] = o4.get(v, 0) + 1
+    stored_o4 = {en(k): v for k, v in (j.get("o4_dist") or {}).items()}
+
+    check("L", "pair count consistent", len(rows) == (j.get("n_pairs") or -1),
+          "%d rows vs n_pairs=%s" % (len(rows), j.get("n_pairs")))
+    check("L", "H2 single-backend count", k_single == h2.get("single"),
+          "%d vs %s" % (k_single, h2.get("single")))
+    check("L", "H2 denominator", len(singles) == h2.get("n"),
+          "%d vs %s" % (len(singles), h2.get("n")))
+    w = _wilson(k_single, len(singles)) if singles else None
+    wl = (h2.get("wilson95") or [None, None])[0]
+    # _wilson 返回 (point%, lo%, hi%)；存储值是小数字面量
+    check("L", "H2 Wilson interval reproducible",
+          w is not None and wl is not None
+          and abs(w[1] / 100.0 - wl) < 5e-4
+          and abs(w[2] / 100.0 - (h2.get("wilson95") or [0, 0])[1]) < 5e-4,
+          "%s vs %s" % (w, h2.get("wilson95")))
+    check("L", "H1 decidable count", k_dec == h1.get("decidable"),
+          "%d vs %s" % (k_dec, h1.get("decidable")))
+    check("L", "o4 distribution", o4 == stored_o4, "%s vs %s" % (o4, stored_o4))
+    states = {state(r) for r in rows if state(r)}
+    check("L", "state labels normalize to the same English set",
+          states <= {"decidable", "conditionally decidable",
+                     "indistinguishable", "unobservable"},
+          sorted(states))
+    win = j.get("window") or {}
+    check("L", "round-2 window closed before judging", bool(win.get("closed")),
+          "close_at=%s closed=%s" % (win.get("close_at"), win.get("closed")))
+    cov = sum(1 for r in rows if r.get("coverage_ok"))
+    check("L", "every pair covers its full measurement window",
+          bool(rows) and cov == len(rows),
+          "%d/%d pairs; min identity-side rounds=%s" % (cov, len(rows), win.get("min_rounds_a")))
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--offline", action="store_true", help="skip the live anchor fetch (G)")
@@ -781,6 +852,7 @@ def main():
     section_i()
     section_j()
     section_k()
+    section_l()
     if args.offline:
         print("== G  skipped (--offline) ==")
         print("     anchor check needs the live public results API; run without --offline")

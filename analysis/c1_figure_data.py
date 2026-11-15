@@ -202,6 +202,41 @@ def main():
         })
     targets.sort(key=lambda t: t["label"])
 
+    # 第二轮 o₄ 面板的数据（判卷尚无可判项时返回 None ⇒ 图保持两面板）
+    r2 = None
+    r2p = os.path.join(ROOT, "data", "c1", "round2", "campaign_judged.json")
+    if os.path.exists(r2p):
+        j = json.load(open(r2p, encoding="utf-8"))
+        allrows = j.get("rows") or []
+        rows = [r for r in allrows if (r.get("verdict") or {}).get("V")]
+        if rows:
+            rows = allrows          # 面板画全部配对；未判的显示 n/a
+            # 匿名编码：负控 N1..、正控 P1、异质 H1..、rig R1；**靶域名绝不进图数据**
+            order = {"control_single_sni": 0, "control_positive_sni": 1,
+                     "hetero_sni": 2, "rig_rotation": 3}
+            rows.sort(key=lambda r: (order.get(r.get("arm"), 9), r.get("msm_a") or 0))
+            prefix = {0: "N", 1: "P", 2: "H", 3: "R"}
+            seen = {}
+            # 四态在源侧是中文；图数据落盘即英文，工作树与发布包口径一致
+            v_en = {"决定可判": "decidable", "条件可判": "conditionally decidable",
+                    "不可分辨": "indistinguishable", "不可观测": "unobservable"}
+            arms = []
+            for r in rows:
+                k = order.get(r.get("arm"), 9)
+                seen[k] = seen.get(k, 0) + 1
+                v = (r.get("verdict") or {}).get("V")
+                arms.append({"code": "%s%d" % (prefix.get(k, "X"), seen[k]),
+                             "arm": r.get("arm"), "o4": r.get("o4"),
+                             "state": v_en.get(v, v),
+                             "family": (r.get("verdict") or {}).get("family")})
+            r2 = {
+                "arms": arms,
+                "n_pairs": j.get("n_pairs"),
+                "h2": j.get("H2"), "h1": j.get("H1"),
+                "o4_dist": j.get("o4_dist"),
+                "provenance": "data/c1/round2/campaign_judged.json",
+            }
+
     out = {
         "meta": {
             "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
@@ -302,6 +337,7 @@ def main():
                 "expect": anchor.get("pre_registered_expect"),
             },
         },
+        "fig3_round2": r2,
     }
 
     # 靶标域名只用于查标签，不进图数据（图里只出现 A–I）

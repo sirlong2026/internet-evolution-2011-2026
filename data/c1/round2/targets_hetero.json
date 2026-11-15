@@ -1,0 +1,55 @@
+{
+ "at": "2026-11-12T12:12:05Z",
+ "arm": "hetero_sni",
+ "role": "round2_hetero_targets",
+ "rule": "prereg §4: >=2 leaf fingerprints across vantages OR same-probe TTL cardinality >1 across rounds (the latter supplied by the 12-round ping pilot)",
+ "targets": [
+  {
+   "domain": "greennet.ge",
+   "identity_name": "greennet.ge",
+   "target_ip": "35.214.223.211",
+   "needs_fresh_resolution": false,
+   "ip_source": "ttl_pilot_dst_addr",
+   "today_a_records": [
+    "35.214.223.211"
+   ],
+   "ip_drift": false,
+   "hetero_evidence": {
+    "by_fingerprint": false,
+    "by_ttl": true,
+    "ttl_strength": "strong",
+    "persistent_probes": 3,
+    "pilot_msm": 236461234
+   },
+   "screen": {
+    "handshakes": 12,
+    "contrast_handshakes": 6,
+    "distinct_leaf_fingerprints": 1
+   }
+  },
+  {
+   "domain": "tatanova.com",
+   "identity_name": "tatanova.com",
+   "target_ip": "103.224.182.243",
+   "needs_fresh_resolution": false,
+   "ip_source": "ttl_pilot_dst_addr",
+   "today_a_records": [
+    "103.224.182.243"
+   ],
+   "ip_drift": false,
+   "hetero_evidence": {
+    "by_fingerprint": false,
+    "by_ttl": true,
+    "ttl_strength": "weak",
+    "persistent_probes": 0,
+    "pilot_msm": 236465962
+   },
+   "screen": {
+    "handshakes": 11,
+    "contrast_handshakes": 6,
+    "distinct_leaf_fingerprints": 1
+   }
+  }
+ ],
+ "note": "address = the dst_addr observed in the pilot; when ip_drift=true the author decides whether to re-address before the campaign"
+}

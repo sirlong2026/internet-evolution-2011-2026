@@ -1,0 +1,1238 @@
+{
+ "measurements": [
+  {
+   "msm_id": 236079431,
+   "arm": "probe_pretest",
+   "group": "tls_pretest_identity",
+   "target_label": "ctm.net",
+   "role": "zero_probe_stray",
+   "type": "sslcert",
+   "status": "Stopped",
+   "participants": 24
+  },
+  {
+   "msm_id": 236080579,
+   "arm": "diagnostic",
+   "group": "probe_selector_area",
+   "target_label": "ctm.net",
+   "role": "diagnostic",
+   "type": "sslcert",
+   "status": "Stopped",
+   "participants": 4
+  },
+  {
+   "msm_id": 236080601,
+   "arm": "diagnostic",
+   "group": "probe_selector_single",
+   "target_label": "ctm.net",
+   "role": "diagnostic",
+   "type": "sslcert",
+   "status": "Stopped",
+   "participants": 1
+  },
+  {
+   "msm_id": 236080677,
+   "arm": "diagnostic",
+   "group": "probe_selector_n3",
+   "target_label": "ctm.net",
+   "role": "diagnostic",
+   "type": "sslcert",
+   "status": "Stopped",
+   "participants": 3
+  },
+  {
+   "msm_id": 236080736,
+   "arm": "diagnostic",
+   "group": "probe_selector_n8",
+   "target_label": "ctm.net",
+   "role": "diagnostic",
+   "type": "sslcert",
+   "status": "Stopped",
+   "participants": 8
+  },
+  {
+   "msm_id": 236080798,
+   "arm": "diagnostic",
+   "group": "probe_selector_n12",
+   "target_label": "ctm.net",
+   "role": "diagnostic",
+   "type": "sslcert",
+   "status": "Stopped",
+   "participants": 12
+  },
+  {
+   "msm_id": 236080849,
+   "arm": "probe_pretest",
+   "group": "tls_pretest_identity",
+   "target_label": "ctm.net",
+   "role": "used_as_pretest",
+   "type": "sslcert",
+   "status": "Stopped",
+   "participants": 24
+  },
+  {
+   "msm_id": 236081637,
+   "arm": "probe_pretest",
+   "group": "tls_pretest_contrast",
+   "target_label": "ctm.net",
+   "role": "used_as_pretest",
+   "type": "sslcert",
+   "status": "Stopped",
+   "participants": 24
+  },
+  {
+   "msm_id": 236081728,
+   "arm": "probe_pretest",
+   "group": "tls_pretest_identity",
+   "target_label": "iprimus.com.au",
+   "role": "used_as_pretest",
+   "type": "sslcert",
+   "status": "Stopped",
+   "participants": 24
+  },
+  {
+   "msm_id": 236082084,
+   "arm": "probe_pretest",
+   "group": "tls_pretest_identity",
+   "target_label": "iprimus.com.au",
+   "role": "duplicate_of_236081728",
+   "type": "sslcert",
+   "status": "Stopped",
+   "participants": 24
+  },
+  {
+   "msm_id": 236404637,
+   "arm": "probe_pretest",
+   "group": "tls_pretest_contrast",
+   "target_label": "iprimus.com.au",
+   "role": "used_as_pretest",
+   "type": "sslcert",
+   "status": "Stopped",
+   "participants": 24
+  },
+  {
+   "msm_id": 236406807,
+   "arm": "probe_pretest",
+   "group": "tls_pretest_identity",
+   "type": "sslcert",
+   "start_time": 1794432646,
+   "target_label": "jump.ro",
+   "status": "Stopped",
+   "participants": 24
+  },
+  {
+   "msm_id": 236407594,
+   "arm": "probe_pretest",
+   "group": "tls_pretest_contrast",
+   "type": "sslcert",
+   "start_time": 1794432777,
+   "target_label": "jump.ro",
+   "status": "Stopped",
+   "participants": 24
+  },
+  {
+   "msm_id": 236407891,
+   "arm": "probe_pretest",
+   "group": "tls_pretest_identity",
+   "type": "sslcert",
+   "start_time": 1794432906,
+   "target_label": "plusline.de",
+   "status": "Ongoing",
+   "participants": 24
+  },
+  {
+   "msm_id": 236408119,
+   "arm": "probe_pretest",
+   "group": "tls_pretest_contrast",
+   "type": "sslcert",
+   "start_time": 1794433036,
+   "target_label": "plusline.de",
+   "status": "Ongoing",
+   "participants": 24
+  },
+  {
+   "msm_id": 236408689,
+   "arm": "probe_pretest",
+   "group": "tls_pretest_identity",
+   "type": "sslcert",
+   "start_time": 1794433164,
+   "target_label": "tikona.in",
+   "status": "Ongoing",
+   "participants": 24
+  },
+  {
+   "msm_id": 236409857,
+   "arm": "probe_pretest",
+   "group": "tls_pretest_contrast",
+   "type": "sslcert",
+   "start_time": 1794433293,
+   "target_label": "tikona.in",
+   "status": "Ongoing",
+   "participants": 24
+  },
+  {
+   "msm_id": 236410455,
+   "arm": "probe_pretest",
+   "group": "tls_pretest_identity",
+   "type": "sslcert",
+   "start_time": 1794433422,
+   "target_label": "tpgi.com.au",
+   "status": "Specified",
+   "participants": null
+  },
+  {
+   "msm_id": 236410637,
+   "arm": "probe_pretest",
+   "group": "tls_pretest_contrast",
+   "type": "sslcert",
+   "start_time": 1794433552,
+   "target_label": "tpgi.com.au",
+   "status": "Specified",
+   "participants": null
+  },
+  {
+   "msm_id": 236410909,
+   "arm": "probe_pretest",
+   "group": "tls_pretest_identity",
+   "type": "sslcert",
+   "start_time": 1794433681,
+   "target_label": "vnet.sk",
+   "status": "Specified",
+   "participants": null
+  },
+  {
+   "msm_id": 236411288,
+   "arm": "probe_pretest",
+   "group": "tls_pretest_contrast",
+   "type": "sslcert",
+   "start_time": 1794433810,
+   "target_label": "vnet.sk",
+   "status": "Specified",
+   "participants": null
+  },
+  {
+   "msm_id": 236411761,
+   "arm": "probe_pretest",
+   "group": "tls_pretest_identity",
+   "type": "sslcert",
+   "start_time": 1794433939,
+   "target_label": "zorgring.nl",
+   "status": "Specified",
+   "participants": null
+  },
+  {
+   "msm_id": 236412275,
+   "arm": "probe_pretest",
+   "group": "tls_pretest_contrast",
+   "type": "sslcert",
+   "start_time": 1794434068,
+   "target_label": "zorgring.nl",
+   "status": "Specified",
+   "participants": null
+  },
+  {
+   "msm_id": 236413433,
+   "arm": "probe_pretest",
+   "group": "tls_pretest_identity",
+   "type": "sslcert",
+   "start_time": 1794434197,
+   "target_label": "asp.bg",
+   "status": "Specified",
+   "participants": null
+  },
+  {
+   "msm_id": 236414231,
+   "arm": "probe_pretest",
+   "group": "tls_pretest_contrast",
+   "type": "sslcert",
+   "start_time": 1794434326,
+   "target_label": "asp.bg",
+   "status": "synchronizing",
+   "participants": null,
+   "role": "used_as_pretest"
+  },
+  {
+   "msm_id": 236417373,
+   "arm": "s1_screen",
+   "group": "tls_scout",
+   "type": "sslcert",
+   "start_time": 1794434055
+  },
+  {
+   "msm_id": 236417580,
+   "arm": "s1_screen",
+   "group": "tls_scout_contrast",
+   "type": "sslcert",
+   "start_time": 1794434191
+  },
+  {
+   "msm_id": 236418051,
+   "arm": "s1_screen",
+   "group": "ping_scout",
+   "type": "ping",
+   "start_time": 1794434327
+  },
+  {
+   "msm_id": 236418387,
+   "arm": "s1_screen",
+   "group": "tls_scout",
+   "type": "sslcert",
+   "start_time": 1794434454
+  },
+  {
+   "msm_id": 236419009,
+   "arm": "s1_screen",
+   "group": "tls_scout_contrast",
+   "type": "sslcert",
+   "start_time": 1794434585
+  },
+  {
+   "msm_id": 236420140,
+   "arm": "s1_screen",
+   "group": "ping_scout",
+   "type": "ping",
+   "start_time": 1794434716
+  },
+  {
+   "msm_id": 236420644,
+   "arm": "s1_screen",
+   "group": "tls_scout",
+   "type": "sslcert",
+   "start_time": 1794434849
+  },
+  {
+   "msm_id": 236420941,
+   "arm": "s1_screen",
+   "group": "tls_scout_contrast",
+   "type": "sslcert",
+   "start_time": 1794434978
+  },
+  {
+   "msm_id": 236421095,
+   "arm": "s1_screen",
+   "group": "ping_scout",
+   "type": "ping",
+   "start_time": 1794435107
+  },
+  {
+   "msm_id": 236421563,
+   "arm": "s1_screen",
+   "group": "tls_scout",
+   "type": "sslcert",
+   "start_time": 1794435237
+  },
+  {
+   "msm_id": 236422115,
+   "arm": "s1_screen",
+   "group": "tls_scout_contrast",
+   "type": "sslcert",
+   "start_time": 1794435371
+  },
+  {
+   "msm_id": 236422985,
+   "arm": "s1_screen",
+   "group": "ping_scout",
+   "type": "ping",
+   "start_time": 1794435500
+  },
+  {
+   "msm_id": 236424206,
+   "arm": "s1_screen",
+   "group": "tls_scout",
+   "type": "sslcert",
+   "start_time": 1794435630
+  },
+  {
+   "msm_id": 236424687,
+   "arm": "s1_screen",
+   "group": "tls_scout_contrast",
+   "type": "sslcert",
+   "start_time": 1794435759
+  },
+  {
+   "msm_id": 236425106,
+   "arm": "s1_screen",
+   "group": "ping_scout",
+   "type": "ping",
+   "start_time": 1794435888
+  },
+  {
+   "msm_id": 236425432,
+   "arm": "s1_screen",
+   "group": "tls_scout",
+   "type": "sslcert",
+   "start_time": 1794436018
+  },
+  {
+   "msm_id": 236425739,
+   "arm": "s1_screen",
+   "group": "tls_scout_contrast",
+   "type": "sslcert",
+   "start_time": 1794436147
+  },
+  {
+   "msm_id": 236426444,
+   "arm": "s1_screen",
+   "group": "ping_scout",
+   "type": "ping",
+   "start_time": 1794436278
+  },
+  {
+   "msm_id": 236426919,
+   "arm": "s1_screen",
+   "group": "tls_scout",
+   "type": "sslcert",
+   "start_time": 1794436407
+  },
+  {
+   "msm_id": 236427985,
+   "arm": "s1_screen",
+   "group": "tls_scout_contrast",
+   "type": "sslcert",
+   "start_time": 1794436537
+  },
+  {
+   "msm_id": 236428142,
+   "arm": "s1_screen",
+   "group": "ping_scout",
+   "type": "ping",
+   "start_time": 1794436666
+  },
+  {
+   "msm_id": 236428323,
+   "arm": "s1_screen",
+   "group": "tls_scout",
+   "type": "sslcert",
+   "start_time": 1794436796
+  },
+  {
+   "msm_id": 236428822,
+   "arm": "s1_screen",
+   "group": "tls_scout_contrast",
+   "type": "sslcert",
+   "start_time": 1794436925
+  },
+  {
+   "msm_id": 236429258,
+   "arm": "s1_screen",
+   "group": "ping_scout",
+   "type": "ping",
+   "start_time": 1794437058
+  },
+  {
+   "msm_id": 236429669,
+   "arm": "s1_screen",
+   "group": "tls_scout",
+   "type": "sslcert",
+   "start_time": 1794437182
+  },
+  {
+   "msm_id": 236430092,
+   "arm": "s1_screen",
+   "group": "tls_scout_contrast",
+   "type": "sslcert",
+   "start_time": 1794437310
+  },
+  {
+   "msm_id": 236430876,
+   "arm": "s1_screen",
+   "group": "ping_scout",
+   "type": "ping",
+   "start_time": 1794437442
+  },
+  {
+   "msm_id": 236431294,
+   "arm": "s1_screen",
+   "group": "tls_scout",
+   "type": "sslcert",
+   "start_time": 1794437576
+  },
+  {
+   "msm_id": 236431862,
+   "arm": "s1_screen",
+   "group": "tls_scout_contrast",
+   "type": "sslcert",
+   "start_time": 1794437705
+  },
+  {
+   "msm_id": 236432057,
+   "arm": "s1_screen",
+   "group": "ping_scout",
+   "type": "ping",
+   "start_time": 1794437844
+  },
+  {
+   "msm_id": 236432847,
+   "arm": "s1_screen",
+   "group": "tls_scout",
+   "type": "sslcert",
+   "start_time": 1794437973
+  },
+  {
+   "msm_id": 236433197,
+   "arm": "s1_screen",
+   "group": "tls_scout_contrast",
+   "type": "sslcert",
+   "start_time": 1794438103
+  },
+  {
+   "msm_id": 236433771,
+   "arm": "s1_screen",
+   "group": "ping_scout",
+   "type": "ping",
+   "start_time": 1794438232
+  },
+  {
+   "msm_id": 236434390,
+   "arm": "s1_screen",
+   "group": "tls_scout",
+   "type": "sslcert",
+   "start_time": 1794438361
+  },
+  {
+   "msm_id": 236434575,
+   "arm": "s1_screen",
+   "group": "tls_scout_contrast",
+   "type": "sslcert",
+   "start_time": 1794438490
+  },
+  {
+   "msm_id": 236434911,
+   "arm": "s1_screen",
+   "group": "ping_scout",
+   "type": "ping",
+   "start_time": 1794438619
+  },
+  {
+   "msm_id": 236435575,
+   "arm": "s1_screen",
+   "group": "tls_scout",
+   "type": "sslcert",
+   "start_time": 1794438750
+  },
+  {
+   "msm_id": 236436321,
+   "arm": "s1_screen",
+   "group": "tls_scout_contrast",
+   "type": "sslcert",
+   "start_time": 1794438881
+  },
+  {
+   "msm_id": 236436674,
+   "arm": "s1_screen",
+   "group": "ping_scout",
+   "type": "ping",
+   "start_time": 1794439015
+  },
+  {
+   "msm_id": 236437150,
+   "arm": "s1_screen",
+   "group": "tls_scout",
+   "type": "sslcert",
+   "start_time": 1794439144
+  },
+  {
+   "msm_id": 236437692,
+   "arm": "s1_screen",
+   "group": "tls_scout_contrast",
+   "type": "sslcert",
+   "start_time": 1794439274
+  },
+  {
+   "msm_id": 236438046,
+   "arm": "s1_screen",
+   "group": "ping_scout",
+   "type": "ping",
+   "start_time": 1794439402
+  },
+  {
+   "msm_id": 236438224,
+   "arm": "s1_screen",
+   "group": "tls_scout",
+   "type": "sslcert",
+   "start_time": 1794439532
+  },
+  {
+   "msm_id": 236438931,
+   "arm": "s1_screen",
+   "group": "tls_scout_contrast",
+   "type": "sslcert",
+   "start_time": 1794439660
+  },
+  {
+   "msm_id": 236439193,
+   "arm": "s1_screen",
+   "group": "ping_scout",
+   "type": "ping",
+   "start_time": 1794439789
+  },
+  {
+   "msm_id": 236439463,
+   "arm": "s1_screen",
+   "group": "tls_scout",
+   "type": "sslcert",
+   "start_time": 1794439918
+  },
+  {
+   "msm_id": 236440006,
+   "arm": "s1_screen",
+   "group": "tls_scout_contrast",
+   "type": "sslcert",
+   "start_time": 1794440046
+  },
+  {
+   "msm_id": 236440054,
+   "arm": "s1_screen",
+   "group": "ping_scout",
+   "type": "ping",
+   "start_time": 1794440175
+  },
+  {
+   "msm_id": 236440366,
+   "arm": "s1_screen",
+   "group": "tls_scout",
+   "type": "sslcert",
+   "start_time": 1794440305
+  },
+  {
+   "msm_id": 236440687,
+   "arm": "s1_screen",
+   "group": "tls_scout_contrast",
+   "type": "sslcert",
+   "start_time": 1794440435
+  },
+  {
+   "msm_id": 236441252,
+   "arm": "s1_screen",
+   "group": "ping_scout",
+   "type": "ping",
+   "start_time": 1794440564
+  },
+  {
+   "msm_id": 236442172,
+   "arm": "s1_screen",
+   "group": "tls_scout",
+   "type": "sslcert",
+   "start_time": 1794440696
+  },
+  {
+   "msm_id": 236442361,
+   "arm": "s1_screen",
+   "group": "tls_scout_contrast",
+   "type": "sslcert",
+   "start_time": 1794440826
+  },
+  {
+   "msm_id": 236442707,
+   "arm": "s1_screen",
+   "group": "ping_scout",
+   "type": "ping",
+   "start_time": 1794440957
+  },
+  {
+   "msm_id": 236442862,
+   "arm": "s1_screen",
+   "group": "tls_scout",
+   "type": "sslcert",
+   "start_time": 1794441086
+  },
+  {
+   "msm_id": 236442952,
+   "arm": "s1_screen",
+   "group": "tls_scout_contrast",
+   "type": "sslcert",
+   "start_time": 1794441214
+  },
+  {
+   "msm_id": 236443233,
+   "arm": "s1_screen",
+   "group": "ping_scout",
+   "type": "ping",
+   "start_time": 1794441350
+  },
+  {
+   "msm_id": 236444254,
+   "arm": "s1_screen",
+   "group": "tls_scout",
+   "type": "sslcert",
+   "start_time": 1794441480
+  },
+  {
+   "msm_id": 236444859,
+   "arm": "s1_screen",
+   "group": "tls_scout_contrast",
+   "type": "sslcert",
+   "start_time": 1794441610
+  },
+  {
+   "msm_id": 236444947,
+   "arm": "s1_screen",
+   "group": "ping_scout",
+   "type": "ping",
+   "start_time": 1794441740
+  },
+  {
+   "msm_id": 236445016,
+   "arm": "s1_screen",
+   "group": "tls_scout",
+   "type": "sslcert",
+   "start_time": 1794441870
+  },
+  {
+   "msm_id": 236445321,
+   "arm": "s1_screen",
+   "group": "tls_scout_contrast",
+   "type": "sslcert",
+   "start_time": 1794442005
+  },
+  {
+   "msm_id": 236445953,
+   "arm": "s1_screen",
+   "group": "ping_scout",
+   "type": "ping",
+   "start_time": 1794442134
+  },
+  {
+   "msm_id": 236447152,
+   "arm": "s1_screen",
+   "group": "tls_scout",
+   "type": "sslcert",
+   "start_time": 1794442262
+  },
+  {
+   "msm_id": 236447704,
+   "arm": "s1_screen",
+   "group": "tls_scout_contrast",
+   "type": "sslcert",
+   "start_time": 1794442392
+  },
+  {
+   "msm_id": 236447967,
+   "arm": "s1_screen",
+   "group": "ping_scout",
+   "type": "ping",
+   "start_time": 1794442527
+  },
+  {
+   "msm_id": 236448201,
+   "arm": "s1_screen",
+   "group": "tls_scout",
+   "type": "sslcert",
+   "start_time": 1794442657
+  },
+  {
+   "msm_id": 236448384,
+   "arm": "s1_screen",
+   "group": "tls_scout_contrast",
+   "type": "sslcert",
+   "start_time": 1794442786
+  },
+  {
+   "msm_id": 236448582,
+   "arm": "s1_screen",
+   "group": "ping_scout",
+   "type": "ping",
+   "start_time": 1794442917
+  },
+  {
+   "msm_id": 236448861,
+   "arm": "s1_screen",
+   "group": "tls_scout",
+   "type": "sslcert",
+   "start_time": 1794443046
+  },
+  {
+   "msm_id": 236449812,
+   "arm": "s1_screen",
+   "group": "tls_scout_contrast",
+   "type": "sslcert",
+   "start_time": 1794443173
+  },
+  {
+   "msm_id": 236450793,
+   "arm": "s1_screen",
+   "group": "ping_scout",
+   "type": "ping",
+   "start_time": 1794443301
+  },
+  {
+   "msm_id": 236451463,
+   "arm": "s1_screen",
+   "group": "tls_scout",
+   "type": "sslcert",
+   "start_time": 1794443430
+  },
+  {
+   "msm_id": 236451570,
+   "arm": "s1_screen",
+   "group": "tls_scout_contrast",
+   "type": "sslcert",
+   "start_time": 1794443563
+  },
+  {
+   "msm_id": 236451946,
+   "arm": "s1_screen",
+   "group": "ping_scout",
+   "type": "ping",
+   "start_time": 1794443693
+  },
+  {
+   "msm_id": 236460008,
+   "arm": "hetero_pilot",
+   "group": "ping_ttl_pilot",
+   "type": "ping",
+   "start_time": 1794440509
+  },
+  {
+   "msm_id": 236460194,
+   "arm": "hetero_pilot",
+   "group": "ping_ttl_pilot",
+   "type": "ping",
+   "start_time": 1794440586
+  },
+  {
+   "msm_id": 236460302,
+   "arm": "hetero_pilot",
+   "group": "ping_ttl_pilot",
+   "type": "ping",
+   "start_time": 1794440704
+  },
+  {
+   "msm_id": 236460365,
+   "arm": "hetero_pilot",
+   "group": "ping_ttl_pilot",
+   "type": "ping",
+   "start_time": 1794440825
+  },
+  {
+   "msm_id": 236460474,
+   "arm": "hetero_pilot",
+   "group": "ping_ttl_pilot",
+   "type": "ping",
+   "start_time": 1794440954
+  },
+  {
+   "msm_id": 236460780,
+   "arm": "hetero_pilot",
+   "group": "ping_ttl_pilot",
+   "type": "ping",
+   "start_time": 1794441074
+  },
+  {
+   "msm_id": 236461019,
+   "arm": "hetero_pilot",
+   "group": "ping_ttl_pilot",
+   "type": "ping",
+   "start_time": 1794441194
+  },
+  {
+   "msm_id": 236461234,
+   "arm": "hetero_pilot",
+   "group": "ping_ttl_pilot",
+   "type": "ping",
+   "start_time": 1794441314
+  },
+  {
+   "msm_id": 236461659,
+   "arm": "hetero_pilot",
+   "group": "ping_ttl_pilot",
+   "type": "ping",
+   "start_time": 1794441432
+  },
+  {
+   "msm_id": 236462751,
+   "arm": "hetero_pilot",
+   "group": "ping_ttl_pilot",
+   "type": "ping",
+   "start_time": 1794441563
+  },
+  {
+   "msm_id": 236463060,
+   "arm": "hetero_pilot",
+   "group": "ping_ttl_pilot",
+   "type": "ping",
+   "start_time": 1794441692
+  },
+  {
+   "msm_id": 236463226,
+   "arm": "hetero_pilot",
+   "group": "ping_ttl_pilot",
+   "type": "ping",
+   "start_time": 1794441821
+  },
+  {
+   "msm_id": 236463281,
+   "arm": "hetero_pilot",
+   "group": "ping_ttl_pilot",
+   "type": "ping",
+   "start_time": 1794441949
+  },
+  {
+   "msm_id": 236463395,
+   "arm": "hetero_pilot",
+   "group": "ping_ttl_pilot",
+   "type": "ping",
+   "start_time": 1794442078
+  },
+  {
+   "msm_id": 236464291,
+   "arm": "hetero_pilot",
+   "group": "ping_ttl_pilot",
+   "type": "ping",
+   "start_time": 1794442207
+  },
+  {
+   "msm_id": 236465412,
+   "arm": "hetero_pilot",
+   "group": "ping_ttl_pilot",
+   "type": "ping",
+   "start_time": 1794442336
+  },
+  {
+   "msm_id": 236465897,
+   "arm": "hetero_pilot",
+   "group": "ping_ttl_pilot",
+   "type": "ping",
+   "start_time": 1794442460
+  },
+  {
+   "msm_id": 236465962,
+   "arm": "hetero_pilot",
+   "group": "ping_ttl_pilot",
+   "type": "ping",
+   "start_time": 1794442587
+  },
+  {
+   "msm_id": 236466232,
+   "arm": "hetero_pilot",
+   "group": "ping_ttl_pilot",
+   "type": "ping",
+   "start_time": 1794442715
+  },
+  {
+   "msm_id": 236466441,
+   "arm": "hetero_pilot",
+   "group": "ping_ttl_pilot",
+   "type": "ping",
+   "start_time": 1794442841
+  },
+  {
+   "msm_id": 236466810,
+   "arm": "hetero_pilot",
+   "group": "ping_ttl_pilot",
+   "type": "ping",
+   "start_time": 1794442970
+  },
+  {
+   "msm_id": 236467657,
+   "arm": "hetero_pilot",
+   "group": "ping_ttl_pilot",
+   "type": "ping",
+   "start_time": 1794443099
+  },
+  {
+   "msm_id": 236468707,
+   "arm": "hetero_pilot",
+   "group": "ping_ttl_pilot",
+   "type": "ping",
+   "start_time": 1794443232
+  },
+  {
+   "msm_id": 236469258,
+   "arm": "hetero_pilot",
+   "group": "ping_ttl_pilot",
+   "type": "ping",
+   "start_time": 1794443371
+  },
+  {
+   "msm_id": 236469483,
+   "arm": "hetero_pilot",
+   "group": "ping_ttl_pilot",
+   "type": "ping",
+   "start_time": 1794443532
+  },
+  {
+   "msm_id": 236084119,
+   "arm": "probe_pretest",
+   "group": "tls_pretest_contrast",
+   "target_label": "iprimus.com.au",
+   "role": "unregistered_found_by_ledger_audit",
+   "type": "sslcert",
+   "status": "Stopped",
+   "participants": 24
+  },
+  {
+   "msm_id": 236084995,
+   "arm": "probe_pretest",
+   "group": "tls_pretest_contrast",
+   "target_label": "iprimus.com.au",
+   "role": "unregistered_found_by_ledger_audit",
+   "type": "sslcert",
+   "status": "Stopped",
+   "participants": 24
+  },
+  {
+   "msm_id": 236084191,
+   "arm": "probe_pretest",
+   "group": "tls_pretest_identity",
+   "target_label": "jump.ro",
+   "role": "unregistered_found_by_ledger_audit",
+   "type": "sslcert",
+   "status": "Stopped",
+   "participants": 24
+  },
+  {
+   "msm_id": 236805049,
+   "arm": "control_single_sni",
+   "group": "tls_sni_a",
+   "type": "sslcert",
+   "start_time": 1794488214
+  },
+  {
+   "msm_id": 236805103,
+   "arm": "control_single_sni",
+   "group": "tls_sni_b",
+   "type": "sslcert",
+   "start_time": 1794488292
+  },
+  {
+   "msm_id": 236805346,
+   "arm": "control_single_sni",
+   "group": "tls_sni_a",
+   "type": "sslcert",
+   "start_time": 1794488404
+  },
+  {
+   "msm_id": 236805575,
+   "arm": "control_single_sni",
+   "group": "tls_sni_b",
+   "type": "sslcert",
+   "start_time": 1794488528
+  },
+  {
+   "msm_id": 236806080,
+   "arm": "control_single_sni",
+   "group": "tls_sni_a",
+   "type": "sslcert",
+   "start_time": 1794488653
+  },
+  {
+   "msm_id": 236806951,
+   "arm": "control_single_sni",
+   "group": "tls_sni_b",
+   "type": "sslcert",
+   "start_time": 1794488774
+  },
+  {
+   "msm_id": 236807227,
+   "arm": "control_single_sni",
+   "group": "tls_sni_a",
+   "type": "sslcert",
+   "start_time": 1794488894
+  },
+  {
+   "msm_id": 236807495,
+   "arm": "control_single_sni",
+   "group": "tls_sni_b",
+   "type": "sslcert",
+   "start_time": 1794489005
+  },
+  {
+   "msm_id": 236807706,
+   "arm": "control_single_sni",
+   "group": "tls_sni_a",
+   "type": "sslcert",
+   "start_time": 1794489131
+  },
+  {
+   "msm_id": 236808183,
+   "arm": "control_single_sni",
+   "group": "tls_sni_b",
+   "type": "sslcert",
+   "start_time": 1794489256
+  },
+  {
+   "msm_id": 236808805,
+   "arm": "control_single_sni",
+   "group": "tls_sni_a",
+   "type": "sslcert",
+   "start_time": 1794489391
+  },
+  {
+   "msm_id": 236809595,
+   "arm": "control_single_sni",
+   "group": "tls_sni_b",
+   "type": "sslcert",
+   "start_time": 1794489522
+  },
+  {
+   "msm_id": 236810475,
+   "arm": "control_single_sni",
+   "group": "tls_sni_a",
+   "type": "sslcert",
+   "start_time": 1794489649
+  },
+  {
+   "msm_id": 236810675,
+   "arm": "control_single_sni",
+   "group": "tls_sni_b",
+   "type": "sslcert",
+   "start_time": 1794489782
+  },
+  {
+   "msm_id": 236811209,
+   "arm": "control_single_sni",
+   "group": "tls_sni_a",
+   "type": "sslcert",
+   "start_time": 1794489913
+  },
+  {
+   "msm_id": 236811626,
+   "arm": "control_single_sni",
+   "group": "tls_sni_b",
+   "type": "sslcert",
+   "start_time": 1794490045
+  },
+  {
+   "msm_id": 236811837,
+   "arm": "control_positive_sni",
+   "group": "tls_sni_a",
+   "type": "sslcert",
+   "start_time": 1794490179
+  },
+  {
+   "msm_id": 236812241,
+   "arm": "control_positive_sni",
+   "group": "tls_sni_b",
+   "type": "sslcert",
+   "start_time": 1794490304
+  },
+  {
+   "msm_id": 236813806,
+   "arm": "hetero_sni",
+   "group": "tls_sni_a",
+   "type": "sslcert",
+   "start_time": 1794490438
+  },
+  {
+   "msm_id": 236814401,
+   "arm": "hetero_sni",
+   "group": "tls_sni_b",
+   "type": "sslcert",
+   "start_time": 1794490575
+  },
+  {
+   "msm_id": 236814687,
+   "arm": "hetero_sni",
+   "group": "ping",
+   "type": "ping",
+   "start_time": 1794490714
+  },
+  {
+   "msm_id": 236814959,
+   "arm": "hetero_sni",
+   "group": "tls_sni_a",
+   "type": "sslcert",
+   "start_time": 1794490849
+  },
+  {
+   "msm_id": 236815370,
+   "arm": "hetero_sni",
+   "group": "tls_sni_b",
+   "type": "sslcert",
+   "start_time": 1794490974
+  },
+  {
+   "msm_id": 236816001,
+   "arm": "hetero_sni",
+   "group": "ping",
+   "type": "ping",
+   "start_time": 1794491122
+  },
+  {
+   "msm_id": 236817319,
+   "arm": "controls_ping",
+   "group": "ping",
+   "type": "ping",
+   "start_time": 1794491254
+  },
+  {
+   "msm_id": 236817941,
+   "arm": "controls_ping",
+   "group": "ping",
+   "type": "ping",
+   "start_time": 1794491391
+  },
+  {
+   "msm_id": 236818358,
+   "arm": "controls_ping",
+   "group": "ping",
+   "type": "ping",
+   "start_time": 1794491518
+  },
+  {
+   "msm_id": 236818762,
+   "arm": "controls_ping",
+   "group": "ping",
+   "type": "ping",
+   "start_time": 1794491651
+  },
+  {
+   "msm_id": 236818972,
+   "arm": "controls_ping",
+   "group": "ping",
+   "type": "ping",
+   "start_time": 1794491785
+  },
+  {
+   "msm_id": 236819356,
+   "arm": "controls_ping",
+   "group": "ping",
+   "type": "ping",
+   "start_time": 1794491923
+  },
+  {
+   "msm_id": 236820151,
+   "arm": "controls_ping",
+   "group": "ping",
+   "type": "ping",
+   "start_time": 1794492056
+  },
+  {
+   "msm_id": 236821568,
+   "arm": "controls_ping",
+   "group": "ping",
+   "type": "ping",
+   "start_time": 1794492191
+  },
+  {
+   "msm_id": 236821677,
+   "arm": "controls_ping",
+   "group": "ping",
+   "type": "ping",
+   "start_time": 1794492322
+  },
+  {
+   "msm_id": 236821902,
+   "arm": "rig_rotation",
+   "group": "tls_sni_a",
+   "type": "sslcert",
+   "start_time": 1794492454
+  },
+  {
+   "msm_id": 236822375,
+   "arm": "rig_rotation",
+   "group": "tls_sni_b",
+   "type": "sslcert",
+   "start_time": 1794492590
+  },
+  {
+   "msm_id": 236822753,
+   "arm": "rig_rotation",
+   "group": "ping",
+   "type": "ping",
+   "start_time": 1794492724
+  }
+ ],
+ "updated_utc": "2026-11-12T13:33:21Z"
+}

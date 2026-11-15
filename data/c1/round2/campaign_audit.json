@@ -1,0 +1,1085 @@
+{
+ "at": "2026-11-12T13:44:35Z",
+ "cut": 1794488000,
+ "n_measurements": 36,
+ "by_score": {
+  "control_positive_sni|tls_sni_a": 1,
+  "control_positive_sni|tls_sni_b": 1,
+  "control_single_sni|tls_sni_a": 8,
+  "control_single_sni|tls_sni_b": 8,
+  "controls_ping|ping": 9,
+  "hetero_sni|ping": 2,
+  "hetero_sni|tls_sni_a": 2,
+  "hetero_sni|tls_sni_b": 2,
+  "rig_rotation|ping": 1,
+  "rig_rotation|tls_sni_a": 1,
+  "rig_rotation|tls_sni_b": 1
+ },
+ "o4_pairs_checked": 12,
+ "o4_first_round": [
+  {
+   "arm": "control_positive_sni",
+   "label": "asp.bg",
+   "a_fps": [
+    "fbe23205369b6a46"
+   ],
+   "b_fps": [
+    "fbe23205369b6a46"
+   ],
+   "a_n": 4,
+   "b_n": 4,
+   "verdict": "negative (same certificate under both names)"
+  },
+  {
+   "arm": "control_single_sni",
+   "label": "ctm.net",
+   "a_fps": [
+    "58f25dc1d3dc1390"
+   ],
+   "b_fps": [
+    "58f25dc1d3dc1390"
+   ],
+   "a_n": 4,
+   "b_n": 4,
+   "verdict": "negative (same certificate under both names)"
+  },
+  {
+   "arm": "control_single_sni",
+   "label": "iprimus.com.au",
+   "a_fps": [
+    "a850869defd7e95f"
+   ],
+   "b_fps": [
+    "4dd79143ed531748"
+   ],
+   "a_n": 4,
+   "b_n": 4,
+   "verdict": "positive (different fingerprints under the two names)"
+  },
+  {
+   "arm": "control_single_sni",
+   "label": "jump.ro",
+   "a_fps": [
+    "c0aade3a86d4a531"
+   ],
+   "b_fps": [
+    "c0aade3a86d4a531"
+   ],
+   "a_n": 4,
+   "b_n": 4,
+   "verdict": "negative (same certificate under both names)"
+  },
+  {
+   "arm": "control_single_sni",
+   "label": "plusline.de",
+   "a_fps": [
+    "7596792252b7cc01"
+   ],
+   "b_fps": [
+    "7596792252b7cc01"
+   ],
+   "a_n": 4,
+   "b_n": 4,
+   "verdict": "negative (same certificate under both names)"
+  },
+  {
+   "arm": "control_single_sni",
+   "label": "tikona.in",
+   "a_fps": [
+    "458ae1cb01264564"
+   ],
+   "b_fps": [
+    "458ae1cb01264564"
+   ],
+   "a_n": 4,
+   "b_n": 4,
+   "verdict": "negative (same certificate under both names)"
+  },
+  {
+   "arm": "control_single_sni",
+   "label": "tpgi.com.au",
+   "a_fps": [
+    "fa9140c76e60329b"
+   ],
+   "b_fps": [
+    "fa9140c76e60329b"
+   ],
+   "a_n": 4,
+   "b_n": 4,
+   "verdict": "negative (same certificate under both names)"
+  },
+  {
+   "arm": "control_single_sni",
+   "label": "vnet.sk",
+   "a_fps": [
+    "7a54a9f22ac0973b"
+   ],
+   "b_fps": [
+    "7a54a9f22ac0973b"
+   ],
+   "a_n": 4,
+   "b_n": 3,
+   "verdict": "negative (same certificate under both names)"
+  },
+  {
+   "arm": "control_single_sni",
+   "label": "zorgring.nl",
+   "a_fps": [
+    "67f7d9bc8cf44ab8"
+   ],
+   "b_fps": [
+    "67f7d9bc8cf44ab8"
+   ],
+   "a_n": 4,
+   "b_n": 4,
+   "verdict": "negative (same certificate under both names)"
+  },
+  {
+   "arm": "hetero_sni",
+   "label": "greennet.ge",
+   "a_fps": [
+    "ca341948cab70f04"
+   ],
+   "b_fps": [
+    "802aa4bf0341a873"
+   ],
+   "a_n": 4,
+   "b_n": 4,
+   "verdict": "positive (different fingerprints under the two names)"
+  },
+  {
+   "arm": "hetero_sni",
+   "label": "tatanova.com",
+   "a_fps": [],
+   "b_fps": [],
+   "a_n": 0,
+   "b_n": 0,
+   "verdict": "unobservable (no certificate on the identity-name side)"
+  },
+  {
+   "arm": "rig_rotation",
+   "label": "<rig>",
+   "a_fps": [],
+   "b_fps": [],
+   "a_n": 0,
+   "b_n": 0,
+   "verdict": "unobservable (no certificate on the identity-name side)"
+  }
+ ],
+ "issues": [],
+ "health_notes": [
+  "control_single_sni/tls_sni_b 236810675: partial round in this audit (3/4 probes)",
+  "hetero_sni/ping 236814687: partial round in this audit (3/4 probes)",
+  "controls_ping/ping 236818972: still Specified (queued; re-check later)",
+  "controls_ping/ping 236819356: still Specified (queued; re-check later)",
+  "controls_ping/ping 236820151: still Specified (queued; re-check later)",
+  "controls_ping/ping 236821568: still Specified (queued; re-check later)",
+  "controls_ping/ping 236821677: still Specified (queued; re-check later)",
+  "rig_rotation/tls_sni_a 236821902: still Specified (queued; re-check later)",
+  "rig_rotation/tls_sni_b 236822375: still Specified (queued; re-check later)",
+  "rig_rotation/ping 236822753: still Specified (queued; re-check later)"
+ ],
+ "rows": [
+  {
+   "msm_id": 236805049,
+   "arm": "control_single_sni",
+   "group": "tls_sni_a",
+   "type": "sslcert",
+   "label": "ctm.net",
+   "status": "Ongoing",
+   "participants": 4,
+   "hostname": "ctm.net",
+   "port": 443,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794488214,
+   "stop_time": 1794661014,
+   "span_h": 48.0,
+   "result_rows": 4,
+   "cert_rows": 4,
+   "cert_fps": {
+    "58f25dc1d3dc1390": 4
+   },
+   "errors_top": {},
+   "prb_seen": [
+    10984,
+    13081,
+    13291,
+    22034
+   ]
+  },
+  {
+   "msm_id": 236805103,
+   "arm": "control_single_sni",
+   "group": "tls_sni_b",
+   "type": "sslcert",
+   "label": "ctm.net",
+   "status": "Ongoing",
+   "participants": 4,
+   "hostname": "sni-control.invalid",
+   "port": 443,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794488292,
+   "stop_time": 1794661092,
+   "span_h": 48.0,
+   "result_rows": 4,
+   "cert_rows": 4,
+   "cert_fps": {
+    "58f25dc1d3dc1390": 4
+   },
+   "errors_top": {},
+   "prb_seen": [
+    10984,
+    13081,
+    13291,
+    22034
+   ]
+  },
+  {
+   "msm_id": 236805346,
+   "arm": "control_single_sni",
+   "group": "tls_sni_a",
+   "type": "sslcert",
+   "label": "iprimus.com.au",
+   "status": "Ongoing",
+   "participants": 4,
+   "hostname": "iprimus.com.au",
+   "port": 443,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794488404,
+   "stop_time": 1794661204,
+   "span_h": 48.0,
+   "result_rows": 4,
+   "cert_rows": 4,
+   "cert_fps": {
+    "a850869defd7e95f": 4
+   },
+   "errors_top": {},
+   "prb_seen": [
+    10984,
+    13081,
+    13291,
+    22034
+   ]
+  },
+  {
+   "msm_id": 236805575,
+   "arm": "control_single_sni",
+   "group": "tls_sni_b",
+   "type": "sslcert",
+   "label": "iprimus.com.au",
+   "status": "Ongoing",
+   "participants": 4,
+   "hostname": "sni-control.invalid",
+   "port": 443,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794488528,
+   "stop_time": 1794661328,
+   "span_h": 48.0,
+   "result_rows": 4,
+   "cert_rows": 4,
+   "cert_fps": {
+    "4dd79143ed531748": 4
+   },
+   "errors_top": {},
+   "prb_seen": [
+    10984,
+    13081,
+    13291,
+    22034
+   ]
+  },
+  {
+   "msm_id": 236806080,
+   "arm": "control_single_sni",
+   "group": "tls_sni_a",
+   "type": "sslcert",
+   "label": "jump.ro",
+   "status": "Ongoing",
+   "participants": 4,
+   "hostname": "jump.ro",
+   "port": 443,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794488653,
+   "stop_time": 1794661453,
+   "span_h": 48.0,
+   "result_rows": 4,
+   "cert_rows": 4,
+   "cert_fps": {
+    "c0aade3a86d4a531": 4
+   },
+   "errors_top": {},
+   "prb_seen": [
+    10984,
+    13081,
+    13291,
+    22034
+   ]
+  },
+  {
+   "msm_id": 236806951,
+   "arm": "control_single_sni",
+   "group": "tls_sni_b",
+   "type": "sslcert",
+   "label": "jump.ro",
+   "status": "Ongoing",
+   "participants": 4,
+   "hostname": "sni-control.invalid",
+   "port": 443,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794488774,
+   "stop_time": 1794661574,
+   "span_h": 48.0,
+   "result_rows": 4,
+   "cert_rows": 4,
+   "cert_fps": {
+    "c0aade3a86d4a531": 4
+   },
+   "errors_top": {},
+   "prb_seen": [
+    10984,
+    13081,
+    13291,
+    22034
+   ]
+  },
+  {
+   "msm_id": 236807227,
+   "arm": "control_single_sni",
+   "group": "tls_sni_a",
+   "type": "sslcert",
+   "label": "plusline.de",
+   "status": "Ongoing",
+   "participants": 4,
+   "hostname": "plusline.de",
+   "port": 443,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794488894,
+   "stop_time": 1794661694,
+   "span_h": 48.0,
+   "result_rows": 4,
+   "cert_rows": 4,
+   "cert_fps": {
+    "7596792252b7cc01": 4
+   },
+   "errors_top": {},
+   "prb_seen": [
+    10984,
+    13081,
+    13291,
+    22034
+   ]
+  },
+  {
+   "msm_id": 236807495,
+   "arm": "control_single_sni",
+   "group": "tls_sni_b",
+   "type": "sslcert",
+   "label": "plusline.de",
+   "status": "Ongoing",
+   "participants": 4,
+   "hostname": "sni-control.invalid",
+   "port": 443,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794489005,
+   "stop_time": 1794661805,
+   "span_h": 48.0,
+   "result_rows": 4,
+   "cert_rows": 4,
+   "cert_fps": {
+    "7596792252b7cc01": 4
+   },
+   "errors_top": {},
+   "prb_seen": [
+    10984,
+    13081,
+    13291,
+    22034
+   ]
+  },
+  {
+   "msm_id": 236807706,
+   "arm": "control_single_sni",
+   "group": "tls_sni_a",
+   "type": "sslcert",
+   "label": "tikona.in",
+   "status": "Ongoing",
+   "participants": 4,
+   "hostname": "tikona.in",
+   "port": 443,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794489131,
+   "stop_time": 1794661931,
+   "span_h": 48.0,
+   "result_rows": 4,
+   "cert_rows": 4,
+   "cert_fps": {
+    "458ae1cb01264564": 4
+   },
+   "errors_top": {},
+   "prb_seen": [
+    10984,
+    13081,
+    13291,
+    22034
+   ]
+  },
+  {
+   "msm_id": 236808183,
+   "arm": "control_single_sni",
+   "group": "tls_sni_b",
+   "type": "sslcert",
+   "label": "tikona.in",
+   "status": "Ongoing",
+   "participants": 4,
+   "hostname": "sni-control.invalid",
+   "port": 443,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794489256,
+   "stop_time": 1794662056,
+   "span_h": 48.0,
+   "result_rows": 4,
+   "cert_rows": 4,
+   "cert_fps": {
+    "458ae1cb01264564": 4
+   },
+   "errors_top": {},
+   "prb_seen": [
+    10984,
+    13081,
+    13291,
+    22034
+   ]
+  },
+  {
+   "msm_id": 236808805,
+   "arm": "control_single_sni",
+   "group": "tls_sni_a",
+   "type": "sslcert",
+   "label": "tpgi.com.au",
+   "status": "Ongoing",
+   "participants": 4,
+   "hostname": "tpgi.com.au",
+   "port": 443,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794489391,
+   "stop_time": 1794662191,
+   "span_h": 48.0,
+   "result_rows": 4,
+   "cert_rows": 4,
+   "cert_fps": {
+    "fa9140c76e60329b": 4
+   },
+   "errors_top": {},
+   "prb_seen": [
+    10984,
+    13081,
+    13291,
+    22034
+   ]
+  },
+  {
+   "msm_id": 236809595,
+   "arm": "control_single_sni",
+   "group": "tls_sni_b",
+   "type": "sslcert",
+   "label": "tpgi.com.au",
+   "status": "Ongoing",
+   "participants": 4,
+   "hostname": "sni-control.invalid",
+   "port": 443,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794489522,
+   "stop_time": 1794662322,
+   "span_h": 48.0,
+   "result_rows": 4,
+   "cert_rows": 4,
+   "cert_fps": {
+    "fa9140c76e60329b": 4
+   },
+   "errors_top": {},
+   "prb_seen": [
+    10984,
+    13081,
+    13291,
+    22034
+   ]
+  },
+  {
+   "msm_id": 236810475,
+   "arm": "control_single_sni",
+   "group": "tls_sni_a",
+   "type": "sslcert",
+   "label": "vnet.sk",
+   "status": "Ongoing",
+   "participants": 4,
+   "hostname": "vnet.sk",
+   "port": 443,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794489649,
+   "stop_time": 1794662449,
+   "span_h": 48.0,
+   "result_rows": 4,
+   "cert_rows": 4,
+   "cert_fps": {
+    "7a54a9f22ac0973b": 4
+   },
+   "errors_top": {},
+   "prb_seen": [
+    10984,
+    13081,
+    13291,
+    22034
+   ]
+  },
+  {
+   "msm_id": 236810675,
+   "arm": "control_single_sni",
+   "group": "tls_sni_b",
+   "type": "sslcert",
+   "label": "vnet.sk",
+   "status": "Ongoing",
+   "participants": 4,
+   "hostname": "sni-control.invalid",
+   "port": 443,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794489782,
+   "stop_time": 1794662582,
+   "span_h": 48.0,
+   "result_rows": 3,
+   "cert_rows": 3,
+   "cert_fps": {
+    "7a54a9f22ac0973b": 3
+   },
+   "errors_top": {},
+   "prb_seen": [
+    13081,
+    13291,
+    22034
+   ]
+  },
+  {
+   "msm_id": 236811209,
+   "arm": "control_single_sni",
+   "group": "tls_sni_a",
+   "type": "sslcert",
+   "label": "zorgring.nl",
+   "status": "Ongoing",
+   "participants": 4,
+   "hostname": "zorgring.nl",
+   "port": 443,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794489913,
+   "stop_time": 1794662713,
+   "span_h": 48.0,
+   "result_rows": 4,
+   "cert_rows": 4,
+   "cert_fps": {
+    "67f7d9bc8cf44ab8": 4
+   },
+   "errors_top": {},
+   "prb_seen": [
+    10984,
+    13081,
+    13291,
+    22034
+   ]
+  },
+  {
+   "msm_id": 236811626,
+   "arm": "control_single_sni",
+   "group": "tls_sni_b",
+   "type": "sslcert",
+   "label": "zorgring.nl",
+   "status": "Ongoing",
+   "participants": 4,
+   "hostname": "sni-control.invalid",
+   "port": 443,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794490045,
+   "stop_time": 1794662845,
+   "span_h": 48.0,
+   "result_rows": 4,
+   "cert_rows": 4,
+   "cert_fps": {
+    "67f7d9bc8cf44ab8": 4
+   },
+   "errors_top": {},
+   "prb_seen": [
+    10984,
+    13081,
+    13291,
+    22034
+   ]
+  },
+  {
+   "msm_id": 236811837,
+   "arm": "control_positive_sni",
+   "group": "tls_sni_a",
+   "type": "sslcert",
+   "label": "asp.bg",
+   "status": "Ongoing",
+   "participants": 4,
+   "hostname": "asp.bg",
+   "port": 443,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794490179,
+   "stop_time": 1794662979,
+   "span_h": 48.0,
+   "result_rows": 4,
+   "cert_rows": 4,
+   "cert_fps": {
+    "fbe23205369b6a46": 4
+   },
+   "errors_top": {},
+   "prb_seen": [
+    10984,
+    13081,
+    13291,
+    22034
+   ]
+  },
+  {
+   "msm_id": 236812241,
+   "arm": "control_positive_sni",
+   "group": "tls_sni_b",
+   "type": "sslcert",
+   "label": "asp.bg",
+   "status": "Ongoing",
+   "participants": 4,
+   "hostname": "sni-control.invalid",
+   "port": 443,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794490304,
+   "stop_time": 1794663104,
+   "span_h": 48.0,
+   "result_rows": 4,
+   "cert_rows": 4,
+   "cert_fps": {
+    "fbe23205369b6a46": 4
+   },
+   "errors_top": {},
+   "prb_seen": [
+    10984,
+    13081,
+    13291,
+    22034
+   ]
+  },
+  {
+   "msm_id": 236813806,
+   "arm": "hetero_sni",
+   "group": "tls_sni_a",
+   "type": "sslcert",
+   "label": "greennet.ge",
+   "status": "Ongoing",
+   "participants": 4,
+   "hostname": "greennet.ge",
+   "port": 443,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794490438,
+   "stop_time": 1794663238,
+   "span_h": 48.0,
+   "result_rows": 4,
+   "cert_rows": 4,
+   "cert_fps": {
+    "ca341948cab70f04": 4
+   },
+   "errors_top": {},
+   "prb_seen": [
+    10984,
+    13081,
+    13291,
+    22034
+   ]
+  },
+  {
+   "msm_id": 236814401,
+   "arm": "hetero_sni",
+   "group": "tls_sni_b",
+   "type": "sslcert",
+   "label": "greennet.ge",
+   "status": "Ongoing",
+   "participants": 4,
+   "hostname": "sni-control.invalid",
+   "port": 443,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794490575,
+   "stop_time": 1794663375,
+   "span_h": 48.0,
+   "result_rows": 4,
+   "cert_rows": 4,
+   "cert_fps": {
+    "802aa4bf0341a873": 4
+   },
+   "errors_top": {},
+   "prb_seen": [
+    10984,
+    13081,
+    13291,
+    22034
+   ]
+  },
+  {
+   "msm_id": 236814687,
+   "arm": "hetero_sni",
+   "group": "ping",
+   "type": "ping",
+   "label": "greennet.ge",
+   "status": "Ongoing",
+   "participants": 4,
+   "hostname": null,
+   "port": null,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794490714,
+   "stop_time": 1794663514,
+   "span_h": 48.0,
+   "result_rows": 3,
+   "cert_rows": 0,
+   "cert_fps": {},
+   "errors_top": {
+    "no-cert-no-error": 3
+   },
+   "prb_seen": [
+    13081,
+    13291,
+    22034
+   ]
+  },
+  {
+   "msm_id": 236814959,
+   "arm": "hetero_sni",
+   "group": "tls_sni_a",
+   "type": "sslcert",
+   "label": "tatanova.com",
+   "status": "Scheduled",
+   "participants": 4,
+   "hostname": "tatanova.com",
+   "port": 443,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794490849,
+   "stop_time": 1794663649,
+   "span_h": 48.0,
+   "result_rows": 0,
+   "cert_rows": 0,
+   "cert_fps": {},
+   "errors_top": {},
+   "prb_seen": []
+  },
+  {
+   "msm_id": 236815370,
+   "arm": "hetero_sni",
+   "group": "tls_sni_b",
+   "type": "sslcert",
+   "label": "tatanova.com",
+   "status": "Scheduled",
+   "participants": 4,
+   "hostname": "sni-control.invalid",
+   "port": 443,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794490974,
+   "stop_time": 1794663774,
+   "span_h": 48.0,
+   "result_rows": 0,
+   "cert_rows": 0,
+   "cert_fps": {},
+   "errors_top": {},
+   "prb_seen": []
+  },
+  {
+   "msm_id": 236816001,
+   "arm": "hetero_sni",
+   "group": "ping",
+   "type": "ping",
+   "label": "tatanova.com",
+   "status": "Scheduled",
+   "participants": 4,
+   "hostname": null,
+   "port": null,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794491122,
+   "stop_time": 1794663922,
+   "span_h": 48.0,
+   "result_rows": 0,
+   "cert_rows": 0,
+   "cert_fps": {},
+   "errors_top": {},
+   "prb_seen": []
+  },
+  {
+   "msm_id": 236817319,
+   "arm": "controls_ping",
+   "group": "ping",
+   "type": "ping",
+   "label": "ctm.net",
+   "status": "Scheduled",
+   "participants": 4,
+   "hostname": null,
+   "port": null,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794491254,
+   "stop_time": 1794664054,
+   "span_h": 48.0,
+   "result_rows": 0,
+   "cert_rows": 0,
+   "cert_fps": {},
+   "errors_top": {},
+   "prb_seen": []
+  },
+  {
+   "msm_id": 236817941,
+   "arm": "controls_ping",
+   "group": "ping",
+   "type": "ping",
+   "label": "iprimus.com.au",
+   "status": "Scheduled",
+   "participants": 4,
+   "hostname": null,
+   "port": null,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794491391,
+   "stop_time": 1794664191,
+   "span_h": 48.0,
+   "result_rows": 0,
+   "cert_rows": 0,
+   "cert_fps": {},
+   "errors_top": {},
+   "prb_seen": []
+  },
+  {
+   "msm_id": 236818358,
+   "arm": "controls_ping",
+   "group": "ping",
+   "type": "ping",
+   "label": "jump.ro",
+   "status": "Scheduled",
+   "participants": 4,
+   "hostname": null,
+   "port": null,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794491518,
+   "stop_time": 1794664318,
+   "span_h": 48.0,
+   "result_rows": 0,
+   "cert_rows": 0,
+   "cert_fps": {},
+   "errors_top": {},
+   "prb_seen": []
+  },
+  {
+   "msm_id": 236818762,
+   "arm": "controls_ping",
+   "group": "ping",
+   "type": "ping",
+   "label": "plusline.de",
+   "status": "Scheduled",
+   "participants": 4,
+   "hostname": null,
+   "port": null,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794491651,
+   "stop_time": 1794664451,
+   "span_h": 48.0,
+   "result_rows": 0,
+   "cert_rows": 0,
+   "cert_fps": {},
+   "errors_top": {},
+   "prb_seen": []
+  },
+  {
+   "msm_id": 236818972,
+   "arm": "controls_ping",
+   "group": "ping",
+   "type": "ping",
+   "label": "tikona.in",
+   "status": "Specified",
+   "participants": null,
+   "hostname": null,
+   "port": null,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794491785,
+   "stop_time": 1794664585,
+   "span_h": 48.0,
+   "result_rows": 0,
+   "cert_rows": 0,
+   "cert_fps": {},
+   "errors_top": {},
+   "prb_seen": []
+  },
+  {
+   "msm_id": 236819356,
+   "arm": "controls_ping",
+   "group": "ping",
+   "type": "ping",
+   "label": "tpgi.com.au",
+   "status": "Specified",
+   "participants": null,
+   "hostname": null,
+   "port": null,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794491923,
+   "stop_time": 1794664723,
+   "span_h": 48.0,
+   "result_rows": 0,
+   "cert_rows": 0,
+   "cert_fps": {},
+   "errors_top": {},
+   "prb_seen": []
+  },
+  {
+   "msm_id": 236820151,
+   "arm": "controls_ping",
+   "group": "ping",
+   "type": "ping",
+   "label": "vnet.sk",
+   "status": "Specified",
+   "participants": null,
+   "hostname": null,
+   "port": null,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794492056,
+   "stop_time": 1794664856,
+   "span_h": 48.0,
+   "result_rows": 0,
+   "cert_rows": 0,
+   "cert_fps": {},
+   "errors_top": {},
+   "prb_seen": []
+  },
+  {
+   "msm_id": 236821568,
+   "arm": "controls_ping",
+   "group": "ping",
+   "type": "ping",
+   "label": "zorgring.nl",
+   "status": "Specified",
+   "participants": null,
+   "hostname": null,
+   "port": null,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794492191,
+   "stop_time": 1794664991,
+   "span_h": 48.0,
+   "result_rows": 0,
+   "cert_rows": 0,
+   "cert_fps": {},
+   "errors_top": {},
+   "prb_seen": []
+  },
+  {
+   "msm_id": 236821677,
+   "arm": "controls_ping",
+   "group": "ping",
+   "type": "ping",
+   "label": "asp.bg",
+   "status": "Specified",
+   "participants": null,
+   "hostname": null,
+   "port": null,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794492322,
+   "stop_time": 1794665122,
+   "span_h": 48.0,
+   "result_rows": 0,
+   "cert_rows": 0,
+   "cert_fps": {},
+   "errors_top": {},
+   "prb_seen": []
+  },
+  {
+   "msm_id": 236821902,
+   "arm": "rig_rotation",
+   "group": "tls_sni_a",
+   "type": "sslcert",
+   "label": "<rig>",
+   "status": "Specified",
+   "participants": null,
+   "hostname": "pilot-b.local",
+   "port": 443,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794492454,
+   "stop_time": 1794665254,
+   "span_h": 48.0,
+   "result_rows": 0,
+   "cert_rows": 0,
+   "cert_fps": {},
+   "errors_top": {},
+   "prb_seen": []
+  },
+  {
+   "msm_id": 236822375,
+   "arm": "rig_rotation",
+   "group": "tls_sni_b",
+   "type": "sslcert",
+   "label": "<rig>",
+   "status": "Specified",
+   "participants": null,
+   "hostname": "sni-control.invalid",
+   "port": 443,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794492590,
+   "stop_time": 1794665390,
+   "span_h": 48.0,
+   "result_rows": 0,
+   "cert_rows": 0,
+   "cert_fps": {},
+   "errors_top": {},
+   "prb_seen": []
+  },
+  {
+   "msm_id": 236822753,
+   "arm": "rig_rotation",
+   "group": "ping",
+   "type": "ping",
+   "label": "<rig>",
+   "status": "Specified",
+   "participants": null,
+   "hostname": null,
+   "port": null,
+   "interval": 3600,
+   "is_oneoff": false,
+   "start_time": 1794492724,
+   "stop_time": 1794665524,
+   "span_h": 48.0,
+   "result_rows": 0,
+   "cert_rows": 0,
+   "cert_fps": {},
+   "errors_top": {},
+   "prb_seen": []
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "at": "2026-11-12T14:43:34Z",
+ "frame": {
+  "id_gte": 14000,
+  "id_lt": 100000,
+  "type": "sslcert",
+  "is_public": true,
+  "frame_size": 4,
+  "excluded_own": 0,
+  "pool_size": 4,
+  "seed": 20261112,
+  "n_requested": 200,
+  "n_scored": 4,
+  "errors": 0,
+  "note": "an id interval rather than a 'latest N' list: an id interval does not change as new measurements are added, so the sample is reproducible"
+ },
+ "result": {
+  "hostname_set": 4,
+  "hostname_null": 0,
+  "ipv4_targets": 0,
+  "domain_targets": 4,
+  "domain_targets_null_hostname": 0,
+  "domain_null_share": 0.0,
+  "domain_null_wilson95": [
+   0.0,
+   0.4899
+  ],
+  "hostname_equals_target_among_set": 4
+ },
+ "era": {
+  "start_time_min": 1335571200,
+  "start_time_max": 1335571200
+ },
+ "rows": [
+  {
+   "id": 14001,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1335571200
+  },
+  {
+   "id": 14002,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1335571200
+  },
+  {
+   "id": 15001,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1335571200
+  },
+  {
+   "id": 15002,
+   "target_kind": "domain",
+   "has_hostname": true,
+   "hostname_equals_target": true,
+   "start_time": 1335571200
+  }
+ ],
+ "reproduce": "python tools/c1_sni_usage_survey.py --n 200 --seed 20261112"
+}
